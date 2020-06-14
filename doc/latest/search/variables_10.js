@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['shape_5fbegin',['shape_begin',['../classedm4hep_1_1_cluster_data.html#a0b8d7cf85d7859cb1f8e640a5eb3619f',1,'edm4hep::ClusterData']]],
-  ['shape_5fend',['shape_end',['../classedm4hep_1_1_cluster_data.html#ac7f7d7f0550d0d99935a69451298368b',1,'edm4hep::ClusterData']]],
+  ['shapeparameters_5fbegin',['shapeParameters_begin',['../classedm4hep_1_1_cluster_data.html#a9eb8a0454265508032db715966e0679d',1,'edm4hep::ClusterData']]],
+  ['shapeparameters_5fend',['shapeParameters_end',['../classedm4hep_1_1_cluster_data.html#a42ec11555e63ca27f8f29c484d6a8654',1,'edm4hep::ClusterData']]],
   ['simcalorimeterhit',['SimCalorimeterHit',['../classedm4hep_1_1_const_sim_calorimeter_hit.html#a153967ada3ab12e0d8628a779bddf7ce',1,'edm4hep::ConstSimCalorimeterHit']]],
   ['simcalorimeterhitcollection',['SimCalorimeterHitCollection',['../classedm4hep_1_1_sim_calorimeter_hit.html#af4a5141b1303401d38cba5c1b95aba1e',1,'edm4hep::SimCalorimeterHit::SimCalorimeterHitCollection()'],['../classedm4hep_1_1_const_sim_calorimeter_hit.html#af4a5141b1303401d38cba5c1b95aba1e',1,'edm4hep::ConstSimCalorimeterHit::SimCalorimeterHitCollection()']]],
   ['simcalorimeterhitcollectioniterator',['SimCalorimeterHitCollectionIterator',['../classedm4hep_1_1_sim_calorimeter_hit.html#ab771ce788ee5528151ccc1c70021d964',1,'edm4hep::SimCalorimeterHit::SimCalorimeterHitCollectionIterator()'],['../classedm4hep_1_1_const_sim_calorimeter_hit.html#ab771ce788ee5528151ccc1c70021d964',1,'edm4hep::ConstSimCalorimeterHit::SimCalorimeterHitCollectionIterator()']]],
