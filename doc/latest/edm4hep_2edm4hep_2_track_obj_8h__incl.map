@@ -1,10 +1,9 @@
 <map id="edm4hep/edm4hep/TrackObj.h" name="edm4hep/edm4hep/TrackObj.h">
-<area shape="rect" id="node1" title=" " alt="" coords="325,5,545,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,80,176,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="200,80,328,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="353,80,517,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="541,80,707,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="732,80,897,107"/>
-<area shape="rect" id="node8" title=" " alt="" coords="922,80,985,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="452,5,672,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="193,80,360,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="385,80,550,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="574,80,742,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="767,80,829,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="854,80,982,107"/>
 </map>

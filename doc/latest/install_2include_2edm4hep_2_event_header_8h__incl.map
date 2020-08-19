@@ -1,10 +1,7 @@
 <map id="install/include/edm4hep/EventHeader.h" name="install/include/edm4hep/EventHeader.h">
-<area shape="rect" id="node1" title=" " alt="" coords="383,5,562,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,220,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="244,95,307,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="331,95,411,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="435,95,510,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="534,95,665,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="689,95,909,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="934,95,1139,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="359,5,538,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,225,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="250,95,455,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="479,95,610,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="635,95,711,121"/>
 </map>

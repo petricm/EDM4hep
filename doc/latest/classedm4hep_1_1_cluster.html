@@ -118,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a202bc3d86cb3971f07ca26f1d93e2c8c">Cluster</a> ()</td></tr>
 <tr class="memdesc:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a202bc3d86cb3971f07ca26f1d93e2c8c">More...</a><br /></td></tr>
 <tr class="separator:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dae92c3bacd890da21e27609ab29695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7dae92c3bacd890da21e27609ab29695">Cluster</a> (int type, float energy, float energyError, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a89b0ef367237b585c4377a0cde93cf69">position</a>, std::array&lt; float, 6 &gt; positionError, float iTheta, float phi, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a8975a01852acaf77b317b14a2a48315f">directionError</a>)</td></tr>
+<tr class="memitem:a7dae92c3bacd890da21e27609ab29695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7dae92c3bacd890da21e27609ab29695">Cluster</a> (int type, float energy, float energyError, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a89b0ef367237b585c4377a0cde93cf69">position</a>, std::array&lt; float, 6 &gt; <a class="el" href="classedm4hep_1_1_cluster.html#aced9a4870d7bfc09908b77619d73e74c">positionError</a>, float iTheta, float phi, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a8975a01852acaf77b317b14a2a48315f">directionError</a>)</td></tr>
 <tr class="separator:a7dae92c3bacd890da21e27609ab29695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586576102d6648579dfeaa80f90d5433"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a586576102d6648579dfeaa80f90d5433">Cluster</a> (<a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a> *obj)</td></tr>
 <tr class="memdesc:a586576102d6648579dfeaa80f90d5433"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a>  <a href="#a586576102d6648579dfeaa80f90d5433">More...</a><br /></td></tr>
@@ -154,7 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afdfa6f268962137c132430fdc9a7cbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the covariance matrix of the position (6 Parameters)  <a href="#afdfa6f268962137c132430fdc9a7cbc1">More...</a><br /></td></tr>
 <tr class="separator:afdfa6f268962137c132430fdc9a7cbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d8ad113189cfa154f74440854c3ea1"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a33d8ad113189cfa154f74440854c3ea1">getPositionError</a> (size_t i) const</td></tr>
-<tr class="memdesc:a33d8ad113189cfa154f74440854c3ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the covariance matrix of the position (6 Parameters)  <a href="#a33d8ad113189cfa154f74440854c3ea1">More...</a><br /></td></tr>
+<tr class="memdesc:a33d8ad113189cfa154f74440854c3ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the covariance matrix of the position (6 Parameters)  <a href="#a33d8ad113189cfa154f74440854c3ea1">More...</a><br /></td></tr>
 <tr class="separator:a33d8ad113189cfa154f74440854c3ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a202389f840097fb4a9330962982e8ba7"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a202389f840097fb4a9330962982e8ba7">getITheta</a> () const</td></tr>
 <tr class="memdesc:a202389f840097fb4a9330962982e8ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the intrinsic direction of cluster at position Theta. Not to be confused with direction cluster is seen from IP.  <a href="#a202389f840097fb4a9330962982e8ba7">More...</a><br /></td></tr>
@@ -174,60 +174,68 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a49fbc9e6c749f7dcbd32fe5c70c71deb">setEnergyError</a> (float value)</td></tr>
 <tr class="memdesc:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error on the energy.  <a href="#a49fbc9e6c749f7dcbd32fe5c70c71deb">More...</a><br /></td></tr>
 <tr class="separator:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754806bb51b629a38766e49ed4d88998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a754806bb51b629a38766e49ed4d88998">setPosition</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:a754806bb51b629a38766e49ed4d88998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the cluster.  <a href="#a754806bb51b629a38766e49ed4d88998">More...</a><br /></td></tr>
+<tr class="separator:a754806bb51b629a38766e49ed4d88998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89b0ef367237b585c4377a0cde93cf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a89b0ef367237b585c4377a0cde93cf69">position</a> ()</td></tr>
-<tr class="memdesc:a89b0ef367237b585c4377a0cde93cf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the position of the cluster.  <a href="#a89b0ef367237b585c4377a0cde93cf69">More...</a><br /></td></tr>
+<tr class="memdesc:a89b0ef367237b585c4377a0cde93cf69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to position of the cluster.  <a href="#a89b0ef367237b585c4377a0cde93cf69">More...</a><br /></td></tr>
 <tr class="separator:a89b0ef367237b585c4377a0cde93cf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a717bf54d30794a8a35dfd6e5b29dcc21">setPosition</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the cluster.  <a href="#a717bf54d30794a8a35dfd6e5b29dcc21">More...</a><br /></td></tr>
-<tr class="separator:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a5b9a8212f9856bcfd11b32a80f81f6e3">setPositionError</a> (std::array&lt; float, 6 &gt; value)</td></tr>
 <tr class="memdesc:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the position (6 Parameters)  <a href="#a5b9a8212f9856bcfd11b32a80f81f6e3">More...</a><br /></td></tr>
 <tr class="separator:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73c2746d96a40de780c0fbdb5842d3fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a73c2746d96a40de780c0fbdb5842d3fd">setPositionError</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:a73c2746d96a40de780c0fbdb5842d3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in covariance matrix of the position (6 Parameters)  <a href="#a73c2746d96a40de780c0fbdb5842d3fd">More...</a><br /></td></tr>
 <tr class="separator:a73c2746d96a40de780c0fbdb5842d3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced9a4870d7bfc09908b77619d73e74c"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 6 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#aced9a4870d7bfc09908b77619d73e74c">positionError</a> ()</td></tr>
+<tr class="memdesc:aced9a4870d7bfc09908b77619d73e74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the position (6 Parameters)  <a href="#aced9a4870d7bfc09908b77619d73e74c">More...</a><br /></td></tr>
+<tr class="separator:aced9a4870d7bfc09908b77619d73e74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf7448c000aada3716146dbe68abbd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afbf7448c000aada3716146dbe68abbd8">setITheta</a> (float value)</td></tr>
 <tr class="memdesc:afbf7448c000aada3716146dbe68abbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the intrinsic direction of cluster at position Theta. Not to be confused with direction cluster is seen from IP.  <a href="#afbf7448c000aada3716146dbe68abbd8">More...</a><br /></td></tr>
 <tr class="separator:afbf7448c000aada3716146dbe68abbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a60f0b5e12d824f0dd4f558e1a74c9c4d">setPhi</a> (float value)</td></tr>
 <tr class="memdesc:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the intrinsic direction of cluster at position - Phi. Not to be confused with direction cluster is seen from IP.  <a href="#a60f0b5e12d824f0dd4f558e1a74c9c4d">More...</a><br /></td></tr>
 <tr class="separator:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad753797eda048e693ee580f1470cc96f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ad753797eda048e693ee580f1470cc96f">setDirectionError</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ad753797eda048e693ee580f1470cc96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the direction (3 Parameters)  <a href="#ad753797eda048e693ee580f1470cc96f">More...</a><br /></td></tr>
+<tr class="separator:ad753797eda048e693ee580f1470cc96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8975a01852acaf77b317b14a2a48315f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8975a01852acaf77b317b14a2a48315f">directionError</a> ()</td></tr>
-<tr class="memdesc:a8975a01852acaf77b317b14a2a48315f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the covariance matrix of the direction (3 Parameters)  <a href="#a8975a01852acaf77b317b14a2a48315f">More...</a><br /></td></tr>
+<tr class="memdesc:a8975a01852acaf77b317b14a2a48315f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the direction (3 Parameters)  <a href="#a8975a01852acaf77b317b14a2a48315f">More...</a><br /></td></tr>
 <tr class="separator:a8975a01852acaf77b317b14a2a48315f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a0e6b51dbdf46da70d76ac8c1bd2b355c">setDirectionError</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the direction (3 Parameters)  <a href="#a0e6b51dbdf46da70d76ac8c1bd2b355c">More...</a><br /></td></tr>
-<tr class="separator:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e20cbf7181fa8fa34e203304f55551f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a1e20cbf7181fa8fa34e203304f55551f">addToClusters</a> (<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
-<tr class="separator:a1e20cbf7181fa8fa34e203304f55551f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a62e7fb8a471ed801af449b15fc87e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a81a62e7fb8a471ed801af449b15fc87e">addToClusters</a> (::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
+<tr class="separator:a81a62e7fb8a471ed801af449b15fc87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4811cdeb7df8091ec6aa7329679c4b13"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a4811cdeb7df8091ec6aa7329679c4b13">clusters_size</a> () const</td></tr>
 <tr class="separator:a4811cdeb7df8091ec6aa7329679c4b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5511cc593e42ad26cd9b265fd4829565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a5511cc593e42ad26cd9b265fd4829565">getClusters</a> (unsigned int) const</td></tr>
+<tr class="memitem:a5511cc593e42ad26cd9b265fd4829565"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a5511cc593e42ad26cd9b265fd4829565">getClusters</a> (unsigned int) const</td></tr>
 <tr class="separator:a5511cc593e42ad26cd9b265fd4829565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae7162336c99e4918b772f007abd70b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a2ae7162336c99e4918b772f007abd70b">clusters_begin</a> () const</td></tr>
-<tr class="separator:a2ae7162336c99e4918b772f007abd70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c24debd88056b110efbb217d03368b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae9c24debd88056b110efbb217d03368b">clusters_end</a> () const</td></tr>
-<tr class="separator:ae9c24debd88056b110efbb217d03368b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a879bdbbaee28a143554e431a257906bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a879bdbbaee28a143554e431a257906bd">addToHits</a> (<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>)</td></tr>
-<tr class="separator:a879bdbbaee28a143554e431a257906bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df1f2120840dd205911956345ad1a45"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a1df1f2120840dd205911956345ad1a45">clusters_begin</a> () const</td></tr>
+<tr class="separator:a1df1f2120840dd205911956345ad1a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988897acd96a089042e978e0f596b001"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a988897acd96a089042e978e0f596b001">clusters_end</a> () const</td></tr>
+<tr class="separator:a988897acd96a089042e978e0f596b001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a966a49cc00b1e04e3c3924a91879d58e"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a966a49cc00b1e04e3c3924a91879d58e">getClusters</a> () const</td></tr>
+<tr class="separator:a966a49cc00b1e04e3c3924a91879d58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a549f0599282aeaaf2d5fe4dd69b487d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a549f0599282aeaaf2d5fe4dd69b487d0">addToHits</a> (::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>)</td></tr>
+<tr class="separator:a549f0599282aeaaf2d5fe4dd69b487d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af44f586732758ecdf1ade07dda500a7c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#af44f586732758ecdf1ade07dda500a7c">hits_size</a> () const</td></tr>
 <tr class="separator:af44f586732758ecdf1ade07dda500a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa2d8b6379da0705aeffdec8853d0eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afa2d8b6379da0705aeffdec8853d0eac">getHits</a> (unsigned int) const</td></tr>
+<tr class="memitem:afa2d8b6379da0705aeffdec8853d0eac"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afa2d8b6379da0705aeffdec8853d0eac">getHits</a> (unsigned int) const</td></tr>
 <tr class="separator:afa2d8b6379da0705aeffdec8853d0eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2d9d36f03dec437d102375395f05cc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a0b2d9d36f03dec437d102375395f05cc">hits_begin</a> () const</td></tr>
-<tr class="separator:a0b2d9d36f03dec437d102375395f05cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ec57d4937ac7ad6b61aec77b9b8ea86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3ec57d4937ac7ad6b61aec77b9b8ea86">hits_end</a> () const</td></tr>
-<tr class="separator:a3ec57d4937ac7ad6b61aec77b9b8ea86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd188627ac77560f9c13c961e5757da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#acd188627ac77560f9c13c961e5757da5">addToParticleIDs</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
-<tr class="separator:acd188627ac77560f9c13c961e5757da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98265aa3fcc89dc0a39005bcd6df43ec"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a98265aa3fcc89dc0a39005bcd6df43ec">hits_begin</a> () const</td></tr>
+<tr class="separator:a98265aa3fcc89dc0a39005bcd6df43ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ff9b5f3c5c332fddec41148baab266"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ab5ff9b5f3c5c332fddec41148baab266">hits_end</a> () const</td></tr>
+<tr class="separator:ab5ff9b5f3c5c332fddec41148baab266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24997377e75752f8cb9588dbb61d417"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ad24997377e75752f8cb9588dbb61d417">getHits</a> () const</td></tr>
+<tr class="separator:ad24997377e75752f8cb9588dbb61d417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c2a7a05295acc6dcc979eedad6aee7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3c2a7a05295acc6dcc979eedad6aee7f">addToParticleIDs</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
+<tr class="separator:a3c2a7a05295acc6dcc979eedad6aee7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d91043cc1e653a0842835fab26c555f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a2d91043cc1e653a0842835fab26c555f">particleIDs_size</a> () const</td></tr>
 <tr class="separator:a2d91043cc1e653a0842835fab26c555f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f58f4336c968930970fa2d66e0a2305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8f58f4336c968930970fa2d66e0a2305">getParticleIDs</a> (unsigned int) const</td></tr>
+<tr class="memitem:a8f58f4336c968930970fa2d66e0a2305"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8f58f4336c968930970fa2d66e0a2305">getParticleIDs</a> (unsigned int) const</td></tr>
 <tr class="separator:a8f58f4336c968930970fa2d66e0a2305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9710abc37aef4124ec8fe2a45d3771d9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a9710abc37aef4124ec8fe2a45d3771d9">particleIDs_begin</a> () const</td></tr>
-<tr class="separator:a9710abc37aef4124ec8fe2a45d3771d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a742ca1efefa03f8ab6c5f94e486e51"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3a742ca1efefa03f8ab6c5f94e486e51">particleIDs_end</a> () const</td></tr>
-<tr class="separator:a3a742ca1efefa03f8ab6c5f94e486e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96b40af800dcb0406ef5df43a719622"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#af96b40af800dcb0406ef5df43a719622">particleIDs_begin</a> () const</td></tr>
+<tr class="separator:af96b40af800dcb0406ef5df43a719622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbff49b5e62318b8a57c25aaf790cdd"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afbbff49b5e62318b8a57c25aaf790cdd">particleIDs_end</a> () const</td></tr>
+<tr class="separator:afbbff49b5e62318b8a57c25aaf790cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37394d3de9271f48bcd12c894b4bca3"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#af37394d3de9271f48bcd12c894b4bca3">getParticleIDs</a> () const</td></tr>
+<tr class="separator:af37394d3de9271f48bcd12c894b4bca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0434a1c759f72ac9ca70611e8dba18f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae0434a1c759f72ac9ca70611e8dba18f">addToShapeParameters</a> (float)</td></tr>
 <tr class="separator:ae0434a1c759f72ac9ca70611e8dba18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1431b8f16ec4b2389e03d6ab10b2477"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae1431b8f16ec4b2389e03d6ab10b2477">shapeParameters_size</a> () const</td></tr>
@@ -238,6 +246,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92ebf3c4e92b04c665d7ffeabb354f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef89b9b733a8cb77c24b5385720a5e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a1ef89b9b733a8cb77c24b5385720a5e4">shapeParameters_end</a> () const</td></tr>
 <tr class="separator:a1ef89b9b733a8cb77c24b5385720a5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac2c26c92ecee9e589b38325adf4f56"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#aaac2c26c92ecee9e589b38325adf4f56">getShapeParameters</a> () const</td></tr>
+<tr class="separator:aaac2c26c92ecee9e589b38325adf4f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a004a0e4efb8653c7fdc8abfcbaf467b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a004a0e4efb8653c7fdc8abfcbaf467b1">addToHitContributions</a> (float)</td></tr>
 <tr class="separator:a004a0e4efb8653c7fdc8abfcbaf467b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4bdf217b81ddb88cd6bbe82d1da1cd8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae4bdf217b81ddb88cd6bbe82d1da1cd8">hitContributions_size</a> () const</td></tr>
@@ -248,6 +258,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a73f8462c52966c6b1021d074272d8143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0424328198d2914799b5f0c128141b30"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a0424328198d2914799b5f0c128141b30">hitContributions_end</a> () const</td></tr>
 <tr class="separator:a0424328198d2914799b5f0c128141b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77be378610314233f494454259cd59a5"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a77be378610314233f494454259cd59a5">getHitContributions</a> () const</td></tr>
+<tr class="separator:a77be378610314233f494454259cd59a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887f18d05230815f03f4c622ba8c88b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a887f18d05230815f03f4c622ba8c88b5">addToSubdetectorEnergies</a> (float)</td></tr>
 <tr class="separator:a887f18d05230815f03f4c622ba8c88b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace1bcab1e74574581f07c9be90b06334"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ace1bcab1e74574581f07c9be90b06334">subdetectorEnergies_size</a> () const</td></tr>
@@ -258,6 +270,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7862cb2f859375e90dfb01bd9ea4fc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ddba1853ae702dc1087b51cf59ce21c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3ddba1853ae702dc1087b51cf59ce21c">subdetectorEnergies_end</a> () const</td></tr>
 <tr class="separator:a3ddba1853ae702dc1087b51cf59ce21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a431a42f31a54d4e2d7e5f4a69e2a1d98"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a431a42f31a54d4e2d7e5f4a69e2a1d98">getSubdetectorEnergies</a> () const</td></tr>
+<tr class="separator:a431a42f31a54d4e2d7e5f4a69e2a1d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ad63a10d221c4d6368fbfd2c82a5da35e">isAvailable</a> () const</td></tr>
 <tr class="memdesc:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the object is actually available  <a href="#ad63a10d221c4d6368fbfd2c82a5da35e">More...</a><br /></td></tr>
 <tr class="separator:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,7 +291,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a202bc3d86cb3971f07ca26f1d93e2c8c">Cluster</a> ()</td></tr>
 <tr class="memdesc:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a202bc3d86cb3971f07ca26f1d93e2c8c">More...</a><br /></td></tr>
 <tr class="separator:a202bc3d86cb3971f07ca26f1d93e2c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dae92c3bacd890da21e27609ab29695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7dae92c3bacd890da21e27609ab29695">Cluster</a> (int type, float energy, float energyError, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a89b0ef367237b585c4377a0cde93cf69">position</a>, std::array&lt; float, 6 &gt; positionError, float iTheta, float phi, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a8975a01852acaf77b317b14a2a48315f">directionError</a>)</td></tr>
+<tr class="memitem:a7dae92c3bacd890da21e27609ab29695"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7dae92c3bacd890da21e27609ab29695">Cluster</a> (int type, float energy, float energyError, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a89b0ef367237b585c4377a0cde93cf69">position</a>, std::array&lt; float, 6 &gt; <a class="el" href="classedm4hep_1_1_cluster.html#aced9a4870d7bfc09908b77619d73e74c">positionError</a>, float iTheta, float phi, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_cluster.html#a8975a01852acaf77b317b14a2a48315f">directionError</a>)</td></tr>
 <tr class="separator:a7dae92c3bacd890da21e27609ab29695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586576102d6648579dfeaa80f90d5433"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a586576102d6648579dfeaa80f90d5433">Cluster</a> (<a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a> *obj)</td></tr>
 <tr class="memdesc:a586576102d6648579dfeaa80f90d5433"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a>  <a href="#a586576102d6648579dfeaa80f90d5433">More...</a><br /></td></tr>
@@ -313,7 +327,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a441ea8e57ec9818c5c01d092be4231d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the covariance matrix of the position (6 Parameters)  <a href="#a441ea8e57ec9818c5c01d092be4231d6">More...</a><br /></td></tr>
 <tr class="separator:a441ea8e57ec9818c5c01d092be4231d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aef2484e9c1a92e7c76139c70880704"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a6aef2484e9c1a92e7c76139c70880704">getPositionError</a> (size_t i) const</td></tr>
-<tr class="memdesc:a6aef2484e9c1a92e7c76139c70880704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the covariance matrix of the position (6 Parameters)  <a href="#a6aef2484e9c1a92e7c76139c70880704">More...</a><br /></td></tr>
+<tr class="memdesc:a6aef2484e9c1a92e7c76139c70880704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the covariance matrix of the position (6 Parameters)  <a href="#a6aef2484e9c1a92e7c76139c70880704">More...</a><br /></td></tr>
 <tr class="separator:a6aef2484e9c1a92e7c76139c70880704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae975a406dfe1d86a981fd663585fc3ed"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae975a406dfe1d86a981fd663585fc3ed">getITheta</a> () const</td></tr>
 <tr class="memdesc:ae975a406dfe1d86a981fd663585fc3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the intrinsic direction of cluster at position Theta. Not to be confused with direction cluster is seen from IP.  <a href="#ae975a406dfe1d86a981fd663585fc3ed">More...</a><br /></td></tr>
@@ -333,60 +347,68 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a49fbc9e6c749f7dcbd32fe5c70c71deb">setEnergyError</a> (float value)</td></tr>
 <tr class="memdesc:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the error on the energy.  <a href="#a49fbc9e6c749f7dcbd32fe5c70c71deb">More...</a><br /></td></tr>
 <tr class="separator:a49fbc9e6c749f7dcbd32fe5c70c71deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754806bb51b629a38766e49ed4d88998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a754806bb51b629a38766e49ed4d88998">setPosition</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:a754806bb51b629a38766e49ed4d88998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the cluster.  <a href="#a754806bb51b629a38766e49ed4d88998">More...</a><br /></td></tr>
+<tr class="separator:a754806bb51b629a38766e49ed4d88998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc4f2677bd50f94aa0852da5488b107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a6cc4f2677bd50f94aa0852da5488b107">position</a> ()</td></tr>
-<tr class="memdesc:a6cc4f2677bd50f94aa0852da5488b107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the position of the cluster.  <a href="#a6cc4f2677bd50f94aa0852da5488b107">More...</a><br /></td></tr>
+<tr class="memdesc:a6cc4f2677bd50f94aa0852da5488b107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to position of the cluster.  <a href="#a6cc4f2677bd50f94aa0852da5488b107">More...</a><br /></td></tr>
 <tr class="separator:a6cc4f2677bd50f94aa0852da5488b107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a717bf54d30794a8a35dfd6e5b29dcc21">setPosition</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the cluster.  <a href="#a717bf54d30794a8a35dfd6e5b29dcc21">More...</a><br /></td></tr>
-<tr class="separator:a717bf54d30794a8a35dfd6e5b29dcc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a5b9a8212f9856bcfd11b32a80f81f6e3">setPositionError</a> (std::array&lt; float, 6 &gt; value)</td></tr>
 <tr class="memdesc:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the position (6 Parameters)  <a href="#a5b9a8212f9856bcfd11b32a80f81f6e3">More...</a><br /></td></tr>
 <tr class="separator:a5b9a8212f9856bcfd11b32a80f81f6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73c2746d96a40de780c0fbdb5842d3fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a73c2746d96a40de780c0fbdb5842d3fd">setPositionError</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:a73c2746d96a40de780c0fbdb5842d3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in covariance matrix of the position (6 Parameters)  <a href="#a73c2746d96a40de780c0fbdb5842d3fd">More...</a><br /></td></tr>
 <tr class="separator:a73c2746d96a40de780c0fbdb5842d3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2ee17be001c62c5ce2e1f2947c8d77"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 6 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#aeb2ee17be001c62c5ce2e1f2947c8d77">positionError</a> ()</td></tr>
+<tr class="memdesc:aeb2ee17be001c62c5ce2e1f2947c8d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the position (6 Parameters)  <a href="#aeb2ee17be001c62c5ce2e1f2947c8d77">More...</a><br /></td></tr>
+<tr class="separator:aeb2ee17be001c62c5ce2e1f2947c8d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf7448c000aada3716146dbe68abbd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afbf7448c000aada3716146dbe68abbd8">setITheta</a> (float value)</td></tr>
 <tr class="memdesc:afbf7448c000aada3716146dbe68abbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the intrinsic direction of cluster at position Theta. Not to be confused with direction cluster is seen from IP.  <a href="#afbf7448c000aada3716146dbe68abbd8">More...</a><br /></td></tr>
 <tr class="separator:afbf7448c000aada3716146dbe68abbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a60f0b5e12d824f0dd4f558e1a74c9c4d">setPhi</a> (float value)</td></tr>
 <tr class="memdesc:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the intrinsic direction of cluster at position - Phi. Not to be confused with direction cluster is seen from IP.  <a href="#a60f0b5e12d824f0dd4f558e1a74c9c4d">More...</a><br /></td></tr>
 <tr class="separator:a60f0b5e12d824f0dd4f558e1a74c9c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad753797eda048e693ee580f1470cc96f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ad753797eda048e693ee580f1470cc96f">setDirectionError</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ad753797eda048e693ee580f1470cc96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the direction (3 Parameters)  <a href="#ad753797eda048e693ee580f1470cc96f">More...</a><br /></td></tr>
+<tr class="separator:ad753797eda048e693ee580f1470cc96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac22730d03a876ad8dc5781e4504234"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afac22730d03a876ad8dc5781e4504234">directionError</a> ()</td></tr>
-<tr class="memdesc:afac22730d03a876ad8dc5781e4504234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the covariance matrix of the direction (3 Parameters)  <a href="#afac22730d03a876ad8dc5781e4504234">More...</a><br /></td></tr>
+<tr class="memdesc:afac22730d03a876ad8dc5781e4504234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the direction (3 Parameters)  <a href="#afac22730d03a876ad8dc5781e4504234">More...</a><br /></td></tr>
 <tr class="separator:afac22730d03a876ad8dc5781e4504234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a0e6b51dbdf46da70d76ac8c1bd2b355c">setDirectionError</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the direction (3 Parameters)  <a href="#a0e6b51dbdf46da70d76ac8c1bd2b355c">More...</a><br /></td></tr>
-<tr class="separator:a0e6b51dbdf46da70d76ac8c1bd2b355c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e20cbf7181fa8fa34e203304f55551f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a1e20cbf7181fa8fa34e203304f55551f">addToClusters</a> (<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
-<tr class="separator:a1e20cbf7181fa8fa34e203304f55551f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a62e7fb8a471ed801af449b15fc87e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a81a62e7fb8a471ed801af449b15fc87e">addToClusters</a> (::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
+<tr class="separator:a81a62e7fb8a471ed801af449b15fc87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4811cdeb7df8091ec6aa7329679c4b13"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a4811cdeb7df8091ec6aa7329679c4b13">clusters_size</a> () const</td></tr>
 <tr class="separator:a4811cdeb7df8091ec6aa7329679c4b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5511cc593e42ad26cd9b265fd4829565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a5511cc593e42ad26cd9b265fd4829565">getClusters</a> (unsigned int) const</td></tr>
-<tr class="separator:a5511cc593e42ad26cd9b265fd4829565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89762a9fb75bc82dea5bb4be5938ad12"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a89762a9fb75bc82dea5bb4be5938ad12">clusters_begin</a> () const</td></tr>
-<tr class="separator:a89762a9fb75bc82dea5bb4be5938ad12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6136b3c00af08db0829c8db37cc6c2f5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a6136b3c00af08db0829c8db37cc6c2f5">clusters_end</a> () const</td></tr>
-<tr class="separator:a6136b3c00af08db0829c8db37cc6c2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a879bdbbaee28a143554e431a257906bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a879bdbbaee28a143554e431a257906bd">addToHits</a> (<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>)</td></tr>
-<tr class="separator:a879bdbbaee28a143554e431a257906bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dd2e880cc50b113e186b970c39d2df5"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a6dd2e880cc50b113e186b970c39d2df5">getClusters</a> (unsigned int) const</td></tr>
+<tr class="separator:a6dd2e880cc50b113e186b970c39d2df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cec0f013321858a00c22e1bfba93931"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a9cec0f013321858a00c22e1bfba93931">clusters_begin</a> () const</td></tr>
+<tr class="separator:a9cec0f013321858a00c22e1bfba93931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d38e84c9638d8499ebeda9f773fb5e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a2d38e84c9638d8499ebeda9f773fb5e1">clusters_end</a> () const</td></tr>
+<tr class="separator:a2d38e84c9638d8499ebeda9f773fb5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88728fbb178e51767d6ebfdebbe687b"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#aa88728fbb178e51767d6ebfdebbe687b">getClusters</a> () const</td></tr>
+<tr class="separator:aa88728fbb178e51767d6ebfdebbe687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a549f0599282aeaaf2d5fe4dd69b487d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a549f0599282aeaaf2d5fe4dd69b487d0">addToHits</a> (::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>)</td></tr>
+<tr class="separator:a549f0599282aeaaf2d5fe4dd69b487d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af44f586732758ecdf1ade07dda500a7c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#af44f586732758ecdf1ade07dda500a7c">hits_size</a> () const</td></tr>
 <tr class="separator:af44f586732758ecdf1ade07dda500a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa2d8b6379da0705aeffdec8853d0eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afa2d8b6379da0705aeffdec8853d0eac">getHits</a> (unsigned int) const</td></tr>
-<tr class="separator:afa2d8b6379da0705aeffdec8853d0eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fabfe568ee689365cede3e253ffb9ee"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8fabfe568ee689365cede3e253ffb9ee">hits_begin</a> () const</td></tr>
-<tr class="separator:a8fabfe568ee689365cede3e253ffb9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e070522ac475c19f33ddf47efe05076"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a0e070522ac475c19f33ddf47efe05076">hits_end</a> () const</td></tr>
-<tr class="separator:a0e070522ac475c19f33ddf47efe05076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd188627ac77560f9c13c961e5757da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#acd188627ac77560f9c13c961e5757da5">addToParticleIDs</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
-<tr class="separator:acd188627ac77560f9c13c961e5757da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69a104e3b4919177cb35cc3c1f65d5f"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ac69a104e3b4919177cb35cc3c1f65d5f">getHits</a> (unsigned int) const</td></tr>
+<tr class="separator:ac69a104e3b4919177cb35cc3c1f65d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3491032aa22eb75f5f9a038b32623cff"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3491032aa22eb75f5f9a038b32623cff">hits_begin</a> () const</td></tr>
+<tr class="separator:a3491032aa22eb75f5f9a038b32623cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a070d3262bf9db197d4351847760fc35f"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a070d3262bf9db197d4351847760fc35f">hits_end</a> () const</td></tr>
+<tr class="separator:a070d3262bf9db197d4351847760fc35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178858f981ca4af55b3e575e1e14e01f"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a178858f981ca4af55b3e575e1e14e01f">getHits</a> () const</td></tr>
+<tr class="separator:a178858f981ca4af55b3e575e1e14e01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c2a7a05295acc6dcc979eedad6aee7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3c2a7a05295acc6dcc979eedad6aee7f">addToParticleIDs</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
+<tr class="separator:a3c2a7a05295acc6dcc979eedad6aee7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d91043cc1e653a0842835fab26c555f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a2d91043cc1e653a0842835fab26c555f">particleIDs_size</a> () const</td></tr>
 <tr class="separator:a2d91043cc1e653a0842835fab26c555f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f58f4336c968930970fa2d66e0a2305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8f58f4336c968930970fa2d66e0a2305">getParticleIDs</a> (unsigned int) const</td></tr>
-<tr class="separator:a8f58f4336c968930970fa2d66e0a2305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ce078ec24ec5fcee48d46a4f5aaf86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a79ce078ec24ec5fcee48d46a4f5aaf86">particleIDs_begin</a> () const</td></tr>
-<tr class="separator:a79ce078ec24ec5fcee48d46a4f5aaf86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c858d64ebbf9b629197fe6a1a31b240"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7c858d64ebbf9b629197fe6a1a31b240">particleIDs_end</a> () const</td></tr>
-<tr class="separator:a7c858d64ebbf9b629197fe6a1a31b240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9642f8335df16a0017c84920c3c2fb"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3e9642f8335df16a0017c84920c3c2fb">getParticleIDs</a> (unsigned int) const</td></tr>
+<tr class="separator:a3e9642f8335df16a0017c84920c3c2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0e61e0dc1d5e501f6257ce34cb8731"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a8f0e61e0dc1d5e501f6257ce34cb8731">particleIDs_begin</a> () const</td></tr>
+<tr class="separator:a8f0e61e0dc1d5e501f6257ce34cb8731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ca444956b79d8c3692a1b02e9071b9"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a83ca444956b79d8c3692a1b02e9071b9">particleIDs_end</a> () const</td></tr>
+<tr class="separator:a83ca444956b79d8c3692a1b02e9071b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb158baf0559a65bd8d50cb6da4650b"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a2eb158baf0559a65bd8d50cb6da4650b">getParticleIDs</a> () const</td></tr>
+<tr class="separator:a2eb158baf0559a65bd8d50cb6da4650b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0434a1c759f72ac9ca70611e8dba18f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae0434a1c759f72ac9ca70611e8dba18f">addToShapeParameters</a> (float)</td></tr>
 <tr class="separator:ae0434a1c759f72ac9ca70611e8dba18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1431b8f16ec4b2389e03d6ab10b2477"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae1431b8f16ec4b2389e03d6ab10b2477">shapeParameters_size</a> () const</td></tr>
@@ -397,6 +419,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad1a4f20f5fe715f6fc177095a1718702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f366dc6044b57bb2068ec3873adade1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a3f366dc6044b57bb2068ec3873adade1">shapeParameters_end</a> () const</td></tr>
 <tr class="separator:a3f366dc6044b57bb2068ec3873adade1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb96b43dcaa3b556b8678d10bef0c217"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#aeb96b43dcaa3b556b8678d10bef0c217">getShapeParameters</a> () const</td></tr>
+<tr class="separator:aeb96b43dcaa3b556b8678d10bef0c217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a004a0e4efb8653c7fdc8abfcbaf467b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a004a0e4efb8653c7fdc8abfcbaf467b1">addToHitContributions</a> (float)</td></tr>
 <tr class="separator:a004a0e4efb8653c7fdc8abfcbaf467b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4bdf217b81ddb88cd6bbe82d1da1cd8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ae4bdf217b81ddb88cd6bbe82d1da1cd8">hitContributions_size</a> () const</td></tr>
@@ -407,6 +431,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c0daa3989b31e6a1aab8ec9ec59d4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab34a2552196181f62286326300b76389"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ab34a2552196181f62286326300b76389">hitContributions_end</a> () const</td></tr>
 <tr class="separator:ab34a2552196181f62286326300b76389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f0b3af43c5c73eb4a92c5c6994a757"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a58f0b3af43c5c73eb4a92c5c6994a757">getHitContributions</a> () const</td></tr>
+<tr class="separator:a58f0b3af43c5c73eb4a92c5c6994a757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887f18d05230815f03f4c622ba8c88b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a887f18d05230815f03f4c622ba8c88b5">addToSubdetectorEnergies</a> (float)</td></tr>
 <tr class="separator:a887f18d05230815f03f4c622ba8c88b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace1bcab1e74574581f07c9be90b06334"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ace1bcab1e74574581f07c9be90b06334">subdetectorEnergies_size</a> () const</td></tr>
@@ -417,6 +443,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0d257c82dd666420ceb71717b5c1f9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdd77c437374abb79396d75aee73c189"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#afdd77c437374abb79396d75aee73c189">subdetectorEnergies_end</a> () const</td></tr>
 <tr class="separator:afdd77c437374abb79396d75aee73c189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7704da3f01bb06d81503a396c059586d"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#a7704da3f01bb06d81503a396c059586d">getSubdetectorEnergies</a> () const</td></tr>
+<tr class="separator:a7704da3f01bb06d81503a396c059586d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_cluster.html#ad63a10d221c4d6368fbfd2c82a5da35e">isAvailable</a> () const</td></tr>
 <tr class="memdesc:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the object is actually available  <a href="#ad63a10d221c4d6368fbfd2c82a5da35e">More...</a><br /></td></tr>
 <tr class="separator:ad63a10d221c4d6368fbfd2c82a5da35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -734,8 +762,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1e20cbf7181fa8fa34e203304f55551f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e20cbf7181fa8fa34e203304f55551f">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[1/2]</span></h2>
+<a id="a81a62e7fb8a471ed801af449b15fc87e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a62e7fb8a471ed801af449b15fc87e">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -743,7 +771,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::addToClusters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -752,8 +780,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e20cbf7181fa8fa34e203304f55551f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e20cbf7181fa8fa34e203304f55551f">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[2/2]</span></h2>
+<a id="a81a62e7fb8a471ed801af449b15fc87e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a62e7fb8a471ed801af449b15fc87e">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -761,7 +789,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::addToClusters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -806,8 +834,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a879bdbbaee28a143554e431a257906bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a879bdbbaee28a143554e431a257906bd">&#9670;&nbsp;</a></span>addToHits() <span class="overload">[1/2]</span></h2>
+<a id="a549f0599282aeaaf2d5fe4dd69b487d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a549f0599282aeaaf2d5fe4dd69b487d0">&#9670;&nbsp;</a></span>addToHits() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -815,7 +843,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::addToHits </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a549f0599282aeaaf2d5fe4dd69b487d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a549f0599282aeaaf2d5fe4dd69b487d0">&#9670;&nbsp;</a></span>addToHits() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void edm4hep::Cluster::addToHits </td>
+          <td>(</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -824,16 +870,16 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a879bdbbaee28a143554e431a257906bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a879bdbbaee28a143554e431a257906bd">&#9670;&nbsp;</a></span>addToHits() <span class="overload">[2/2]</span></h2>
+<a id="a3c2a7a05295acc6dcc979eedad6aee7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2a7a05295acc6dcc979eedad6aee7f">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void edm4hep::Cluster::addToHits </td>
+          <td class="memname">void edm4hep::Cluster::addToParticleIDs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -842,8 +888,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acd188627ac77560f9c13c961e5757da5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd188627ac77560f9c13c961e5757da5">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[1/2]</span></h2>
+<a id="a3c2a7a05295acc6dcc979eedad6aee7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2a7a05295acc6dcc979eedad6aee7f">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,25 +897,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::addToParticleIDs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
-          <td class="paramname"><em>component</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd188627ac77560f9c13c961e5757da5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd188627ac77560f9c13c961e5757da5">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void edm4hep::Cluster::addToParticleIDs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -988,14 +1016,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a89762a9fb75bc82dea5bb4be5938ad12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89762a9fb75bc82dea5bb4be5938ad12">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[1/2]</span></h2>
+<a id="a9cec0f013321858a00c22e1bfba93931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cec0f013321858a00c22e1bfba93931">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::Cluster::clusters_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::Cluster::clusters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1005,14 +1033,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ae7162336c99e4918b772f007abd70b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ae7162336c99e4918b772f007abd70b">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[2/2]</span></h2>
+<a id="a1df1f2120840dd205911956345ad1a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df1f2120840dd205911956345ad1a45">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::Cluster::clusters_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::Cluster::clusters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1022,14 +1050,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6136b3c00af08db0829c8db37cc6c2f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6136b3c00af08db0829c8db37cc6c2f5">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[1/2]</span></h2>
+<a id="a2d38e84c9638d8499ebeda9f773fb5e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d38e84c9638d8499ebeda9f773fb5e1">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::Cluster::clusters_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::Cluster::clusters_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1039,14 +1067,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9c24debd88056b110efbb217d03368b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9c24debd88056b110efbb217d03368b">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[2/2]</span></h2>
+<a id="a988897acd96a089042e978e0f596b001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988897acd96a089042e978e0f596b001">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::Cluster::clusters_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::Cluster::clusters_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1090,27 +1118,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8975a01852acaf77b317b14a2a48315f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8975a01852acaf77b317b14a2a48315f">&#9670;&nbsp;</a></span>directionError() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::Cluster::directionError </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to the covariance matrix of the direction (3 Parameters) </p>
-
-</div>
-</div>
 <a id="afac22730d03a876ad8dc5781e4504234"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afac22730d03a876ad8dc5781e4504234">&#9670;&nbsp;</a></span>directionError() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afac22730d03a876ad8dc5781e4504234">&#9670;&nbsp;</a></span>directionError() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1124,18 +1133,37 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the covariance matrix of the direction (3 Parameters) </p>
+<p>Get reference to covariance matrix of the direction (3 Parameters) </p>
 
 </div>
 </div>
-<a id="a5511cc593e42ad26cd9b265fd4829565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5511cc593e42ad26cd9b265fd4829565">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[1/2]</span></h2>
+<a id="a8975a01852acaf77b317b14a2a48315f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8975a01852acaf77b317b14a2a48315f">&#9670;&nbsp;</a></span>directionError() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> edm4hep::Cluster::getClusters </td>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::Cluster::directionError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to covariance matrix of the direction (3 Parameters) </p>
+
+</div>
+</div>
+<a id="a6dd2e880cc50b113e186b970c39d2df5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dd2e880cc50b113e186b970c39d2df5">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> edm4hep::Cluster::getClusters </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1147,7 +1175,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5511cc593e42ad26cd9b265fd4829565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5511cc593e42ad26cd9b265fd4829565">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5511cc593e42ad26cd9b265fd4829565">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1157,6 +1185,40 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa88728fbb178e51767d6ebfdebbe687b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88728fbb178e51767d6ebfdebbe687b">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt; edm4hep::Cluster::getClusters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a966a49cc00b1e04e3c3924a91879d58e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966a49cc00b1e04e3c3924a91879d58e">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt; edm4hep::Cluster::getClusters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1202,14 +1264,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a86186e52c227b33b1cbc2a0922077af8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86186e52c227b33b1cbc2a0922077af8">&#9670;&nbsp;</a></span>getEnergy() <span class="overload">[1/2]</span></h2>
+<a id="a42c123fdb1b3876a5d549a82ae340577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c123fdb1b3876a5d549a82ae340577">&#9670;&nbsp;</a></span>getEnergy() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float&amp; edm4hep::Cluster::getEnergy </td>
+          <td class="memname">const float &amp; edm4hep::Cluster::getEnergy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1221,14 +1283,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a42c123fdb1b3876a5d549a82ae340577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c123fdb1b3876a5d549a82ae340577">&#9670;&nbsp;</a></span>getEnergy() <span class="overload">[2/2]</span></h2>
+<a id="a86186e52c227b33b1cbc2a0922077af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86186e52c227b33b1cbc2a0922077af8">&#9670;&nbsp;</a></span>getEnergy() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float &amp; edm4hep::Cluster::getEnergy </td>
+          <td class="memname">const float&amp; edm4hep::Cluster::getEnergy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1279,7 +1341,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8f3c7b12b986be4c1d7bf32d366ceb46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f3c7b12b986be4c1d7bf32d366ceb46">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3c7b12b986be4c1d7bf32d366ceb46">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1297,7 +1359,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8f3c7b12b986be4c1d7bf32d366ceb46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f3c7b12b986be4c1d7bf32d366ceb46">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3c7b12b986be4c1d7bf32d366ceb46">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1314,14 +1376,66 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77be378610314233f494454259cd59a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77be378610314233f494454259cd59a5">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt; float &gt; edm4hep::Cluster::getHitContributions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58f0b3af43c5c73eb4a92c5c6994a757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f0b3af43c5c73eb4a92c5c6994a757">&#9670;&nbsp;</a></span>getHitContributions() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;float&gt; edm4hep::Cluster::getHitContributions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afa2d8b6379da0705aeffdec8853d0eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa2d8b6379da0705aeffdec8853d0eac">&#9670;&nbsp;</a></span>getHits() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2d8b6379da0705aeffdec8853d0eac">&#9670;&nbsp;</a></span>getHits() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> edm4hep::Cluster::getHits </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac69a104e3b4919177cb35cc3c1f65d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac69a104e3b4919177cb35cc3c1f65d5f">&#9670;&nbsp;</a></span>getHits() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> edm4hep::Cluster::getHits </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1332,17 +1446,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afa2d8b6379da0705aeffdec8853d0eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa2d8b6379da0705aeffdec8853d0eac">&#9670;&nbsp;</a></span>getHits() <span class="overload">[2/2]</span></h2>
+<a id="ad24997377e75752f8cb9588dbb61d417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24997377e75752f8cb9588dbb61d417">&#9670;&nbsp;</a></span>getHits() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> edm4hep::Cluster::getHits </td>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt; edm4hep::Cluster::getHits </td>
           <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a178858f981ca4af55b3e575e1e14e01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178858f981ca4af55b3e575e1e14e01f">&#9670;&nbsp;</a></span>getHits() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&gt; edm4hep::Cluster::getHits </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1423,7 +1553,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8f58f4336c968930970fa2d66e0a2305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f58f4336c968930970fa2d66e0a2305">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f58f4336c968930970fa2d66e0a2305">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1440,16 +1570,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f58f4336c968930970fa2d66e0a2305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f58f4336c968930970fa2d66e0a2305">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[2/2]</span></h2>
+<a id="a3e9642f8335df16a0017c84920c3c2fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9642f8335df16a0017c84920c3c2fb">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::Cluster::getParticleIDs </td>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::Cluster::getParticleIDs </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af37394d3de9271f48bcd12c894b4bca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af37394d3de9271f48bcd12c894b4bca3">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt; edm4hep::Cluster::getParticleIDs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2eb158baf0559a65bd8d50cb6da4650b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb158baf0559a65bd8d50cb6da4650b">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt; edm4hep::Cluster::getParticleIDs </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1572,28 +1736,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6aef2484e9c1a92e7c76139c70880704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aef2484e9c1a92e7c76139c70880704">&#9670;&nbsp;</a></span>getPositionError() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float&amp; edm4hep::Cluster::getPositionError </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Access item i in the covariance matrix of the position (6 Parameters) </p>
-
-</div>
-</div>
 <a id="a33d8ad113189cfa154f74440854c3ea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d8ad113189cfa154f74440854c3ea1">&#9670;&nbsp;</a></span>getPositionError() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d8ad113189cfa154f74440854c3ea1">&#9670;&nbsp;</a></span>getPositionError() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1608,12 +1752,32 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access item i in the covariance matrix of the position (6 Parameters) </p>
+<p>Access item i of the covariance matrix of the position (6 Parameters) </p>
+
+</div>
+</div>
+<a id="a6aef2484e9c1a92e7c76139c70880704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aef2484e9c1a92e7c76139c70880704">&#9670;&nbsp;</a></span>getPositionError() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float&amp; edm4hep::Cluster::getPositionError </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access item i of the covariance matrix of the position (6 Parameters) </p>
 
 </div>
 </div>
 <a id="ade4bdf00a746d144d4521e4f475cbf55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade4bdf00a746d144d4521e4f475cbf55">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4bdf00a746d144d4521e4f475cbf55">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1631,7 +1795,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ade4bdf00a746d144d4521e4f475cbf55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade4bdf00a746d144d4521e4f475cbf55">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4bdf00a746d144d4521e4f475cbf55">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1648,8 +1812,42 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaac2c26c92ecee9e589b38325adf4f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac2c26c92ecee9e589b38325adf4f56">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt; float &gt; edm4hep::Cluster::getShapeParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb96b43dcaa3b556b8678d10bef0c217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb96b43dcaa3b556b8678d10bef0c217">&#9670;&nbsp;</a></span>getShapeParameters() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;float&gt; edm4hep::Cluster::getShapeParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4d09f3b2e0562d6d47512453e3e2312f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d09f3b2e0562d6d47512453e3e2312f">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d09f3b2e0562d6d47512453e3e2312f">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1667,7 +1865,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a4d09f3b2e0562d6d47512453e3e2312f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d09f3b2e0562d6d47512453e3e2312f">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d09f3b2e0562d6d47512453e3e2312f">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1676,6 +1874,40 @@ Private Attributes</h2></td></tr>
           <td class="memname">float edm4hep::Cluster::getSubdetectorEnergies </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a431a42f31a54d4e2d7e5f4a69e2a1d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431a42f31a54d4e2d7e5f4a69e2a1d98">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt; float &gt; edm4hep::Cluster::getSubdetectorEnergies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7704da3f01bb06d81503a396c059586d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7704da3f01bb06d81503a396c059586d">&#9670;&nbsp;</a></span>getSubdetectorEnergies() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;float&gt; edm4hep::Cluster::getSubdetectorEnergies </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1756,14 +1988,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0424328198d2914799b5f0c128141b30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0424328198d2914799b5f0c128141b30">&#9670;&nbsp;</a></span>hitContributions_end() <span class="overload">[1/2]</span></h2>
+<a id="ab34a2552196181f62286326300b76389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34a2552196181f62286326300b76389">&#9670;&nbsp;</a></span>hitContributions_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; float &gt;::const_iterator edm4hep::Cluster::hitContributions_end </td>
+          <td class="memname">std::vector&lt;float&gt;::const_iterator edm4hep::Cluster::hitContributions_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1773,14 +2005,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab34a2552196181f62286326300b76389"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab34a2552196181f62286326300b76389">&#9670;&nbsp;</a></span>hitContributions_end() <span class="overload">[2/2]</span></h2>
+<a id="a0424328198d2914799b5f0c128141b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0424328198d2914799b5f0c128141b30">&#9670;&nbsp;</a></span>hitContributions_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;float&gt;::const_iterator edm4hep::Cluster::hitContributions_end </td>
+          <td class="memname">std::vector&lt; float &gt;::const_iterator edm4hep::Cluster::hitContributions_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1824,14 +2056,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b2d9d36f03dec437d102375395f05cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2d9d36f03dec437d102375395f05cc">&#9670;&nbsp;</a></span>hits_begin() <span class="overload">[1/2]</span></h2>
+<a id="a98265aa3fcc89dc0a39005bcd6df43ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98265aa3fcc89dc0a39005bcd6df43ec">&#9670;&nbsp;</a></span>hits_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator edm4hep::Cluster::hits_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator edm4hep::Cluster::hits_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1841,14 +2073,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fabfe568ee689365cede3e253ffb9ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fabfe568ee689365cede3e253ffb9ee">&#9670;&nbsp;</a></span>hits_begin() <span class="overload">[2/2]</span></h2>
+<a id="a3491032aa22eb75f5f9a038b32623cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3491032aa22eb75f5f9a038b32623cff">&#9670;&nbsp;</a></span>hits_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&gt;::const_iterator edm4hep::Cluster::hits_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&gt;::const_iterator edm4hep::Cluster::hits_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1858,14 +2090,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ec57d4937ac7ad6b61aec77b9b8ea86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ec57d4937ac7ad6b61aec77b9b8ea86">&#9670;&nbsp;</a></span>hits_end() <span class="overload">[1/2]</span></h2>
+<a id="ab5ff9b5f3c5c332fddec41148baab266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5ff9b5f3c5c332fddec41148baab266">&#9670;&nbsp;</a></span>hits_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator edm4hep::Cluster::hits_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a> &gt;::const_iterator edm4hep::Cluster::hits_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1875,14 +2107,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e070522ac475c19f33ddf47efe05076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e070522ac475c19f33ddf47efe05076">&#9670;&nbsp;</a></span>hits_end() <span class="overload">[2/2]</span></h2>
+<a id="a070d3262bf9db197d4351847760fc35f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a070d3262bf9db197d4351847760fc35f">&#9670;&nbsp;</a></span>hits_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&gt;::const_iterator edm4hep::Cluster::hits_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html">edm4hep::ConstCalorimeterHit</a>&gt;::const_iterator edm4hep::Cluster::hits_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2104,14 +2336,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3bd2fd2d75527aa66b1e6260db8dde72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bd2fd2d75527aa66b1e6260db8dde72">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a19ac1365e81a67bf081561527408b1ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ac1365e81a67bf081561527408b1ee">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a> &amp; edm4hep::Cluster::operator= </td>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a>&amp; edm4hep::Cluster::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -2124,14 +2356,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a19ac1365e81a67bf081561527408b1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ac1365e81a67bf081561527408b1ee">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="a3bd2fd2d75527aa66b1e6260db8dde72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd2fd2d75527aa66b1e6260db8dde72">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a>&amp; edm4hep::Cluster::operator= </td>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a> &amp; edm4hep::Cluster::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classedm4hep_1_1_cluster.html">Cluster</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -2232,14 +2464,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79ce078ec24ec5fcee48d46a4f5aaf86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79ce078ec24ec5fcee48d46a4f5aaf86">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[1/2]</span></h2>
+<a id="a8f0e61e0dc1d5e501f6257ce34cb8731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f0e61e0dc1d5e501f6257ce34cb8731">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::Cluster::particleIDs_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::Cluster::particleIDs_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2249,14 +2481,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9710abc37aef4124ec8fe2a45d3771d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9710abc37aef4124ec8fe2a45d3771d9">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[2/2]</span></h2>
+<a id="af96b40af800dcb0406ef5df43a719622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96b40af800dcb0406ef5df43a719622">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::Cluster::particleIDs_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::Cluster::particleIDs_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2266,14 +2498,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a742ca1efefa03f8ab6c5f94e486e51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a742ca1efefa03f8ab6c5f94e486e51">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[1/2]</span></h2>
+<a id="afbbff49b5e62318b8a57c25aaf790cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbbff49b5e62318b8a57c25aaf790cdd">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::Cluster::particleIDs_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::Cluster::particleIDs_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2283,14 +2515,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c858d64ebbf9b629197fe6a1a31b240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c858d64ebbf9b629197fe6a1a31b240">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[2/2]</span></h2>
+<a id="a83ca444956b79d8c3692a1b02e9071b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ca444956b79d8c3692a1b02e9071b9">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::Cluster::particleIDs_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::Cluster::particleIDs_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2334,27 +2566,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a89b0ef367237b585c4377a0cde93cf69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89b0ef367237b585c4377a0cde93cf69">&#9670;&nbsp;</a></span>position() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::Cluster::position </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to the position of the cluster. </p>
-
-</div>
-</div>
 <a id="a6cc4f2677bd50f94aa0852da5488b107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cc4f2677bd50f94aa0852da5488b107">&#9670;&nbsp;</a></span>position() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc4f2677bd50f94aa0852da5488b107">&#9670;&nbsp;</a></span>position() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2368,12 +2581,69 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the position of the cluster. </p>
+<p>Get reference to position of the cluster. </p>
 
 </div>
 </div>
-<a id="a0e6b51dbdf46da70d76ac8c1bd2b355c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e6b51dbdf46da70d76ac8c1bd2b355c">&#9670;&nbsp;</a></span>setDirectionError() <span class="overload">[1/2]</span></h2>
+<a id="a89b0ef367237b585c4377a0cde93cf69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89b0ef367237b585c4377a0cde93cf69">&#9670;&nbsp;</a></span>position() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::Cluster::position </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to position of the cluster. </p>
+
+</div>
+</div>
+<a id="aced9a4870d7bfc09908b77619d73e74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced9a4870d7bfc09908b77619d73e74c">&#9670;&nbsp;</a></span>positionError() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 6 &gt; &amp; edm4hep::Cluster::positionError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to covariance matrix of the position (6 Parameters) </p>
+
+</div>
+</div>
+<a id="aeb2ee17be001c62c5ce2e1f2947c8d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2ee17be001c62c5ce2e1f2947c8d77">&#9670;&nbsp;</a></span>positionError() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, 6&gt;&amp; edm4hep::Cluster::positionError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to covariance matrix of the position (6 Parameters) </p>
+
+</div>
+</div>
+<a id="ad753797eda048e693ee580f1470cc96f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad753797eda048e693ee580f1470cc96f">&#9670;&nbsp;</a></span>setDirectionError() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2381,7 +2651,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::setDirectionError </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2392,8 +2662,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e6b51dbdf46da70d76ac8c1bd2b355c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e6b51dbdf46da70d76ac8c1bd2b355c">&#9670;&nbsp;</a></span>setDirectionError() <span class="overload">[2/2]</span></h2>
+<a id="ad753797eda048e693ee580f1470cc96f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad753797eda048e693ee580f1470cc96f">&#9670;&nbsp;</a></span>setDirectionError() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2401,7 +2671,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::setDirectionError </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2572,8 +2842,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a717bf54d30794a8a35dfd6e5b29dcc21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717bf54d30794a8a35dfd6e5b29dcc21">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[1/2]</span></h2>
+<a id="a754806bb51b629a38766e49ed4d88998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a754806bb51b629a38766e49ed4d88998">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2581,7 +2851,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::setPosition </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2592,8 +2862,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a717bf54d30794a8a35dfd6e5b29dcc21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717bf54d30794a8a35dfd6e5b29dcc21">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[2/2]</span></h2>
+<a id="a754806bb51b629a38766e49ed4d88998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a754806bb51b629a38766e49ed4d88998">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2601,7 +2871,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Cluster::setPosition </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2678,8 +2948,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set item i in covariance matrix of the position (6 Parameters) </p>
-
 </div>
 </div>
 <a id="a73c2746d96a40de780c0fbdb5842d3fd"></a>
@@ -2707,8 +2975,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Set item i in covariance matrix of the position (6 Parameters) </p>
 
 </div>
 </div>
@@ -2752,14 +3018,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1a4f20f5fe715f6fc177095a1718702"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1a4f20f5fe715f6fc177095a1718702">&#9670;&nbsp;</a></span>shapeParameters_begin() <span class="overload">[1/2]</span></h2>
+<a id="a92ebf3c4e92b04c665d7ffeabb354f2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92ebf3c4e92b04c665d7ffeabb354f2e">&#9670;&nbsp;</a></span>shapeParameters_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;float&gt;::const_iterator edm4hep::Cluster::shapeParameters_begin </td>
+          <td class="memname">std::vector&lt; float &gt;::const_iterator edm4hep::Cluster::shapeParameters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2769,14 +3035,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a92ebf3c4e92b04c665d7ffeabb354f2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92ebf3c4e92b04c665d7ffeabb354f2e">&#9670;&nbsp;</a></span>shapeParameters_begin() <span class="overload">[2/2]</span></h2>
+<a id="ad1a4f20f5fe715f6fc177095a1718702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a4f20f5fe715f6fc177095a1718702">&#9670;&nbsp;</a></span>shapeParameters_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; float &gt;::const_iterator edm4hep::Cluster::shapeParameters_begin </td>
+          <td class="memname">std::vector&lt;float&gt;::const_iterator edm4hep::Cluster::shapeParameters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3107,7 +3373,7 @@ Private Attributes</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:43 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:36 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

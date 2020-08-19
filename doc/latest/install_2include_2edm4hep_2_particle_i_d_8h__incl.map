@@ -1,10 +1,8 @@
 <map id="install/include/edm4hep/ParticleID.h" name="install/include/edm4hep/ParticleID.h">
-<area shape="rect" id="node1" title=" " alt="" coords="361,5,540,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,197,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="222,95,285,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="309,95,389,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="413,95,488,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="512,95,643,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="667,95,866,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="890,95,1073,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="377,5,555,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,204,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="228,95,411,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="435,95,497,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="522,95,653,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="677,95,753,121"/>
 </map>

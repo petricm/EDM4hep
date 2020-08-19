@@ -1,9 +1,8 @@
 <map id="install/include/edm4hep/SimCalorimeterHitConst.h" name="install/include/edm4hep/SimCalorimeterHitConst.h">
-<area shape="rect" id="node1" title=" " alt="" coords="531,5,727,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,102,232,129"/>
-<area shape="rect" id="node3" title=" " alt="" coords="256,95,464,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="466,5,662,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,213,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="237,102,464,129"/>
 <area shape="rect" id="node4" title=" " alt="" coords="488,102,640,129"/>
 <area shape="rect" id="node5" title=" " alt="" coords="665,102,727,129"/>
 <area shape="rect" id="node6" title=" " alt="" coords="752,102,883,129"/>
-<area shape="rect" id="node7" title=" " alt="" coords="907,95,1115,136"/>
 </map>

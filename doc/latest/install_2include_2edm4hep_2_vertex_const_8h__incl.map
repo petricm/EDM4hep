@@ -1,9 +1,8 @@
 <map id="install/include/edm4hep/VertexConst.h" name="install/include/edm4hep/VertexConst.h">
-<area shape="rect" id="node1" title=" " alt="" coords="359,5,537,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,157,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="182,95,354,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="379,95,435,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="459,95,522,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="547,95,677,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="701,95,864,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="307,5,485,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,168,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="192,95,344,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="368,95,424,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="449,95,511,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="536,95,667,121"/>
 </map>

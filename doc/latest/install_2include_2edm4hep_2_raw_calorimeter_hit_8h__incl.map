@@ -1,10 +1,7 @@
 <map id="install/include/edm4hep/RawCalorimeterHit.h" name="install/include/edm4hep/RawCalorimeterHit.h">
-<area shape="rect" id="node1" title=" " alt="" coords="379,5,557,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="353,5,532,47"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,95,216,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="239,102,302,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="327,102,407,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="431,102,505,129"/>
-<area shape="rect" id="node6" title=" " alt="" coords="529,102,660,129"/>
-<area shape="rect" id="node7" title=" " alt="" coords="684,95,895,136"/>
-<area shape="rect" id="node8" title=" " alt="" coords="919,95,1129,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="240,95,451,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="475,102,605,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="630,102,706,129"/>
 </map>

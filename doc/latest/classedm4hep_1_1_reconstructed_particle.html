@@ -141,7 +141,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf4c972e4e875d9608e87b298740e463"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adf4c972e4e875d9608e87b298740e463">ReconstructedParticle</a> ()</td></tr>
 <tr class="memdesc:adf4c972e4e875d9608e87b298740e463"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#adf4c972e4e875d9608e87b298740e463">More...</a><br /></td></tr>
 <tr class="separator:adf4c972e4e875d9608e87b298740e463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf3296928adc805db4add4ca025be5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8bf3296928adc805db4add4ca025be5e">ReconstructedParticle</a> (int type, float energy, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa576f495570928bd28b22d41ffad8ea1">momentum</a>, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1477f3d6dfef5e967ac82573e4f7c610">referencePoint</a>, float charge, float mass, float goodnessOfPID, std::array&lt; float, 10 &gt; covMatrix)</td></tr>
+<tr class="memitem:a8bf3296928adc805db4add4ca025be5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8bf3296928adc805db4add4ca025be5e">ReconstructedParticle</a> (int type, float energy, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa576f495570928bd28b22d41ffad8ea1">momentum</a>, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1477f3d6dfef5e967ac82573e4f7c610">referencePoint</a>, float charge, float mass, float goodnessOfPID, std::array&lt; float, 10 &gt; <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a5eed37cee08d30b20bf2744ce3003e50">covMatrix</a>)</td></tr>
 <tr class="separator:a8bf3296928adc805db4add4ca025be5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59ab2f3cb73e0c72ce4460c2ec2408b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a59ab2f3cb73e0c72ce4460c2ec2408b7">ReconstructedParticle</a> (<a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a> *obj)</td></tr>
 <tr class="memdesc:a59ab2f3cb73e0c72ce4460c2ec2408b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a>  <a href="#a59ab2f3cb73e0c72ce4460c2ec2408b7">More...</a><br /></td></tr>
@@ -165,10 +165,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a51d7dc399acc860d56cbdbf1bdcdd39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the type of reconstructed particle. Check/set collection parameters ReconstructedParticleTypeNames and ReconstructedParticleTypeValues.  <a href="#a51d7dc399acc860d56cbdbf1bdcdd39d">More...</a><br /></td></tr>
 <tr class="separator:a51d7dc399acc860d56cbdbf1bdcdd39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45a3c1b30b3cdf3f05e49e4d924e5bd7"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a45a3c1b30b3cdf3f05e49e4d924e5bd7">getEnergy</a> () const</td></tr>
-<tr class="memdesc:a45a3c1b30b3cdf3f05e49e4d924e5bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] energy of the reconstructed particle.  <a href="#a45a3c1b30b3cdf3f05e49e4d924e5bd7">More...</a><br /></td></tr>
+<tr class="memdesc:a45a3c1b30b3cdf3f05e49e4d924e5bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally.  <a href="#a45a3c1b30b3cdf3f05e49e4d924e5bd7">More...</a><br /></td></tr>
 <tr class="separator:a45a3c1b30b3cdf3f05e49e4d924e5bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0410973b44b88633d76d52ab9687ca10"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0410973b44b88633d76d52ab9687ca10">getMomentum</a> () const</td></tr>
-<tr class="memdesc:a0410973b44b88633d76d52ab9687ca10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] particle momentum.  <a href="#a0410973b44b88633d76d52ab9687ca10">More...</a><br /></td></tr>
+<tr class="memdesc:a0410973b44b88633d76d52ab9687ca10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#a0410973b44b88633d76d52ab9687ca10">More...</a><br /></td></tr>
 <tr class="separator:a0410973b44b88633d76d52ab9687ca10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae359c67d0d96de4e7926bc76869dd8a8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ae359c67d0d96de4e7926bc76869dd8a8">getReferencePoint</a> () const</td></tr>
 <tr class="memdesc:ae359c67d0d96de4e7926bc76869dd8a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [mm] reference, i.e. where the particle has been measured.  <a href="#ae359c67d0d96de4e7926bc76869dd8a8">More...</a><br /></td></tr>
@@ -177,7 +177,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3c6b3f24941eda8860fd6d4e311229d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the charge of the reconstructed particle.  <a href="#a3c6b3f24941eda8860fd6d4e311229d8">More...</a><br /></td></tr>
 <tr class="separator:a3c6b3f24941eda8860fd6d4e311229d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad845ba90a01f7625c72ab4f47d440a39"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad845ba90a01f7625c72ab4f47d440a39">getMass</a> () const</td></tr>
-<tr class="memdesc:ad845ba90a01f7625c72ab4f47d440a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] mass of the reconstructed particle, set independently from four vector.  <a href="#ad845ba90a01f7625c72ab4f47d440a39">More...</a><br /></td></tr>
+<tr class="memdesc:ad845ba90a01f7625c72ab4f47d440a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally.  <a href="#ad845ba90a01f7625c72ab4f47d440a39">More...</a><br /></td></tr>
 <tr class="separator:ad845ba90a01f7625c72ab4f47d440a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1769028881be3cf794a1d40588b9c529"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1769028881be3cf794a1d40588b9c529">getGoodnessOfPID</a> () const</td></tr>
 <tr class="memdesc:a1769028881be3cf794a1d40588b9c529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the overall goodness of the PID on a scale of [0;1].  <a href="#a1769028881be3cf794a1d40588b9c529">More...</a><br /></td></tr>
@@ -186,37 +186,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1f6810a43c73575dba7abc54e780db79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a1f6810a43c73575dba7abc54e780db79">More...</a><br /></td></tr>
 <tr class="separator:a1f6810a43c73575dba7abc54e780db79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16317015f67046035e2875e3610e658f"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a16317015f67046035e2875e3610e658f">getCovMatrix</a> (size_t i) const</td></tr>
-<tr class="memdesc:a16317015f67046035e2875e3610e658f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a16317015f67046035e2875e3610e658f">More...</a><br /></td></tr>
+<tr class="memdesc:a16317015f67046035e2875e3610e658f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a16317015f67046035e2875e3610e658f">More...</a><br /></td></tr>
 <tr class="separator:a16317015f67046035e2875e3610e658f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a499c98adf28fc4da569560b3936c0422"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a499c98adf28fc4da569560b3936c0422">getStartVertex</a> () const</td></tr>
-<tr class="memdesc:a499c98adf28fc4da569560b3936c0422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the start vertex associated to this particle.  <a href="#a499c98adf28fc4da569560b3936c0422">More...</a><br /></td></tr>
-<tr class="separator:a499c98adf28fc4da569560b3936c0422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018719fc13be911bc1c6dbb1e987d603"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a018719fc13be911bc1c6dbb1e987d603">getParticleIDUsed</a> () const</td></tr>
-<tr class="memdesc:a018719fc13be911bc1c6dbb1e987d603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the particle Id used for the kinematics of this particle.  <a href="#a018719fc13be911bc1c6dbb1e987d603">More...</a><br /></td></tr>
-<tr class="separator:a018719fc13be911bc1c6dbb1e987d603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67fc1a0521d34719d50ef1dab4f80e3"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac67fc1a0521d34719d50ef1dab4f80e3">getStartVertex</a> () const</td></tr>
+<tr class="memdesc:ac67fc1a0521d34719d50ef1dab4f80e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the start vertex associated to this particle.  <a href="#ac67fc1a0521d34719d50ef1dab4f80e3">More...</a><br /></td></tr>
+<tr class="separator:ac67fc1a0521d34719d50ef1dab4f80e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980298c515df1b3e0934b3c7a9d8a4e6"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a980298c515df1b3e0934b3c7a9d8a4e6">getParticleIDUsed</a> () const</td></tr>
+<tr class="memdesc:a980298c515df1b3e0934b3c7a9d8a4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the particle Id used for the kinematics of this particle.  <a href="#a980298c515df1b3e0934b3c7a9d8a4e6">More...</a><br /></td></tr>
+<tr class="separator:a980298c515df1b3e0934b3c7a9d8a4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aff0bbf5bcb30f0d5db072352c8c5e237">setType</a> (int value)</td></tr>
 <tr class="memdesc:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type of reconstructed particle. Check/set collection parameters ReconstructedParticleTypeNames and ReconstructedParticleTypeValues.  <a href="#aff0bbf5bcb30f0d5db072352c8c5e237">More...</a><br /></td></tr>
 <tr class="separator:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb9bbd7a51dcd0822d5056e339d6814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aedb9bbd7a51dcd0822d5056e339d6814">setEnergy</a> (float value)</td></tr>
-<tr class="memdesc:aedb9bbd7a51dcd0822d5056e339d6814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] energy of the reconstructed particle.  <a href="#aedb9bbd7a51dcd0822d5056e339d6814">More...</a><br /></td></tr>
+<tr class="memdesc:aedb9bbd7a51dcd0822d5056e339d6814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally.  <a href="#aedb9bbd7a51dcd0822d5056e339d6814">More...</a><br /></td></tr>
 <tr class="separator:aedb9bbd7a51dcd0822d5056e339d6814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a416e39bed1fd67b6e3fcf1628cdf1ef1">setMomentum</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#a416e39bed1fd67b6e3fcf1628cdf1ef1">More...</a><br /></td></tr>
+<tr class="separator:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa576f495570928bd28b22d41ffad8ea1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa576f495570928bd28b22d41ffad8ea1">momentum</a> ()</td></tr>
-<tr class="memdesc:aa576f495570928bd28b22d41ffad8ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [GeV] particle momentum.  <a href="#aa576f495570928bd28b22d41ffad8ea1">More...</a><br /></td></tr>
+<tr class="memdesc:aa576f495570928bd28b22d41ffad8ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#aa576f495570928bd28b22d41ffad8ea1">More...</a><br /></td></tr>
 <tr class="separator:aa576f495570928bd28b22d41ffad8ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada4bae0206c6f41a014a345b368d7c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ada4bae0206c6f41a014a345b368d7c30">setMomentum</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:ada4bae0206c6f41a014a345b368d7c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] particle momentum.  <a href="#ada4bae0206c6f41a014a345b368d7c30">More...</a><br /></td></tr>
-<tr class="separator:ada4bae0206c6f41a014a345b368d7c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ae713b425cd8fba7eeec17cf60ca8e2f0">setReferencePoint</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] reference, i.e. where the particle has been measured.  <a href="#ae713b425cd8fba7eeec17cf60ca8e2f0">More...</a><br /></td></tr>
+<tr class="separator:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1477f3d6dfef5e967ac82573e4f7c610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1477f3d6dfef5e967ac82573e4f7c610">referencePoint</a> ()</td></tr>
-<tr class="memdesc:a1477f3d6dfef5e967ac82573e4f7c610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [mm] reference, i.e. where the particle has been measured.  <a href="#a1477f3d6dfef5e967ac82573e4f7c610">More...</a><br /></td></tr>
+<tr class="memdesc:a1477f3d6dfef5e967ac82573e4f7c610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [mm] reference, i.e. where the particle has been measured.  <a href="#a1477f3d6dfef5e967ac82573e4f7c610">More...</a><br /></td></tr>
 <tr class="separator:a1477f3d6dfef5e967ac82573e4f7c610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79bf96e79793c307680106e4cbb3ffc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a79bf96e79793c307680106e4cbb3ffc1">setReferencePoint</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a79bf96e79793c307680106e4cbb3ffc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] reference, i.e. where the particle has been measured.  <a href="#a79bf96e79793c307680106e4cbb3ffc1">More...</a><br /></td></tr>
-<tr class="separator:a79bf96e79793c307680106e4cbb3ffc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9e1e2ffdb22cfe2d9c86b33083cb16c9">setCharge</a> (float value)</td></tr>
 <tr class="memdesc:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the charge of the reconstructed particle.  <a href="#a9e1e2ffdb22cfe2d9c86b33083cb16c9">More...</a><br /></td></tr>
 <tr class="separator:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b66cd40e4f1051419ca1394d358a7e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0b66cd40e4f1051419ca1394d358a7e7">setMass</a> (float value)</td></tr>
-<tr class="memdesc:a0b66cd40e4f1051419ca1394d358a7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] mass of the reconstructed particle, set independently from four vector.  <a href="#a0b66cd40e4f1051419ca1394d358a7e7">More...</a><br /></td></tr>
+<tr class="memdesc:a0b66cd40e4f1051419ca1394d358a7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally.  <a href="#a0b66cd40e4f1051419ca1394d358a7e7">More...</a><br /></td></tr>
 <tr class="separator:a0b66cd40e4f1051419ca1394d358a7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a857b9eae8b449efd07381c50a7f3c15b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a857b9eae8b449efd07381c50a7f3c15b">setGoodnessOfPID</a> (float value)</td></tr>
 <tr class="memdesc:a857b9eae8b449efd07381c50a7f3c15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the overall goodness of the PID on a scale of [0;1].  <a href="#a857b9eae8b449efd07381c50a7f3c15b">More...</a><br /></td></tr>
@@ -225,54 +225,64 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad56de8cf85d50c272198272e879c94d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#ad56de8cf85d50c272198272e879c94d5">More...</a><br /></td></tr>
 <tr class="separator:ad56de8cf85d50c272198272e879c94d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749f562751cc23223235d34b50fb6b39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a749f562751cc23223235d34b50fb6b39">setCovMatrix</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:a749f562751cc23223235d34b50fb6b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a749f562751cc23223235d34b50fb6b39">More...</a><br /></td></tr>
 <tr class="separator:a749f562751cc23223235d34b50fb6b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b885a104932a4648b53690f4385556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af6b885a104932a4648b53690f4385556">setStartVertex</a> (<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> value)</td></tr>
-<tr class="memdesc:af6b885a104932a4648b53690f4385556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the start vertex associated to this particle.  <a href="#af6b885a104932a4648b53690f4385556">More...</a><br /></td></tr>
-<tr class="separator:af6b885a104932a4648b53690f4385556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7410167ca8281fdefe0a726146ab82ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a7410167ca8281fdefe0a726146ab82ff">setParticleIDUsed</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> value)</td></tr>
-<tr class="memdesc:a7410167ca8281fdefe0a726146ab82ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle Id used for the kinematics of this particle.  <a href="#a7410167ca8281fdefe0a726146ab82ff">More...</a><br /></td></tr>
-<tr class="separator:a7410167ca8281fdefe0a726146ab82ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76c77259f3d072c0579bac37c518b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af76c77259f3d072c0579bac37c518b80">addToClusters</a> (<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
-<tr class="separator:af76c77259f3d072c0579bac37c518b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eed37cee08d30b20bf2744ce3003e50"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 10 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a5eed37cee08d30b20bf2744ce3003e50">covMatrix</a> ()</td></tr>
+<tr class="memdesc:a5eed37cee08d30b20bf2744ce3003e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a5eed37cee08d30b20bf2744ce3003e50">More...</a><br /></td></tr>
+<tr class="separator:a5eed37cee08d30b20bf2744ce3003e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d584d7f5b18c563d9aea5451bdac44c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1d584d7f5b18c563d9aea5451bdac44c">setStartVertex</a> (::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> value)</td></tr>
+<tr class="memdesc:a1d584d7f5b18c563d9aea5451bdac44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the start vertex associated to this particle.  <a href="#a1d584d7f5b18c563d9aea5451bdac44c">More...</a><br /></td></tr>
+<tr class="separator:a1d584d7f5b18c563d9aea5451bdac44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd38f68f539ba9a0684a4fbff36d200"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1fd38f68f539ba9a0684a4fbff36d200">setParticleIDUsed</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> value)</td></tr>
+<tr class="memdesc:a1fd38f68f539ba9a0684a4fbff36d200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle Id used for the kinematics of this particle.  <a href="#a1fd38f68f539ba9a0684a4fbff36d200">More...</a><br /></td></tr>
+<tr class="separator:a1fd38f68f539ba9a0684a4fbff36d200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898345e33acbd7831c0832af42104e0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a898345e33acbd7831c0832af42104e0d">addToClusters</a> (::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
+<tr class="separator:a898345e33acbd7831c0832af42104e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fac62dafd2af40f82bbe96e3cdf4f7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac6fac62dafd2af40f82bbe96e3cdf4f7">clusters_size</a> () const</td></tr>
 <tr class="separator:ac6fac62dafd2af40f82bbe96e3cdf4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82cbdff8533298087db7781804866175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a82cbdff8533298087db7781804866175">getClusters</a> (unsigned int) const</td></tr>
+<tr class="memitem:a82cbdff8533298087db7781804866175"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a82cbdff8533298087db7781804866175">getClusters</a> (unsigned int) const</td></tr>
 <tr class="separator:a82cbdff8533298087db7781804866175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad46b5a100a5a129d9444fbdbdb166a73"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad46b5a100a5a129d9444fbdbdb166a73">clusters_begin</a> () const</td></tr>
-<tr class="separator:ad46b5a100a5a129d9444fbdbdb166a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e4b5a3e6c37eec4dc951acb1f4a27b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a83e4b5a3e6c37eec4dc951acb1f4a27b">clusters_end</a> () const</td></tr>
-<tr class="separator:a83e4b5a3e6c37eec4dc951acb1f4a27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad391852b4f0b59a95cf98574955f18e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad391852b4f0b59a95cf98574955f18e1">addToTracks</a> (<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>)</td></tr>
-<tr class="separator:ad391852b4f0b59a95cf98574955f18e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd5371f29ac7678cb6421266b623ed7d"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#abd5371f29ac7678cb6421266b623ed7d">clusters_begin</a> () const</td></tr>
+<tr class="separator:abd5371f29ac7678cb6421266b623ed7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721fffe6883ba361c667bc90fb42fd4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a721fffe6883ba361c667bc90fb42fd4a">clusters_end</a> () const</td></tr>
+<tr class="separator:a721fffe6883ba361c667bc90fb42fd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ca03240dc16b984f26cc5f6e5b25c9"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a01ca03240dc16b984f26cc5f6e5b25c9">getClusters</a> () const</td></tr>
+<tr class="separator:a01ca03240dc16b984f26cc5f6e5b25c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9922fe326364f1260b774b21b137ca01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9922fe326364f1260b774b21b137ca01">addToTracks</a> (::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>)</td></tr>
+<tr class="separator:a9922fe326364f1260b774b21b137ca01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7955efb67c44e5cbf57df26fc99a367e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a7955efb67c44e5cbf57df26fc99a367e">tracks_size</a> () const</td></tr>
 <tr class="separator:a7955efb67c44e5cbf57df26fc99a367e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f2e690877fb4d4edc9aeb841d115845"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2f2e690877fb4d4edc9aeb841d115845">getTracks</a> (unsigned int) const</td></tr>
+<tr class="memitem:a2f2e690877fb4d4edc9aeb841d115845"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2f2e690877fb4d4edc9aeb841d115845">getTracks</a> (unsigned int) const</td></tr>
 <tr class="separator:a2f2e690877fb4d4edc9aeb841d115845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb6e358abd66935f242144f6ee77997c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#afb6e358abd66935f242144f6ee77997c">tracks_begin</a> () const</td></tr>
-<tr class="separator:afb6e358abd66935f242144f6ee77997c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd5919550b9d2c420e95a9f99b9200d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a6fd5919550b9d2c420e95a9f99b9200d">tracks_end</a> () const</td></tr>
-<tr class="separator:a6fd5919550b9d2c420e95a9f99b9200d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a990e5d3133409ee05aeffba34bf17f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1a990e5d3133409ee05aeffba34bf17f">addToParticles</a> (<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>)</td></tr>
-<tr class="separator:a1a990e5d3133409ee05aeffba34bf17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80570118969036e002efa817269ff3f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a80570118969036e002efa817269ff3f0">tracks_begin</a> () const</td></tr>
+<tr class="separator:a80570118969036e002efa817269ff3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd8760cd089325b26a4ed47c283e0bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#abdd8760cd089325b26a4ed47c283e0bd">tracks_end</a> () const</td></tr>
+<tr class="separator:abdd8760cd089325b26a4ed47c283e0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b99e6ed37ebc72cf2434a6a89e6967"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad8b99e6ed37ebc72cf2434a6a89e6967">getTracks</a> () const</td></tr>
+<tr class="separator:ad8b99e6ed37ebc72cf2434a6a89e6967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af839d41868a405165bbb3f78c4e50b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af839d41868a405165bbb3f78c4e50b5a">addToParticles</a> (::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>)</td></tr>
+<tr class="separator:af839d41868a405165bbb3f78c4e50b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c3c988882e472b5a3a47621114a9a2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a54c3c988882e472b5a3a47621114a9a2">particles_size</a> () const</td></tr>
 <tr class="separator:a54c3c988882e472b5a3a47621114a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e3f52b3bc417578f8ac87963ad6d95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad3e3f52b3bc417578f8ac87963ad6d95">getParticles</a> (unsigned int) const</td></tr>
+<tr class="memitem:ad3e3f52b3bc417578f8ac87963ad6d95"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad3e3f52b3bc417578f8ac87963ad6d95">getParticles</a> (unsigned int) const</td></tr>
 <tr class="separator:ad3e3f52b3bc417578f8ac87963ad6d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce1a43de7db3942c9d7e714b8a01ba1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a4ce1a43de7db3942c9d7e714b8a01ba1">particles_begin</a> () const</td></tr>
-<tr class="separator:a4ce1a43de7db3942c9d7e714b8a01ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70853c0e522850fb789fe7fbb5ce6d9a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a70853c0e522850fb789fe7fbb5ce6d9a">particles_end</a> () const</td></tr>
-<tr class="separator:a70853c0e522850fb789fe7fbb5ce6d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8be66faf5c0df15d8ec5097e1880742a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8be66faf5c0df15d8ec5097e1880742a">addToParticleIDs</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
-<tr class="separator:a8be66faf5c0df15d8ec5097e1880742a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dad798267ba959526f773f153ed7243"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2dad798267ba959526f773f153ed7243">particles_begin</a> () const</td></tr>
+<tr class="separator:a2dad798267ba959526f773f153ed7243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb3f84a44fea59fc95e28f4faa49c082"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#acb3f84a44fea59fc95e28f4faa49c082">particles_end</a> () const</td></tr>
+<tr class="separator:acb3f84a44fea59fc95e28f4faa49c082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f392a067ef25dcf101fd20ebd48d157"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9f392a067ef25dcf101fd20ebd48d157">getParticles</a> () const</td></tr>
+<tr class="separator:a9f392a067ef25dcf101fd20ebd48d157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1db959e7de14de47251d1b3406a2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aca1db959e7de14de47251d1b3406a2ca">addToParticleIDs</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
+<tr class="separator:aca1db959e7de14de47251d1b3406a2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfe1f3681d652a74bc6f396e1ab2eac2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adfe1f3681d652a74bc6f396e1ab2eac2">particleIDs_size</a> () const</td></tr>
 <tr class="separator:adfe1f3681d652a74bc6f396e1ab2eac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bd56e6b66e7a484c7b36c0dd20ecfcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0bd56e6b66e7a484c7b36c0dd20ecfcf">getParticleIDs</a> (unsigned int) const</td></tr>
+<tr class="memitem:a0bd56e6b66e7a484c7b36c0dd20ecfcf"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0bd56e6b66e7a484c7b36c0dd20ecfcf">getParticleIDs</a> (unsigned int) const</td></tr>
 <tr class="separator:a0bd56e6b66e7a484c7b36c0dd20ecfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3ece94c87915e8b15b66d49b1e31d96"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac3ece94c87915e8b15b66d49b1e31d96">particleIDs_begin</a> () const</td></tr>
-<tr class="separator:ac3ece94c87915e8b15b66d49b1e31d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a419ea23fc2954276ae0e41cbb50336de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a419ea23fc2954276ae0e41cbb50336de">particleIDs_end</a> () const</td></tr>
-<tr class="separator:a419ea23fc2954276ae0e41cbb50336de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9a8f5eeced2e55cbd99fdf85c21f12"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#acf9a8f5eeced2e55cbd99fdf85c21f12">particleIDs_begin</a> () const</td></tr>
+<tr class="separator:acf9a8f5eeced2e55cbd99fdf85c21f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee22758801493663d531c66e3d9b05d"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a3ee22758801493663d531c66e3d9b05d">particleIDs_end</a> () const</td></tr>
+<tr class="separator:a3ee22758801493663d531c66e3d9b05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e56620926d3e4c380cd2d26b9a7f861"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9e56620926d3e4c380cd2d26b9a7f861">getParticleIDs</a> () const</td></tr>
+<tr class="separator:a9e56620926d3e4c380cd2d26b9a7f861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c2cf3c40bffa637afaf29c488567dd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2c2cf3c40bffa637afaf29c488567dd9">isCompound</a> ()</td></tr>
 <tr class="separator:a2c2cf3c40bffa637afaf29c488567dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa31a73ed7f455707d6e94abc3a65337f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa31a73ed7f455707d6e94abc3a65337f">isAvailable</a> () const</td></tr>
@@ -294,7 +304,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf4c972e4e875d9608e87b298740e463"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adf4c972e4e875d9608e87b298740e463">ReconstructedParticle</a> ()</td></tr>
 <tr class="memdesc:adf4c972e4e875d9608e87b298740e463"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#adf4c972e4e875d9608e87b298740e463">More...</a><br /></td></tr>
 <tr class="separator:adf4c972e4e875d9608e87b298740e463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf3296928adc805db4add4ca025be5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8bf3296928adc805db4add4ca025be5e">ReconstructedParticle</a> (int type, float energy, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa576f495570928bd28b22d41ffad8ea1">momentum</a>, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1477f3d6dfef5e967ac82573e4f7c610">referencePoint</a>, float charge, float mass, float goodnessOfPID, std::array&lt; float, 10 &gt; covMatrix)</td></tr>
+<tr class="memitem:a8bf3296928adc805db4add4ca025be5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8bf3296928adc805db4add4ca025be5e">ReconstructedParticle</a> (int type, float energy, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa576f495570928bd28b22d41ffad8ea1">momentum</a>, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1477f3d6dfef5e967ac82573e4f7c610">referencePoint</a>, float charge, float mass, float goodnessOfPID, std::array&lt; float, 10 &gt; <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a5eed37cee08d30b20bf2744ce3003e50">covMatrix</a>)</td></tr>
 <tr class="separator:a8bf3296928adc805db4add4ca025be5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59ab2f3cb73e0c72ce4460c2ec2408b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a59ab2f3cb73e0c72ce4460c2ec2408b7">ReconstructedParticle</a> (<a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a> *obj)</td></tr>
 <tr class="memdesc:a59ab2f3cb73e0c72ce4460c2ec2408b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a>  <a href="#a59ab2f3cb73e0c72ce4460c2ec2408b7">More...</a><br /></td></tr>
@@ -318,10 +328,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3acab32be36ca51a3ff5d5de964f244e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the type of reconstructed particle. Check/set collection parameters ReconstructedParticleTypeNames and ReconstructedParticleTypeValues.  <a href="#a3acab32be36ca51a3ff5d5de964f244e">More...</a><br /></td></tr>
 <tr class="separator:a3acab32be36ca51a3ff5d5de964f244e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3797ed91629c33d60c36703aef0cd98"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac3797ed91629c33d60c36703aef0cd98">getEnergy</a> () const</td></tr>
-<tr class="memdesc:ac3797ed91629c33d60c36703aef0cd98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] energy of the reconstructed particle.  <a href="#ac3797ed91629c33d60c36703aef0cd98">More...</a><br /></td></tr>
+<tr class="memdesc:ac3797ed91629c33d60c36703aef0cd98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally.  <a href="#ac3797ed91629c33d60c36703aef0cd98">More...</a><br /></td></tr>
 <tr class="separator:ac3797ed91629c33d60c36703aef0cd98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e72bb12e3be88f41bfb834ee85e57c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a3e72bb12e3be88f41bfb834ee85e57c5">getMomentum</a> () const</td></tr>
-<tr class="memdesc:a3e72bb12e3be88f41bfb834ee85e57c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] particle momentum.  <a href="#a3e72bb12e3be88f41bfb834ee85e57c5">More...</a><br /></td></tr>
+<tr class="memdesc:a3e72bb12e3be88f41bfb834ee85e57c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#a3e72bb12e3be88f41bfb834ee85e57c5">More...</a><br /></td></tr>
 <tr class="separator:a3e72bb12e3be88f41bfb834ee85e57c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e1fac1985090bdd4f575f9cf8d42ea"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a74e1fac1985090bdd4f575f9cf8d42ea">getReferencePoint</a> () const</td></tr>
 <tr class="memdesc:a74e1fac1985090bdd4f575f9cf8d42ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [mm] reference, i.e. where the particle has been measured.  <a href="#a74e1fac1985090bdd4f575f9cf8d42ea">More...</a><br /></td></tr>
@@ -330,7 +340,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af15685b192b560b207a3703fc2ed09e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the charge of the reconstructed particle.  <a href="#af15685b192b560b207a3703fc2ed09e5">More...</a><br /></td></tr>
 <tr class="separator:af15685b192b560b207a3703fc2ed09e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b7e0f639bfcb399c0588fae76281194"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9b7e0f639bfcb399c0588fae76281194">getMass</a> () const</td></tr>
-<tr class="memdesc:a9b7e0f639bfcb399c0588fae76281194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] mass of the reconstructed particle, set independently from four vector.  <a href="#a9b7e0f639bfcb399c0588fae76281194">More...</a><br /></td></tr>
+<tr class="memdesc:a9b7e0f639bfcb399c0588fae76281194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally.  <a href="#a9b7e0f639bfcb399c0588fae76281194">More...</a><br /></td></tr>
 <tr class="separator:a9b7e0f639bfcb399c0588fae76281194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08833acf4237a31d39f3db57b9679656"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a08833acf4237a31d39f3db57b9679656">getGoodnessOfPID</a> () const</td></tr>
 <tr class="memdesc:a08833acf4237a31d39f3db57b9679656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the overall goodness of the PID on a scale of [0;1].  <a href="#a08833acf4237a31d39f3db57b9679656">More...</a><br /></td></tr>
@@ -339,37 +349,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3c0dd7b12c522d212029269490170abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a3c0dd7b12c522d212029269490170abe">More...</a><br /></td></tr>
 <tr class="separator:a3c0dd7b12c522d212029269490170abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e0223c5fa356de5b5837d5c0ff6712"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a60e0223c5fa356de5b5837d5c0ff6712">getCovMatrix</a> (size_t i) const</td></tr>
-<tr class="memdesc:a60e0223c5fa356de5b5837d5c0ff6712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a60e0223c5fa356de5b5837d5c0ff6712">More...</a><br /></td></tr>
+<tr class="memdesc:a60e0223c5fa356de5b5837d5c0ff6712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a60e0223c5fa356de5b5837d5c0ff6712">More...</a><br /></td></tr>
 <tr class="separator:a60e0223c5fa356de5b5837d5c0ff6712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a499c98adf28fc4da569560b3936c0422"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a499c98adf28fc4da569560b3936c0422">getStartVertex</a> () const</td></tr>
-<tr class="memdesc:a499c98adf28fc4da569560b3936c0422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the start vertex associated to this particle.  <a href="#a499c98adf28fc4da569560b3936c0422">More...</a><br /></td></tr>
-<tr class="separator:a499c98adf28fc4da569560b3936c0422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018719fc13be911bc1c6dbb1e987d603"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a018719fc13be911bc1c6dbb1e987d603">getParticleIDUsed</a> () const</td></tr>
-<tr class="memdesc:a018719fc13be911bc1c6dbb1e987d603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the particle Id used for the kinematics of this particle.  <a href="#a018719fc13be911bc1c6dbb1e987d603">More...</a><br /></td></tr>
-<tr class="separator:a018719fc13be911bc1c6dbb1e987d603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3eaa85c366fc7c1ab77623dcd9d12a"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adf3eaa85c366fc7c1ab77623dcd9d12a">getStartVertex</a> () const</td></tr>
+<tr class="memdesc:adf3eaa85c366fc7c1ab77623dcd9d12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the start vertex associated to this particle.  <a href="#adf3eaa85c366fc7c1ab77623dcd9d12a">More...</a><br /></td></tr>
+<tr class="separator:adf3eaa85c366fc7c1ab77623dcd9d12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73b29013d1c9850f5771ea85493b905"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac73b29013d1c9850f5771ea85493b905">getParticleIDUsed</a> () const</td></tr>
+<tr class="memdesc:ac73b29013d1c9850f5771ea85493b905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the particle Id used for the kinematics of this particle.  <a href="#ac73b29013d1c9850f5771ea85493b905">More...</a><br /></td></tr>
+<tr class="separator:ac73b29013d1c9850f5771ea85493b905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aff0bbf5bcb30f0d5db072352c8c5e237">setType</a> (int value)</td></tr>
 <tr class="memdesc:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type of reconstructed particle. Check/set collection parameters ReconstructedParticleTypeNames and ReconstructedParticleTypeValues.  <a href="#aff0bbf5bcb30f0d5db072352c8c5e237">More...</a><br /></td></tr>
 <tr class="separator:aff0bbf5bcb30f0d5db072352c8c5e237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb9bbd7a51dcd0822d5056e339d6814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aedb9bbd7a51dcd0822d5056e339d6814">setEnergy</a> (float value)</td></tr>
-<tr class="memdesc:aedb9bbd7a51dcd0822d5056e339d6814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] energy of the reconstructed particle.  <a href="#aedb9bbd7a51dcd0822d5056e339d6814">More...</a><br /></td></tr>
+<tr class="memdesc:aedb9bbd7a51dcd0822d5056e339d6814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally.  <a href="#aedb9bbd7a51dcd0822d5056e339d6814">More...</a><br /></td></tr>
 <tr class="separator:aedb9bbd7a51dcd0822d5056e339d6814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a416e39bed1fd67b6e3fcf1628cdf1ef1">setMomentum</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#a416e39bed1fd67b6e3fcf1628cdf1ef1">More...</a><br /></td></tr>
+<tr class="separator:a416e39bed1fd67b6e3fcf1628cdf1ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d485456992aa846242ab9db8fb5355c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a3d485456992aa846242ab9db8fb5355c">momentum</a> ()</td></tr>
-<tr class="memdesc:a3d485456992aa846242ab9db8fb5355c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [GeV] particle momentum.  <a href="#a3d485456992aa846242ab9db8fb5355c">More...</a><br /></td></tr>
+<tr class="memdesc:a3d485456992aa846242ab9db8fb5355c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [GeV] particle momentum. Four momentum state is not kept consistent internally.  <a href="#a3d485456992aa846242ab9db8fb5355c">More...</a><br /></td></tr>
 <tr class="separator:a3d485456992aa846242ab9db8fb5355c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada4bae0206c6f41a014a345b368d7c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ada4bae0206c6f41a014a345b368d7c30">setMomentum</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:ada4bae0206c6f41a014a345b368d7c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] particle momentum.  <a href="#ada4bae0206c6f41a014a345b368d7c30">More...</a><br /></td></tr>
-<tr class="separator:ada4bae0206c6f41a014a345b368d7c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ae713b425cd8fba7eeec17cf60ca8e2f0">setReferencePoint</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] reference, i.e. where the particle has been measured.  <a href="#ae713b425cd8fba7eeec17cf60ca8e2f0">More...</a><br /></td></tr>
+<tr class="separator:ae713b425cd8fba7eeec17cf60ca8e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af377795085b22d3f469ad237d5748efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af377795085b22d3f469ad237d5748efb">referencePoint</a> ()</td></tr>
-<tr class="memdesc:af377795085b22d3f469ad237d5748efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [mm] reference, i.e. where the particle has been measured.  <a href="#af377795085b22d3f469ad237d5748efb">More...</a><br /></td></tr>
+<tr class="memdesc:af377795085b22d3f469ad237d5748efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [mm] reference, i.e. where the particle has been measured.  <a href="#af377795085b22d3f469ad237d5748efb">More...</a><br /></td></tr>
 <tr class="separator:af377795085b22d3f469ad237d5748efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79bf96e79793c307680106e4cbb3ffc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a79bf96e79793c307680106e4cbb3ffc1">setReferencePoint</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:a79bf96e79793c307680106e4cbb3ffc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] reference, i.e. where the particle has been measured.  <a href="#a79bf96e79793c307680106e4cbb3ffc1">More...</a><br /></td></tr>
-<tr class="separator:a79bf96e79793c307680106e4cbb3ffc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9e1e2ffdb22cfe2d9c86b33083cb16c9">setCharge</a> (float value)</td></tr>
 <tr class="memdesc:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the charge of the reconstructed particle.  <a href="#a9e1e2ffdb22cfe2d9c86b33083cb16c9">More...</a><br /></td></tr>
 <tr class="separator:a9e1e2ffdb22cfe2d9c86b33083cb16c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b66cd40e4f1051419ca1394d358a7e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0b66cd40e4f1051419ca1394d358a7e7">setMass</a> (float value)</td></tr>
-<tr class="memdesc:a0b66cd40e4f1051419ca1394d358a7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] mass of the reconstructed particle, set independently from four vector.  <a href="#a0b66cd40e4f1051419ca1394d358a7e7">More...</a><br /></td></tr>
+<tr class="memdesc:a0b66cd40e4f1051419ca1394d358a7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally.  <a href="#a0b66cd40e4f1051419ca1394d358a7e7">More...</a><br /></td></tr>
 <tr class="separator:a0b66cd40e4f1051419ca1394d358a7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a857b9eae8b449efd07381c50a7f3c15b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a857b9eae8b449efd07381c50a7f3c15b">setGoodnessOfPID</a> (float value)</td></tr>
 <tr class="memdesc:a857b9eae8b449efd07381c50a7f3c15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the overall goodness of the PID on a scale of [0;1].  <a href="#a857b9eae8b449efd07381c50a7f3c15b">More...</a><br /></td></tr>
@@ -378,54 +388,64 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad56de8cf85d50c272198272e879c94d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#ad56de8cf85d50c272198272e879c94d5">More...</a><br /></td></tr>
 <tr class="separator:ad56de8cf85d50c272198272e879c94d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749f562751cc23223235d34b50fb6b39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a749f562751cc23223235d34b50fb6b39">setCovMatrix</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:a749f562751cc23223235d34b50fb6b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a749f562751cc23223235d34b50fb6b39">More...</a><br /></td></tr>
 <tr class="separator:a749f562751cc23223235d34b50fb6b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b885a104932a4648b53690f4385556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af6b885a104932a4648b53690f4385556">setStartVertex</a> (<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> value)</td></tr>
-<tr class="memdesc:af6b885a104932a4648b53690f4385556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the start vertex associated to this particle.  <a href="#af6b885a104932a4648b53690f4385556">More...</a><br /></td></tr>
-<tr class="separator:af6b885a104932a4648b53690f4385556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7410167ca8281fdefe0a726146ab82ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a7410167ca8281fdefe0a726146ab82ff">setParticleIDUsed</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> value)</td></tr>
-<tr class="memdesc:a7410167ca8281fdefe0a726146ab82ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle Id used for the kinematics of this particle.  <a href="#a7410167ca8281fdefe0a726146ab82ff">More...</a><br /></td></tr>
-<tr class="separator:a7410167ca8281fdefe0a726146ab82ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76c77259f3d072c0579bac37c518b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af76c77259f3d072c0579bac37c518b80">addToClusters</a> (<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
-<tr class="separator:af76c77259f3d072c0579bac37c518b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d30ede37dc59e378f568eaee8bf88b"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 10 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a67d30ede37dc59e378f568eaee8bf88b">covMatrix</a> ()</td></tr>
+<tr class="memdesc:a67d30ede37dc59e378f568eaee8bf88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##.  <a href="#a67d30ede37dc59e378f568eaee8bf88b">More...</a><br /></td></tr>
+<tr class="separator:a67d30ede37dc59e378f568eaee8bf88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d584d7f5b18c563d9aea5451bdac44c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1d584d7f5b18c563d9aea5451bdac44c">setStartVertex</a> (::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> value)</td></tr>
+<tr class="memdesc:a1d584d7f5b18c563d9aea5451bdac44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the start vertex associated to this particle.  <a href="#a1d584d7f5b18c563d9aea5451bdac44c">More...</a><br /></td></tr>
+<tr class="separator:a1d584d7f5b18c563d9aea5451bdac44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd38f68f539ba9a0684a4fbff36d200"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1fd38f68f539ba9a0684a4fbff36d200">setParticleIDUsed</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> value)</td></tr>
+<tr class="memdesc:a1fd38f68f539ba9a0684a4fbff36d200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the particle Id used for the kinematics of this particle.  <a href="#a1fd38f68f539ba9a0684a4fbff36d200">More...</a><br /></td></tr>
+<tr class="separator:a1fd38f68f539ba9a0684a4fbff36d200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898345e33acbd7831c0832af42104e0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a898345e33acbd7831c0832af42104e0d">addToClusters</a> (::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>)</td></tr>
+<tr class="separator:a898345e33acbd7831c0832af42104e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fac62dafd2af40f82bbe96e3cdf4f7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac6fac62dafd2af40f82bbe96e3cdf4f7">clusters_size</a> () const</td></tr>
 <tr class="separator:ac6fac62dafd2af40f82bbe96e3cdf4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82cbdff8533298087db7781804866175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a82cbdff8533298087db7781804866175">getClusters</a> (unsigned int) const</td></tr>
-<tr class="separator:a82cbdff8533298087db7781804866175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be2a6708d6a2857872a36b925af84d4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a3be2a6708d6a2857872a36b925af84d4">clusters_begin</a> () const</td></tr>
-<tr class="separator:a3be2a6708d6a2857872a36b925af84d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbe4bb9a0efa3516803bf99ceadd74d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adbe4bb9a0efa3516803bf99ceadd74d0">clusters_end</a> () const</td></tr>
-<tr class="separator:adbe4bb9a0efa3516803bf99ceadd74d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad391852b4f0b59a95cf98574955f18e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad391852b4f0b59a95cf98574955f18e1">addToTracks</a> (<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>)</td></tr>
-<tr class="separator:ad391852b4f0b59a95cf98574955f18e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5da3998dd8441b55b0142a4713660c"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aab5da3998dd8441b55b0142a4713660c">getClusters</a> (unsigned int) const</td></tr>
+<tr class="separator:aab5da3998dd8441b55b0142a4713660c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e732d3dde4d6af73198d5e7077a4fe"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a98e732d3dde4d6af73198d5e7077a4fe">clusters_begin</a> () const</td></tr>
+<tr class="separator:a98e732d3dde4d6af73198d5e7077a4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac685d2877552e4593d4ad6b83ec851ba"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac685d2877552e4593d4ad6b83ec851ba">clusters_end</a> () const</td></tr>
+<tr class="separator:ac685d2877552e4593d4ad6b83ec851ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd7f7583e91fca08934ce2c99e9b8e0"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1bd7f7583e91fca08934ce2c99e9b8e0">getClusters</a> () const</td></tr>
+<tr class="separator:a1bd7f7583e91fca08934ce2c99e9b8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9922fe326364f1260b774b21b137ca01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a9922fe326364f1260b774b21b137ca01">addToTracks</a> (::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>)</td></tr>
+<tr class="separator:a9922fe326364f1260b774b21b137ca01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7955efb67c44e5cbf57df26fc99a367e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a7955efb67c44e5cbf57df26fc99a367e">tracks_size</a> () const</td></tr>
 <tr class="separator:a7955efb67c44e5cbf57df26fc99a367e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f2e690877fb4d4edc9aeb841d115845"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2f2e690877fb4d4edc9aeb841d115845">getTracks</a> (unsigned int) const</td></tr>
-<tr class="separator:a2f2e690877fb4d4edc9aeb841d115845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7257ccd5a0051be7af62acec214f9487"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a7257ccd5a0051be7af62acec214f9487">tracks_begin</a> () const</td></tr>
-<tr class="separator:a7257ccd5a0051be7af62acec214f9487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d1f5e5d9971f614b3f0c15c7afd98a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ac3d1f5e5d9971f614b3f0c15c7afd98a">tracks_end</a> () const</td></tr>
-<tr class="separator:ac3d1f5e5d9971f614b3f0c15c7afd98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a990e5d3133409ee05aeffba34bf17f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1a990e5d3133409ee05aeffba34bf17f">addToParticles</a> (<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>)</td></tr>
-<tr class="separator:a1a990e5d3133409ee05aeffba34bf17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfa3716401576372f857672c3f1e755"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a5cfa3716401576372f857672c3f1e755">getTracks</a> (unsigned int) const</td></tr>
+<tr class="separator:a5cfa3716401576372f857672c3f1e755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363e8312aa5ffe5a47f92970ce72dfa3"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a363e8312aa5ffe5a47f92970ce72dfa3">tracks_begin</a> () const</td></tr>
+<tr class="separator:a363e8312aa5ffe5a47f92970ce72dfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4722a60d3075803dcfe213438dcf8b28"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a4722a60d3075803dcfe213438dcf8b28">tracks_end</a> () const</td></tr>
+<tr class="separator:a4722a60d3075803dcfe213438dcf8b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa569fb3d299820e65326db6415f4fe"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a6fa569fb3d299820e65326db6415f4fe">getTracks</a> () const</td></tr>
+<tr class="separator:a6fa569fb3d299820e65326db6415f4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af839d41868a405165bbb3f78c4e50b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#af839d41868a405165bbb3f78c4e50b5a">addToParticles</a> (::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>)</td></tr>
+<tr class="separator:af839d41868a405165bbb3f78c4e50b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c3c988882e472b5a3a47621114a9a2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a54c3c988882e472b5a3a47621114a9a2">particles_size</a> () const</td></tr>
 <tr class="separator:a54c3c988882e472b5a3a47621114a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e3f52b3bc417578f8ac87963ad6d95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad3e3f52b3bc417578f8ac87963ad6d95">getParticles</a> (unsigned int) const</td></tr>
-<tr class="separator:ad3e3f52b3bc417578f8ac87963ad6d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b39773ab811349689d8a7d0f492471"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a66b39773ab811349689d8a7d0f492471">particles_begin</a> () const</td></tr>
-<tr class="separator:a66b39773ab811349689d8a7d0f492471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfe969317aad12d722df0d8c258a992"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#abcfe969317aad12d722df0d8c258a992">particles_end</a> () const</td></tr>
-<tr class="separator:abcfe969317aad12d722df0d8c258a992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8be66faf5c0df15d8ec5097e1880742a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a8be66faf5c0df15d8ec5097e1880742a">addToParticleIDs</a> (<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
-<tr class="separator:a8be66faf5c0df15d8ec5097e1880742a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec94670f882a6af92717434aef16c70"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a6ec94670f882a6af92717434aef16c70">getParticles</a> (unsigned int) const</td></tr>
+<tr class="separator:a6ec94670f882a6af92717434aef16c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2f041ed119f565cfb2291f8f24e5eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ace2f041ed119f565cfb2291f8f24e5eb">particles_begin</a> () const</td></tr>
+<tr class="separator:ace2f041ed119f565cfb2291f8f24e5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aef212c198b1d2c63af9b06b0948481"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1aef212c198b1d2c63af9b06b0948481">particles_end</a> () const</td></tr>
+<tr class="separator:a1aef212c198b1d2c63af9b06b0948481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3355eb38392d93db7c86625141f3f96b"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a3355eb38392d93db7c86625141f3f96b">getParticles</a> () const</td></tr>
+<tr class="separator:a3355eb38392d93db7c86625141f3f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1db959e7de14de47251d1b3406a2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aca1db959e7de14de47251d1b3406a2ca">addToParticleIDs</a> (::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>)</td></tr>
+<tr class="separator:aca1db959e7de14de47251d1b3406a2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfe1f3681d652a74bc6f396e1ab2eac2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#adfe1f3681d652a74bc6f396e1ab2eac2">particleIDs_size</a> () const</td></tr>
 <tr class="separator:adfe1f3681d652a74bc6f396e1ab2eac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bd56e6b66e7a484c7b36c0dd20ecfcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a0bd56e6b66e7a484c7b36c0dd20ecfcf">getParticleIDs</a> (unsigned int) const</td></tr>
-<tr class="separator:a0bd56e6b66e7a484c7b36c0dd20ecfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8a7d3223cf468c35d7354d730531f36"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad8a7d3223cf468c35d7354d730531f36">particleIDs_begin</a> () const</td></tr>
-<tr class="separator:ad8a7d3223cf468c35d7354d730531f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92f09e2efa628f55e2f63a16f2efe8c2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a92f09e2efa628f55e2f63a16f2efe8c2">particleIDs_end</a> () const</td></tr>
-<tr class="separator:a92f09e2efa628f55e2f63a16f2efe8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d578c41fdfe3498a8e72bf0dbf3176"><td class="memItemLeft" align="right" valign="top">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a20d578c41fdfe3498a8e72bf0dbf3176">getParticleIDs</a> (unsigned int) const</td></tr>
+<tr class="separator:a20d578c41fdfe3498a8e72bf0dbf3176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80ad3e1ba8a093695177025872c2bf9"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ae80ad3e1ba8a093695177025872c2bf9">particleIDs_begin</a> () const</td></tr>
+<tr class="separator:ae80ad3e1ba8a093695177025872c2bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff59ee630c7673bcbb56a67b3e6b0ab"><td class="memItemLeft" align="right" valign="top">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aaff59ee630c7673bcbb56a67b3e6b0ab">particleIDs_end</a> () const</td></tr>
+<tr class="separator:aaff59ee630c7673bcbb56a67b3e6b0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86e4eca71ff236758996e5a9e2e0509"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ae86e4eca71ff236758996e5a9e2e0509">getParticleIDs</a> () const</td></tr>
+<tr class="separator:ae86e4eca71ff236758996e5a9e2e0509"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c2cf3c40bffa637afaf29c488567dd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a2c2cf3c40bffa637afaf29c488567dd9">isCompound</a> ()</td></tr>
 <tr class="separator:a2c2cf3c40bffa637afaf29c488567dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa31a73ed7f455707d6e94abc3a65337f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle.html#aa31a73ed7f455707d6e94abc3a65337f">isAvailable</a> () const</td></tr>
@@ -745,8 +765,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af76c77259f3d072c0579bac37c518b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af76c77259f3d072c0579bac37c518b80">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[1/2]</span></h2>
+<a id="a898345e33acbd7831c0832af42104e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898345e33acbd7831c0832af42104e0d">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -754,7 +774,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToClusters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -763,8 +783,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af76c77259f3d072c0579bac37c518b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af76c77259f3d072c0579bac37c518b80">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[2/2]</span></h2>
+<a id="a898345e33acbd7831c0832af42104e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898345e33acbd7831c0832af42104e0d">&#9670;&nbsp;</a></span>addToClusters() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -772,7 +792,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToClusters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -781,8 +801,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8be66faf5c0df15d8ec5097e1880742a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8be66faf5c0df15d8ec5097e1880742a">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[1/2]</span></h2>
+<a id="aca1db959e7de14de47251d1b3406a2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1db959e7de14de47251d1b3406a2ca">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -790,7 +810,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToParticleIDs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -799,8 +819,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8be66faf5c0df15d8ec5097e1880742a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8be66faf5c0df15d8ec5097e1880742a">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[2/2]</span></h2>
+<a id="aca1db959e7de14de47251d1b3406a2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1db959e7de14de47251d1b3406a2ca">&#9670;&nbsp;</a></span>addToParticleIDs() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,7 +828,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToParticleIDs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -817,8 +837,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a990e5d3133409ee05aeffba34bf17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a990e5d3133409ee05aeffba34bf17f">&#9670;&nbsp;</a></span>addToParticles() <span class="overload">[1/2]</span></h2>
+<a id="af839d41868a405165bbb3f78c4e50b5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af839d41868a405165bbb3f78c4e50b5a">&#9670;&nbsp;</a></span>addToParticles() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -826,7 +846,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToParticles </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -835,8 +855,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a990e5d3133409ee05aeffba34bf17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a990e5d3133409ee05aeffba34bf17f">&#9670;&nbsp;</a></span>addToParticles() <span class="overload">[2/2]</span></h2>
+<a id="af839d41868a405165bbb3f78c4e50b5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af839d41868a405165bbb3f78c4e50b5a">&#9670;&nbsp;</a></span>addToParticles() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -844,7 +864,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToParticles </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -853,8 +873,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad391852b4f0b59a95cf98574955f18e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad391852b4f0b59a95cf98574955f18e1">&#9670;&nbsp;</a></span>addToTracks() <span class="overload">[1/2]</span></h2>
+<a id="a9922fe326364f1260b774b21b137ca01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9922fe326364f1260b774b21b137ca01">&#9670;&nbsp;</a></span>addToTracks() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -862,7 +882,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToTracks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td></td>
         </tr>
@@ -871,8 +891,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad391852b4f0b59a95cf98574955f18e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad391852b4f0b59a95cf98574955f18e1">&#9670;&nbsp;</a></span>addToTracks() <span class="overload">[2/2]</span></h2>
+<a id="a9922fe326364f1260b774b21b137ca01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9922fe326364f1260b774b21b137ca01">&#9670;&nbsp;</a></span>addToTracks() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -880,7 +900,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::addToTracks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -927,14 +947,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3be2a6708d6a2857872a36b925af84d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be2a6708d6a2857872a36b925af84d4">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[1/2]</span></h2>
+<a id="abd5371f29ac7678cb6421266b623ed7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd5371f29ac7678cb6421266b623ed7d">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::ReconstructedParticle::clusters_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::ReconstructedParticle::clusters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -944,14 +964,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad46b5a100a5a129d9444fbdbdb166a73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad46b5a100a5a129d9444fbdbdb166a73">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[2/2]</span></h2>
+<a id="a98e732d3dde4d6af73198d5e7077a4fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98e732d3dde4d6af73198d5e7077a4fe">&#9670;&nbsp;</a></span>clusters_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::ReconstructedParticle::clusters_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::ReconstructedParticle::clusters_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -961,14 +981,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a83e4b5a3e6c37eec4dc951acb1f4a27b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83e4b5a3e6c37eec4dc951acb1f4a27b">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[1/2]</span></h2>
+<a id="a721fffe6883ba361c667bc90fb42fd4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721fffe6883ba361c667bc90fb42fd4a">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::ReconstructedParticle::clusters_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt;::const_iterator edm4hep::ReconstructedParticle::clusters_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -978,14 +998,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adbe4bb9a0efa3516803bf99ceadd74d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbe4bb9a0efa3516803bf99ceadd74d0">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[2/2]</span></h2>
+<a id="ac685d2877552e4593d4ad6b83ec851ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac685d2877552e4593d4ad6b83ec851ba">&#9670;&nbsp;</a></span>clusters_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::ReconstructedParticle::clusters_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt;::const_iterator edm4hep::ReconstructedParticle::clusters_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1029,6 +1049,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a67d30ede37dc59e378f568eaee8bf88b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d30ede37dc59e378f568eaee8bf88b">&#9670;&nbsp;</a></span>covMatrix() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, 10&gt;&amp; edm4hep::ReconstructedParticle::covMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
+
+</div>
+</div>
+<a id="a5eed37cee08d30b20bf2744ce3003e50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eed37cee08d30b20bf2744ce3003e50">&#9670;&nbsp;</a></span>covMatrix() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 10 &gt; &amp; edm4hep::ReconstructedParticle::covMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
+
+</div>
+</div>
 <a id="a3c6b3f24941eda8860fd6d4e311229d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c6b3f24941eda8860fd6d4e311229d8">&#9670;&nbsp;</a></span>getCharge() <span class="overload">[1/2]</span></h2>
 
@@ -1067,14 +1125,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a82cbdff8533298087db7781804866175"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82cbdff8533298087db7781804866175">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[1/2]</span></h2>
+<a id="aab5da3998dd8441b55b0142a4713660c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5da3998dd8441b55b0142a4713660c">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> edm4hep::ReconstructedParticle::getClusters </td>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> edm4hep::ReconstructedParticle::getClusters </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1086,7 +1144,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a82cbdff8533298087db7781804866175"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82cbdff8533298087db7781804866175">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82cbdff8533298087db7781804866175">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,6 +1154,40 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01ca03240dc16b984f26cc5f6e5b25c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ca03240dc16b984f26cc5f6e5b25c9">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a> &gt; edm4hep::ReconstructedParticle::getClusters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bd7f7583e91fca08934ce2c99e9b8e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd7f7583e91fca08934ce2c99e9b8e0">&#9670;&nbsp;</a></span>getClusters() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_cluster.html">edm4hep::ConstCluster</a>&gt; edm4hep::ReconstructedParticle::getClusters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1157,7 +1249,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access item i in the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
+<p>Access item i of the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
 
 </div>
 </div>
@@ -1177,7 +1269,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access item i in the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
+<p>Access item i of the cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
 
 </div>
 </div>
@@ -1196,7 +1288,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [GeV] energy of the reconstructed particle. </p>
+<p>Access the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -1215,7 +1307,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [GeV] energy of the reconstructed particle. </p>
+<p>Access the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -1272,7 +1364,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [GeV] mass of the reconstructed particle, set independently from four vector. </p>
+<p>Access the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -1291,31 +1383,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [GeV] mass of the reconstructed particle, set independently from four vector. </p>
-
-</div>
-</div>
-<a id="a0410973b44b88633d76d52ab9687ca10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0410973b44b88633d76d52ab9687ca10">&#9670;&nbsp;</a></span>getMomentum() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::ReconstructedParticle::getMomentum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Access the [GeV] particle momentum. </p>
+<p>Access the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
 <a id="a3e72bb12e3be88f41bfb834ee85e57c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e72bb12e3be88f41bfb834ee85e57c5">&#9670;&nbsp;</a></span>getMomentum() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e72bb12e3be88f41bfb834ee85e57c5">&#9670;&nbsp;</a></span>getMomentum() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1329,7 +1402,26 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [GeV] particle momentum. </p>
+<p>Access the [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
+
+</div>
+</div>
+<a id="a0410973b44b88633d76d52ab9687ca10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0410973b44b88633d76d52ab9687ca10">&#9670;&nbsp;</a></span>getMomentum() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::ReconstructedParticle::getMomentum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -1368,7 +1460,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0bd56e6b66e7a484c7b36c0dd20ecfcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd56e6b66e7a484c7b36c0dd20ecfcf">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd56e6b66e7a484c7b36c0dd20ecfcf">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1385,14 +1477,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0bd56e6b66e7a484c7b36c0dd20ecfcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd56e6b66e7a484c7b36c0dd20ecfcf">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[2/2]</span></h2>
+<a id="a20d578c41fdfe3498a8e72bf0dbf3176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d578c41fdfe3498a8e72bf0dbf3176">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDs </td>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDs </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1403,14 +1495,48 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a018719fc13be911bc1c6dbb1e987d603"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a018719fc13be911bc1c6dbb1e987d603">&#9670;&nbsp;</a></span>getParticleIDUsed() <span class="overload">[1/2]</span></h2>
+<a id="a9e56620926d3e4c380cd2d26b9a7f861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e56620926d3e4c380cd2d26b9a7f861">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDUsed </td>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt; edm4hep::ReconstructedParticle::getParticleIDs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae86e4eca71ff236758996e5a9e2e0509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86e4eca71ff236758996e5a9e2e0509">&#9670;&nbsp;</a></span>getParticleIDs() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt; edm4hep::ReconstructedParticle::getParticleIDs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac73b29013d1c9850f5771ea85493b905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73b29013d1c9850f5771ea85493b905">&#9670;&nbsp;</a></span>getParticleIDUsed() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDUsed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1422,14 +1548,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a018719fc13be911bc1c6dbb1e987d603"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a018719fc13be911bc1c6dbb1e987d603">&#9670;&nbsp;</a></span>getParticleIDUsed() <span class="overload">[2/2]</span></h2>
+<a id="a980298c515df1b3e0934b3c7a9d8a4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980298c515df1b3e0934b3c7a9d8a4e6">&#9670;&nbsp;</a></span>getParticleIDUsed() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDUsed </td>
+          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">ConstParticleID</a> edm4hep::ReconstructedParticle::getParticleIDUsed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1442,7 +1568,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad3e3f52b3bc417578f8ac87963ad6d95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e3f52b3bc417578f8ac87963ad6d95">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e3f52b3bc417578f8ac87963ad6d95">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1459,14 +1585,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3e3f52b3bc417578f8ac87963ad6d95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e3f52b3bc417578f8ac87963ad6d95">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[2/2]</span></h2>
+<a id="a6ec94670f882a6af92717434aef16c70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec94670f882a6af92717434aef16c70">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> edm4hep::ReconstructedParticle::getParticles </td>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> edm4hep::ReconstructedParticle::getParticles </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1477,14 +1603,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae359c67d0d96de4e7926bc76869dd8a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae359c67d0d96de4e7926bc76869dd8a8">&#9670;&nbsp;</a></span>getReferencePoint() <span class="overload">[1/2]</span></h2>
+<a id="a9f392a067ef25dcf101fd20ebd48d157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f392a067ef25dcf101fd20ebd48d157">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::ReconstructedParticle::getReferencePoint </td>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt; edm4hep::ReconstructedParticle::getParticles </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1492,12 +1618,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access the [mm] reference, i.e. where the particle has been measured. </p>
+</div>
+</div>
+<a id="a3355eb38392d93db7c86625141f3f96b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3355eb38392d93db7c86625141f3f96b">&#9670;&nbsp;</a></span>getParticles() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&gt; edm4hep::ReconstructedParticle::getParticles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a74e1fac1985090bdd4f575f9cf8d42ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74e1fac1985090bdd4f575f9cf8d42ea">&#9670;&nbsp;</a></span>getReferencePoint() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e1fac1985090bdd4f575f9cf8d42ea">&#9670;&nbsp;</a></span>getReferencePoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1515,14 +1656,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a499c98adf28fc4da569560b3936c0422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a499c98adf28fc4da569560b3936c0422">&#9670;&nbsp;</a></span>getStartVertex() <span class="overload">[1/2]</span></h2>
+<a id="ae359c67d0d96de4e7926bc76869dd8a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae359c67d0d96de4e7926bc76869dd8a8">&#9670;&nbsp;</a></span>getReferencePoint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> edm4hep::ReconstructedParticle::getStartVertex </td>
+          <td class="memname">const <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp; edm4hep::ReconstructedParticle::getReferencePoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access the [mm] reference, i.e. where the particle has been measured. </p>
+
+</div>
+</div>
+<a id="adf3eaa85c366fc7c1ab77623dcd9d12a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3eaa85c366fc7c1ab77623dcd9d12a">&#9670;&nbsp;</a></span>getStartVertex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> edm4hep::ReconstructedParticle::getStartVertex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1534,14 +1694,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a499c98adf28fc4da569560b3936c0422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a499c98adf28fc4da569560b3936c0422">&#9670;&nbsp;</a></span>getStartVertex() <span class="overload">[2/2]</span></h2>
+<a id="ac67fc1a0521d34719d50ef1dab4f80e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67fc1a0521d34719d50ef1dab4f80e3">&#9670;&nbsp;</a></span>getStartVertex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a> edm4hep::ReconstructedParticle::getStartVertex </td>
+          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_vertex.html">ConstVertex</a> edm4hep::ReconstructedParticle::getStartVertex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1554,7 +1714,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2f2e690877fb4d4edc9aeb841d115845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f2e690877fb4d4edc9aeb841d115845">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f2e690877fb4d4edc9aeb841d115845">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1571,14 +1731,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f2e690877fb4d4edc9aeb841d115845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f2e690877fb4d4edc9aeb841d115845">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[2/2]</span></h2>
+<a id="a5cfa3716401576372f857672c3f1e755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cfa3716401576372f857672c3f1e755">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> edm4hep::ReconstructedParticle::getTracks </td>
+          <td class="memname">::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> edm4hep::ReconstructedParticle::getTracks </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1589,14 +1749,48 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a51d7dc399acc860d56cbdbf1bdcdd39d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51d7dc399acc860d56cbdbf1bdcdd39d">&#9670;&nbsp;</a></span>getType() <span class="overload">[1/2]</span></h2>
+<a id="ad8b99e6ed37ebc72cf2434a6a89e6967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b99e6ed37ebc72cf2434a6a89e6967">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int &amp; edm4hep::ReconstructedParticle::getType </td>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt; edm4hep::ReconstructedParticle::getTracks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fa569fb3d299820e65326db6415f4fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa569fb3d299820e65326db6415f4fe">&#9670;&nbsp;</a></span>getTracks() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&gt; edm4hep::ReconstructedParticle::getTracks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3acab32be36ca51a3ff5d5de964f244e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acab32be36ca51a3ff5d5de964f244e">&#9670;&nbsp;</a></span>getType() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int&amp; edm4hep::ReconstructedParticle::getType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1608,14 +1802,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3acab32be36ca51a3ff5d5de964f244e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3acab32be36ca51a3ff5d5de964f244e">&#9670;&nbsp;</a></span>getType() <span class="overload">[2/2]</span></h2>
+<a id="a51d7dc399acc860d56cbdbf1bdcdd39d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d7dc399acc860d56cbdbf1bdcdd39d">&#9670;&nbsp;</a></span>getType() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int&amp; edm4hep::ReconstructedParticle::getType </td>
+          <td class="memname">const int &amp; edm4hep::ReconstructedParticle::getType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1780,7 +1974,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the [GeV] particle momentum. </p>
+<p>Get reference to [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -1799,7 +1993,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the [GeV] particle momentum. </p>
+<p>Get reference to [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -2021,14 +2215,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8a7d3223cf468c35d7354d730531f36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8a7d3223cf468c35d7354d730531f36">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[1/2]</span></h2>
+<a id="acf9a8f5eeced2e55cbd99fdf85c21f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9a8f5eeced2e55cbd99fdf85c21f12">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2038,14 +2232,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac3ece94c87915e8b15b66d49b1e31d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3ece94c87915e8b15b66d49b1e31d96">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[2/2]</span></h2>
+<a id="ae80ad3e1ba8a093695177025872c2bf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80ad3e1ba8a093695177025872c2bf9">&#9670;&nbsp;</a></span>particleIDs_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2055,14 +2249,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a419ea23fc2954276ae0e41cbb50336de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a419ea23fc2954276ae0e41cbb50336de">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[1/2]</span></h2>
+<a id="a3ee22758801493663d531c66e3d9b05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ee22758801493663d531c66e3d9b05d">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2072,14 +2266,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a92f09e2efa628f55e2f63a16f2efe8c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92f09e2efa628f55e2f63a16f2efe8c2">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[2/2]</span></h2>
+<a id="aaff59ee630c7673bcbb56a67b3e6b0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff59ee630c7673bcbb56a67b3e6b0ab">&#9670;&nbsp;</a></span>particleIDs_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particleIDs_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2123,14 +2317,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ce1a43de7db3942c9d7e714b8a01ba1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ce1a43de7db3942c9d7e714b8a01ba1">&#9670;&nbsp;</a></span>particles_begin() <span class="overload">[1/2]</span></h2>
+<a id="a2dad798267ba959526f773f153ed7243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dad798267ba959526f773f153ed7243">&#9670;&nbsp;</a></span>particles_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particles_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particles_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2140,14 +2334,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a66b39773ab811349689d8a7d0f492471"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b39773ab811349689d8a7d0f492471">&#9670;&nbsp;</a></span>particles_begin() <span class="overload">[2/2]</span></h2>
+<a id="ace2f041ed119f565cfb2291f8f24e5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2f041ed119f565cfb2291f8f24e5eb">&#9670;&nbsp;</a></span>particles_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particles_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particles_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2157,14 +2351,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abcfe969317aad12d722df0d8c258a992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcfe969317aad12d722df0d8c258a992">&#9670;&nbsp;</a></span>particles_end() <span class="overload">[1/2]</span></h2>
+<a id="acb3f84a44fea59fc95e28f4faa49c082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb3f84a44fea59fc95e28f4faa49c082">&#9670;&nbsp;</a></span>particles_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particles_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particles_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2174,14 +2368,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a70853c0e522850fb789fe7fbb5ce6d9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70853c0e522850fb789fe7fbb5ce6d9a">&#9670;&nbsp;</a></span>particles_end() <span class="overload">[2/2]</span></h2>
+<a id="a1aef212c198b1d2c63af9b06b0948481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aef212c198b1d2c63af9b06b0948481">&#9670;&nbsp;</a></span>particles_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> &gt;::const_iterator edm4hep::ReconstructedParticle::particles_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&gt;::const_iterator edm4hep::ReconstructedParticle::particles_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2225,27 +2419,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af377795085b22d3f469ad237d5748efb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af377795085b22d3f469ad237d5748efb">&#9670;&nbsp;</a></span>referencePoint() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&amp; edm4hep::ReconstructedParticle::referencePoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to the [mm] reference, i.e. where the particle has been measured. </p>
-
-</div>
-</div>
 <a id="a1477f3d6dfef5e967ac82573e4f7c610"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1477f3d6dfef5e967ac82573e4f7c610">&#9670;&nbsp;</a></span>referencePoint() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1477f3d6dfef5e967ac82573e4f7c610">&#9670;&nbsp;</a></span>referencePoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2259,7 +2434,26 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the [mm] reference, i.e. where the particle has been measured. </p>
+<p>Get reference to [mm] reference, i.e. where the particle has been measured. </p>
+
+</div>
+</div>
+<a id="af377795085b22d3f469ad237d5748efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af377795085b22d3f469ad237d5748efb">&#9670;&nbsp;</a></span>referencePoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&amp; edm4hep::ReconstructedParticle::referencePoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to [mm] reference, i.e. where the particle has been measured. </p>
 
 </div>
 </div>
@@ -2369,8 +2563,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set item i in cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
-
 </div>
 </div>
 <a id="a749f562751cc23223235d34b50fb6b39"></a>
@@ -2399,8 +2591,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set item i in cvariance matrix of the reconstructed particle 4vector (10 parameters). Stored as lower triangle matrix of the four momentum (px,py,pz,E), i.e. cov(px,px), cov(py,##. </p>
-
 </div>
 </div>
 <a id="aedb9bbd7a51dcd0822d5056e339d6814"></a>
@@ -2419,7 +2609,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] energy of the reconstructed particle. </p>
+<p>Set the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -2439,7 +2629,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] energy of the reconstructed particle. </p>
+<p>Set the [GeV] energy of the reconstructed particle. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -2499,7 +2689,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] mass of the reconstructed particle, set independently from four vector. </p>
+<p>Set the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
@@ -2519,12 +2709,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] mass of the reconstructed particle, set independently from four vector. </p>
+<p>Set the [GeV] mass of the reconstructed particle, set independently from four vector. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
-<a id="ada4bae0206c6f41a014a345b368d7c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada4bae0206c6f41a014a345b368d7c30">&#9670;&nbsp;</a></span>setMomentum() <span class="overload">[1/2]</span></h2>
+<a id="a416e39bed1fd67b6e3fcf1628cdf1ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416e39bed1fd67b6e3fcf1628cdf1ef1">&#9670;&nbsp;</a></span>setMomentum() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2532,19 +2722,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setMomentum </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] particle momentum. </p>
+<p>Set the [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
-<a id="ada4bae0206c6f41a014a345b368d7c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada4bae0206c6f41a014a345b368d7c30">&#9670;&nbsp;</a></span>setMomentum() <span class="overload">[2/2]</span></h2>
+<a id="a416e39bed1fd67b6e3fcf1628cdf1ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416e39bed1fd67b6e3fcf1628cdf1ef1">&#9670;&nbsp;</a></span>setMomentum() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2552,19 +2742,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setMomentum </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the [GeV] particle momentum. </p>
+<p>Set the [GeV] particle momentum. Four momentum state is not kept consistent internally. </p>
 
 </div>
 </div>
-<a id="a7410167ca8281fdefe0a726146ab82ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7410167ca8281fdefe0a726146ab82ff">&#9670;&nbsp;</a></span>setParticleIDUsed() <span class="overload">[1/2]</span></h2>
+<a id="a1fd38f68f539ba9a0684a4fbff36d200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd38f68f539ba9a0684a4fbff36d200">&#9670;&nbsp;</a></span>setParticleIDUsed() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2572,7 +2762,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setParticleIDUsed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2583,8 +2773,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7410167ca8281fdefe0a726146ab82ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7410167ca8281fdefe0a726146ab82ff">&#9670;&nbsp;</a></span>setParticleIDUsed() <span class="overload">[2/2]</span></h2>
+<a id="a1fd38f68f539ba9a0684a4fbff36d200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd38f68f539ba9a0684a4fbff36d200">&#9670;&nbsp;</a></span>setParticleIDUsed() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2592,7 +2782,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setParticleIDUsed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_particle_i_d.html">edm4hep::ConstParticleID</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2603,8 +2793,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79bf96e79793c307680106e4cbb3ffc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79bf96e79793c307680106e4cbb3ffc1">&#9670;&nbsp;</a></span>setReferencePoint() <span class="overload">[1/2]</span></h2>
+<a id="ae713b425cd8fba7eeec17cf60ca8e2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae713b425cd8fba7eeec17cf60ca8e2f0">&#9670;&nbsp;</a></span>setReferencePoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2612,7 +2802,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setReferencePoint </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2623,8 +2813,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79bf96e79793c307680106e4cbb3ffc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79bf96e79793c307680106e4cbb3ffc1">&#9670;&nbsp;</a></span>setReferencePoint() <span class="overload">[2/2]</span></h2>
+<a id="ae713b425cd8fba7eeec17cf60ca8e2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae713b425cd8fba7eeec17cf60ca8e2f0">&#9670;&nbsp;</a></span>setReferencePoint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2632,7 +2822,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setReferencePoint </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2643,8 +2833,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af6b885a104932a4648b53690f4385556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6b885a104932a4648b53690f4385556">&#9670;&nbsp;</a></span>setStartVertex() <span class="overload">[1/2]</span></h2>
+<a id="a1d584d7f5b18c563d9aea5451bdac44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d584d7f5b18c563d9aea5451bdac44c">&#9670;&nbsp;</a></span>setStartVertex() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2652,7 +2842,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setStartVertex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2663,8 +2853,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af6b885a104932a4648b53690f4385556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6b885a104932a4648b53690f4385556">&#9670;&nbsp;</a></span>setStartVertex() <span class="overload">[2/2]</span></h2>
+<a id="a1d584d7f5b18c563d9aea5451bdac44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d584d7f5b18c563d9aea5451bdac44c">&#9670;&nbsp;</a></span>setStartVertex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2672,7 +2862,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::ReconstructedParticle::setStartVertex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_vertex.html">edm4hep::ConstVertex</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2723,14 +2913,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7257ccd5a0051be7af62acec214f9487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7257ccd5a0051be7af62acec214f9487">&#9670;&nbsp;</a></span>tracks_begin() <span class="overload">[1/2]</span></h2>
+<a id="a80570118969036e002efa817269ff3f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80570118969036e002efa817269ff3f0">&#9670;&nbsp;</a></span>tracks_begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&gt;::const_iterator edm4hep::ReconstructedParticle::tracks_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator edm4hep::ReconstructedParticle::tracks_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2740,14 +2930,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afb6e358abd66935f242144f6ee77997c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb6e358abd66935f242144f6ee77997c">&#9670;&nbsp;</a></span>tracks_begin() <span class="overload">[2/2]</span></h2>
+<a id="a363e8312aa5ffe5a47f92970ce72dfa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363e8312aa5ffe5a47f92970ce72dfa3">&#9670;&nbsp;</a></span>tracks_begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator edm4hep::ReconstructedParticle::tracks_begin </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&gt;::const_iterator edm4hep::ReconstructedParticle::tracks_begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2757,14 +2947,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac3d1f5e5d9971f614b3f0c15c7afd98a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d1f5e5d9971f614b3f0c15c7afd98a">&#9670;&nbsp;</a></span>tracks_end() <span class="overload">[1/2]</span></h2>
+<a id="abdd8760cd089325b26a4ed47c283e0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd8760cd089325b26a4ed47c283e0bd">&#9670;&nbsp;</a></span>tracks_end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&gt;::const_iterator edm4hep::ReconstructedParticle::tracks_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator edm4hep::ReconstructedParticle::tracks_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2774,14 +2964,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6fd5919550b9d2c420e95a9f99b9200d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fd5919550b9d2c420e95a9f99b9200d">&#9670;&nbsp;</a></span>tracks_end() <span class="overload">[2/2]</span></h2>
+<a id="a4722a60d3075803dcfe213438dcf8b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4722a60d3075803dcfe213438dcf8b28">&#9670;&nbsp;</a></span>tracks_end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a> &gt;::const_iterator edm4hep::ReconstructedParticle::tracks_end </td>
+          <td class="memname">std::vector&lt;::<a class="el" href="classedm4hep_1_1_const_track.html">edm4hep::ConstTrack</a>&gt;::const_iterator edm4hep::ReconstructedParticle::tracks_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2976,7 +3166,7 @@ Private Attributes</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:44 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:36 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

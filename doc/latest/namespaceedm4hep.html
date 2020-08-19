@@ -153,6 +153,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">ConstReconstructedParticle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstructed Particle.  <a href="classedm4hep_1_1_const_reconstructed_particle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_const_reco_particle_ref.html">ConstRecoParticleRef</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to get a subset of reconstructed particles from a collection (or many collections)  <a href="classedm4hep_1_1_const_reco_particle_ref.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html">ConstSimCalorimeterHit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulated calorimeter hit.  <a href="classedm4hep_1_1_const_sim_calorimeter_hit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,6 +280,19 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reco_particle_ref.html">RecoParticleRef</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to get a subset of reconstructed particles from a collection (or many collections)  <a href="classedm4hep_1_1_reco_particle_ref.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reco_particle_ref_collection.html">RecoParticleRefCollection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Collection is identified by an ID.  <a href="classedm4hep_1_1_reco_particle_ref_collection.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reco_particle_ref_collection_iterator.html">RecoParticleRefCollectionIterator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reco_particle_ref_data.html">RecoParticleRefData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to get a subset of reconstructed particles from a collection (or many collections)  <a href="classedm4hep_1_1_reco_particle_ref_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_reco_particle_ref_obj.html">RecoParticleRefObj</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html">SimCalorimeterHit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulated calorimeter hit.  <a href="classedm4hep_1_1_sim_calorimeter_hit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,73 +382,77 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af1370d1143dd30ec2e577a309427e7a4"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_calo_hit_contribution_data.html">CaloHitContributionData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af1370d1143dd30ec2e577a309427e7a4">CaloHitContributionDataContainer</a></td></tr>
+<tr class="memitem:af1370d1143dd30ec2e577a309427e7a4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af1370d1143dd30ec2e577a309427e7a4">CaloHitContributionDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_calo_hit_contribution_data.html">CaloHitContributionData</a> &gt;</td></tr>
 <tr class="separator:af1370d1143dd30ec2e577a309427e7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6501a8b50b71827bb04645ef8e5029"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_calo_hit_contribution_obj.html">CaloHitContributionObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aff6501a8b50b71827bb04645ef8e5029">CaloHitContributionObjPointerContainer</a></td></tr>
+<tr class="memitem:aff6501a8b50b71827bb04645ef8e5029"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aff6501a8b50b71827bb04645ef8e5029">CaloHitContributionObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_calo_hit_contribution_obj.html">CaloHitContributionObj</a> * &gt;</td></tr>
 <tr class="separator:aff6501a8b50b71827bb04645ef8e5029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a399f5598b8e1662de13e515bf23fcf5a"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_calorimeter_hit_data.html">CalorimeterHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a399f5598b8e1662de13e515bf23fcf5a">CalorimeterHitDataContainer</a></td></tr>
+<tr class="memitem:a399f5598b8e1662de13e515bf23fcf5a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a399f5598b8e1662de13e515bf23fcf5a">CalorimeterHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_calorimeter_hit_data.html">CalorimeterHitData</a> &gt;</td></tr>
 <tr class="separator:a399f5598b8e1662de13e515bf23fcf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad07849b2a940985dcf421da3b03c4041"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_calorimeter_hit_obj.html">CalorimeterHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ad07849b2a940985dcf421da3b03c4041">CalorimeterHitObjPointerContainer</a></td></tr>
+<tr class="memitem:ad07849b2a940985dcf421da3b03c4041"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ad07849b2a940985dcf421da3b03c4041">CalorimeterHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_calorimeter_hit_obj.html">CalorimeterHitObj</a> * &gt;</td></tr>
 <tr class="separator:ad07849b2a940985dcf421da3b03c4041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d4781a51e2e679ed14934f441854a7a"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_cluster_data.html">ClusterData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a4d4781a51e2e679ed14934f441854a7a">ClusterDataContainer</a></td></tr>
+<tr class="memitem:a4d4781a51e2e679ed14934f441854a7a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a4d4781a51e2e679ed14934f441854a7a">ClusterDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_cluster_data.html">ClusterData</a> &gt;</td></tr>
 <tr class="separator:a4d4781a51e2e679ed14934f441854a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523e081b790d3d5422fdfc2a14c70933"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a523e081b790d3d5422fdfc2a14c70933">ClusterObjPointerContainer</a></td></tr>
+<tr class="memitem:a523e081b790d3d5422fdfc2a14c70933"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a523e081b790d3d5422fdfc2a14c70933">ClusterObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_cluster_obj.html">ClusterObj</a> * &gt;</td></tr>
 <tr class="separator:a523e081b790d3d5422fdfc2a14c70933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ab4b5501855d1e8c04080de1bfe89c"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_event_header_data.html">EventHeaderData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a29ab4b5501855d1e8c04080de1bfe89c">EventHeaderDataContainer</a></td></tr>
+<tr class="memitem:a29ab4b5501855d1e8c04080de1bfe89c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a29ab4b5501855d1e8c04080de1bfe89c">EventHeaderDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_event_header_data.html">EventHeaderData</a> &gt;</td></tr>
 <tr class="separator:a29ab4b5501855d1e8c04080de1bfe89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017a971c098bcc899abd29133fdc3fe3"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_event_header_obj.html">EventHeaderObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a017a971c098bcc899abd29133fdc3fe3">EventHeaderObjPointerContainer</a></td></tr>
+<tr class="memitem:a017a971c098bcc899abd29133fdc3fe3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a017a971c098bcc899abd29133fdc3fe3">EventHeaderObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_event_header_obj.html">EventHeaderObj</a> * &gt;</td></tr>
 <tr class="separator:a017a971c098bcc899abd29133fdc3fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8004ec967bf853dbf32aa89634939ff"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_particle_data.html">MCParticleData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ab8004ec967bf853dbf32aa89634939ff">MCParticleDataContainer</a></td></tr>
+<tr class="memitem:ab8004ec967bf853dbf32aa89634939ff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ab8004ec967bf853dbf32aa89634939ff">MCParticleDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_particle_data.html">MCParticleData</a> &gt;</td></tr>
 <tr class="separator:ab8004ec967bf853dbf32aa89634939ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acccd089637aa2d7cfbf3526a297a5ff8"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_particle_obj.html">MCParticleObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#acccd089637aa2d7cfbf3526a297a5ff8">MCParticleObjPointerContainer</a></td></tr>
+<tr class="memitem:acccd089637aa2d7cfbf3526a297a5ff8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#acccd089637aa2d7cfbf3526a297a5ff8">MCParticleObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_particle_obj.html">MCParticleObj</a> * &gt;</td></tr>
 <tr class="separator:acccd089637aa2d7cfbf3526a297a5ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d5c7c57c97f1b9b4de906cf87f45f2"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_calo_association_data.html">MCRecoCaloAssociationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a72d5c7c57c97f1b9b4de906cf87f45f2">MCRecoCaloAssociationDataContainer</a></td></tr>
+<tr class="memitem:a72d5c7c57c97f1b9b4de906cf87f45f2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a72d5c7c57c97f1b9b4de906cf87f45f2">MCRecoCaloAssociationDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_calo_association_data.html">MCRecoCaloAssociationData</a> &gt;</td></tr>
 <tr class="separator:a72d5c7c57c97f1b9b4de906cf87f45f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa749f8f7e3f710fbf0caedd75c1762f"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_calo_association_obj.html">MCRecoCaloAssociationObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#afa749f8f7e3f710fbf0caedd75c1762f">MCRecoCaloAssociationObjPointerContainer</a></td></tr>
+<tr class="memitem:afa749f8f7e3f710fbf0caedd75c1762f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#afa749f8f7e3f710fbf0caedd75c1762f">MCRecoCaloAssociationObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_calo_association_obj.html">MCRecoCaloAssociationObj</a> * &gt;</td></tr>
 <tr class="separator:afa749f8f7e3f710fbf0caedd75c1762f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9bb51649b793fdf0ef1ac496f52c74"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_data.html">MCRecoParticleAssociationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#adf9bb51649b793fdf0ef1ac496f52c74">MCRecoParticleAssociationDataContainer</a></td></tr>
+<tr class="memitem:adf9bb51649b793fdf0ef1ac496f52c74"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#adf9bb51649b793fdf0ef1ac496f52c74">MCRecoParticleAssociationDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_data.html">MCRecoParticleAssociationData</a> &gt;</td></tr>
 <tr class="separator:adf9bb51649b793fdf0ef1ac496f52c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5979857187f13a9722b8f6703f8a225"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_obj.html">MCRecoParticleAssociationObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ad5979857187f13a9722b8f6703f8a225">MCRecoParticleAssociationObjPointerContainer</a></td></tr>
+<tr class="memitem:ad5979857187f13a9722b8f6703f8a225"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ad5979857187f13a9722b8f6703f8a225">MCRecoParticleAssociationObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_obj.html">MCRecoParticleAssociationObj</a> * &gt;</td></tr>
 <tr class="separator:ad5979857187f13a9722b8f6703f8a225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c746296a57ea30de582ca636b726de"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_tracker_association_data.html">MCRecoTrackerAssociationData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a45c746296a57ea30de582ca636b726de">MCRecoTrackerAssociationDataContainer</a></td></tr>
+<tr class="memitem:a45c746296a57ea30de582ca636b726de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a45c746296a57ea30de582ca636b726de">MCRecoTrackerAssociationDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_tracker_association_data.html">MCRecoTrackerAssociationData</a> &gt;</td></tr>
 <tr class="separator:a45c746296a57ea30de582ca636b726de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a437cae393bb5c9b9c44834b0541babb8"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_tracker_association_obj.html">MCRecoTrackerAssociationObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a437cae393bb5c9b9c44834b0541babb8">MCRecoTrackerAssociationObjPointerContainer</a></td></tr>
+<tr class="memitem:a437cae393bb5c9b9c44834b0541babb8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a437cae393bb5c9b9c44834b0541babb8">MCRecoTrackerAssociationObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_m_c_reco_tracker_association_obj.html">MCRecoTrackerAssociationObj</a> * &gt;</td></tr>
 <tr class="separator:a437cae393bb5c9b9c44834b0541babb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153d526cf9f33f04c057c4fff622eeed"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_particle_i_d_data.html">ParticleIDData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a153d526cf9f33f04c057c4fff622eeed">ParticleIDDataContainer</a></td></tr>
+<tr class="memitem:a153d526cf9f33f04c057c4fff622eeed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a153d526cf9f33f04c057c4fff622eeed">ParticleIDDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_particle_i_d_data.html">ParticleIDData</a> &gt;</td></tr>
 <tr class="separator:a153d526cf9f33f04c057c4fff622eeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a190288a25647869444055ca8e1f56c42"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_particle_i_d_obj.html">ParticleIDObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a190288a25647869444055ca8e1f56c42">ParticleIDObjPointerContainer</a></td></tr>
+<tr class="memitem:a190288a25647869444055ca8e1f56c42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a190288a25647869444055ca8e1f56c42">ParticleIDObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_particle_i_d_obj.html">ParticleIDObj</a> * &gt;</td></tr>
 <tr class="separator:a190288a25647869444055ca8e1f56c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_data.html">RawCalorimeterHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3b42a63f4be18bfceb9a945c5eabdb2b">RawCalorimeterHitDataContainer</a></td></tr>
+<tr class="memitem:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3b42a63f4be18bfceb9a945c5eabdb2b">RawCalorimeterHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_data.html">RawCalorimeterHitData</a> &gt;</td></tr>
 <tr class="separator:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_obj.html">RawCalorimeterHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7fe4f88949bbd83a4d05450f8cb9aab9">RawCalorimeterHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7fe4f88949bbd83a4d05450f8cb9aab9">RawCalorimeterHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_obj.html">RawCalorimeterHitObj</a> * &gt;</td></tr>
 <tr class="separator:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10109d59a1b9882029cc7fa5e943ce15"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_reconstructed_particle_data.html">ReconstructedParticleData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a10109d59a1b9882029cc7fa5e943ce15">ReconstructedParticleDataContainer</a></td></tr>
+<tr class="memitem:a10109d59a1b9882029cc7fa5e943ce15"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a10109d59a1b9882029cc7fa5e943ce15">ReconstructedParticleDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_reconstructed_particle_data.html">ReconstructedParticleData</a> &gt;</td></tr>
 <tr class="separator:a10109d59a1b9882029cc7fa5e943ce15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec4091bbf3ef199f46d173cd2df3ada"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a1ec4091bbf3ef199f46d173cd2df3ada">ReconstructedParticleObjPointerContainer</a></td></tr>
+<tr class="memitem:a1ec4091bbf3ef199f46d173cd2df3ada"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a1ec4091bbf3ef199f46d173cd2df3ada">ReconstructedParticleObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_reconstructed_particle_obj.html">ReconstructedParticleObj</a> * &gt;</td></tr>
 <tr class="separator:a1ec4091bbf3ef199f46d173cd2df3ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4a32000f1bbac05b3df147df1de91a"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_data.html">SimCalorimeterHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7d4a32000f1bbac05b3df147df1de91a">SimCalorimeterHitDataContainer</a></td></tr>
+<tr class="memitem:a31b0528a4a79ebca1371045c3536a135"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a31b0528a4a79ebca1371045c3536a135">RecoParticleRefDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_reco_particle_ref_data.html">RecoParticleRefData</a> &gt;</td></tr>
+<tr class="separator:a31b0528a4a79ebca1371045c3536a135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5969f29e4411cb0718afa04b3f008c98"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a5969f29e4411cb0718afa04b3f008c98">RecoParticleRefObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_reco_particle_ref_obj.html">RecoParticleRefObj</a> * &gt;</td></tr>
+<tr class="separator:a5969f29e4411cb0718afa04b3f008c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4a32000f1bbac05b3df147df1de91a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7d4a32000f1bbac05b3df147df1de91a">SimCalorimeterHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_data.html">SimCalorimeterHitData</a> &gt;</td></tr>
 <tr class="separator:a7d4a32000f1bbac05b3df147df1de91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a972a13a7b1e9583dc0ca90472a123848"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_obj.html">SimCalorimeterHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a972a13a7b1e9583dc0ca90472a123848">SimCalorimeterHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a972a13a7b1e9583dc0ca90472a123848"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a972a13a7b1e9583dc0ca90472a123848">SimCalorimeterHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_obj.html">SimCalorimeterHitObj</a> * &gt;</td></tr>
 <tr class="separator:a972a13a7b1e9583dc0ca90472a123848"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf0ac5e8064f75820e27a05ccd7b3214"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_sim_tracker_hit_data.html">SimTrackerHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#abf0ac5e8064f75820e27a05ccd7b3214">SimTrackerHitDataContainer</a></td></tr>
+<tr class="memitem:abf0ac5e8064f75820e27a05ccd7b3214"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#abf0ac5e8064f75820e27a05ccd7b3214">SimTrackerHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_sim_tracker_hit_data.html">SimTrackerHitData</a> &gt;</td></tr>
 <tr class="separator:abf0ac5e8064f75820e27a05ccd7b3214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a0a34229c9b0537811013fa1326de9f"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_sim_tracker_hit_obj.html">SimTrackerHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a2a0a34229c9b0537811013fa1326de9f">SimTrackerHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a2a0a34229c9b0537811013fa1326de9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a2a0a34229c9b0537811013fa1326de9f">SimTrackerHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_sim_tracker_hit_obj.html">SimTrackerHitObj</a> * &gt;</td></tr>
 <tr class="separator:a2a0a34229c9b0537811013fa1326de9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f486769fb8fd51d452bcf53a77beb2"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_t_p_c_hit_data.html">TPCHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ae3f486769fb8fd51d452bcf53a77beb2">TPCHitDataContainer</a></td></tr>
+<tr class="memitem:ae3f486769fb8fd51d452bcf53a77beb2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ae3f486769fb8fd51d452bcf53a77beb2">TPCHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_t_p_c_hit_data.html">TPCHitData</a> &gt;</td></tr>
 <tr class="separator:ae3f486769fb8fd51d452bcf53a77beb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3358096009838c9922e403b95f784f8f"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_t_p_c_hit_obj.html">TPCHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3358096009838c9922e403b95f784f8f">TPCHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a3358096009838c9922e403b95f784f8f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3358096009838c9922e403b95f784f8f">TPCHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_t_p_c_hit_obj.html">TPCHitObj</a> * &gt;</td></tr>
 <tr class="separator:a3358096009838c9922e403b95f784f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8d2ba6d1a974c985f521cc8eabd95f"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_track_data.html">TrackData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0c8d2ba6d1a974c985f521cc8eabd95f">TrackDataContainer</a></td></tr>
+<tr class="memitem:a0c8d2ba6d1a974c985f521cc8eabd95f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0c8d2ba6d1a974c985f521cc8eabd95f">TrackDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_track_data.html">TrackData</a> &gt;</td></tr>
 <tr class="separator:a0c8d2ba6d1a974c985f521cc8eabd95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa0cca6f8ad955adbe7045a8f75f71a1"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_track_obj.html">TrackObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aaa0cca6f8ad955adbe7045a8f75f71a1">TrackObjPointerContainer</a></td></tr>
+<tr class="memitem:aaa0cca6f8ad955adbe7045a8f75f71a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aaa0cca6f8ad955adbe7045a8f75f71a1">TrackObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_track_obj.html">TrackObj</a> * &gt;</td></tr>
 <tr class="separator:aaa0cca6f8ad955adbe7045a8f75f71a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6630128f073d5cdad92ab876c55bd7af"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_tracker_hit_data.html">TrackerHitData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a6630128f073d5cdad92ab876c55bd7af">TrackerHitDataContainer</a></td></tr>
+<tr class="memitem:a6630128f073d5cdad92ab876c55bd7af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a6630128f073d5cdad92ab876c55bd7af">TrackerHitDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_tracker_hit_data.html">TrackerHitData</a> &gt;</td></tr>
 <tr class="separator:a6630128f073d5cdad92ab876c55bd7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0698e6461289ecabe1df190023b33569"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_tracker_hit_obj.html">TrackerHitObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0698e6461289ecabe1df190023b33569">TrackerHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a0698e6461289ecabe1df190023b33569"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0698e6461289ecabe1df190023b33569">TrackerHitObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_tracker_hit_obj.html">TrackerHitObj</a> * &gt;</td></tr>
 <tr class="separator:a0698e6461289ecabe1df190023b33569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cecd960585c8a950aa6068b148e19a3"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_vertex_data.html">VertexData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0cecd960585c8a950aa6068b148e19a3">VertexDataContainer</a></td></tr>
+<tr class="memitem:a0cecd960585c8a950aa6068b148e19a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a0cecd960585c8a950aa6068b148e19a3">VertexDataContainer</a> = std::vector&lt; <a class="el" href="classedm4hep_1_1_vertex_data.html">VertexData</a> &gt;</td></tr>
 <tr class="separator:a0cecd960585c8a950aa6068b148e19a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b246e7fc9d93ba56f911f635b9778ba"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a5b246e7fc9d93ba56f911f635b9778ba">VertexObjPointerContainer</a></td></tr>
+<tr class="memitem:a5b246e7fc9d93ba56f911f635b9778ba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a5b246e7fc9d93ba56f911f635b9778ba">VertexObjPointerContainer</a> = std::deque&lt; <a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a> * &gt;</td></tr>
 <tr class="separator:a5b246e7fc9d93ba56f911f635b9778ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -495,6 +515,10 @@ Functions</h2></td></tr>
 <tr class="separator:aa371b33d043e382d078074e49a95e1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af889dd1a79b363dfb16d63e00db21fc0"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af889dd1a79b363dfb16d63e00db21fc0">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html">ReconstructedParticleCollection</a> &amp;v)</td></tr>
 <tr class="separator:af889dd1a79b363dfb16d63e00db21fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c62c91fdd8fe74059deb6ecc88783b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#ac7c62c91fdd8fe74059deb6ecc88783b">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="classedm4hep_1_1_const_reco_particle_ref.html">ConstRecoParticleRef</a> &amp;value)</td></tr>
+<tr class="separator:ac7c62c91fdd8fe74059deb6ecc88783b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7547ce231c0fd4bca062305e9a7dd158"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7547ce231c0fd4bca062305e9a7dd158">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="classedm4hep_1_1_reco_particle_ref_collection.html">RecoParticleRefCollection</a> &amp;v)</td></tr>
+<tr class="separator:a7547ce231c0fd4bca062305e9a7dd158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af44e6c65ee4eedafb24dd432c6ab5065"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af44e6c65ee4eedafb24dd432c6ab5065">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html">ConstSimCalorimeterHit</a> &amp;value)</td></tr>
 <tr class="separator:af44e6c65ee4eedafb24dd432c6ab5065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3720afb3901a8c0cc0bf745bca602a6f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3720afb3901a8c0cc0bf745bca602a6f">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_collection.html">SimCalorimeterHitCollection</a> &amp;v)</td></tr>
@@ -837,6 +861,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a31b0528a4a79ebca1371045c3536a135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b0528a4a79ebca1371045c3536a135">&#9670;&nbsp;</a></span>RecoParticleRefDataContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt; <a class="el" href="classedm4hep_1_1_reco_particle_ref_data.html">RecoParticleRefData</a> &gt; <a class="el" href="namespaceedm4hep.html#a31b0528a4a79ebca1371045c3536a135">edm4hep::RecoParticleRefDataContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5969f29e4411cb0718afa04b3f008c98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5969f29e4411cb0718afa04b3f008c98">&#9670;&nbsp;</a></span>RecoParticleRefObjPointerContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::deque&lt; <a class="el" href="classedm4hep_1_1_reco_particle_ref_obj.html">RecoParticleRefObj</a> * &gt; <a class="el" href="namespaceedm4hep.html#a5969f29e4411cb0718afa04b3f008c98">edm4hep::RecoParticleRefObjPointerContainer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7d4a32000f1bbac05b3df147df1de91a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d4a32000f1bbac05b3df147df1de91a">&#9670;&nbsp;</a></span>SimCalorimeterHitDataContainer</h2>
 
@@ -1047,7 +1099,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2009827a28fc5554088854ae2ab1ad53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2009827a28fc5554088854ae2ab1ad53">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2009827a28fc5554088854ae2ab1ad53">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1083,7 +1135,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a458c3f6bb98cad886a6019fe0df455c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a458c3f6bb98cad886a6019fe0df455c3">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a458c3f6bb98cad886a6019fe0df455c3">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1119,7 +1171,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a265b31a6b1d13eec4bdec68986b329c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a265b31a6b1d13eec4bdec68986b329c0">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a265b31a6b1d13eec4bdec68986b329c0">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1155,7 +1207,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="afe259ccb7abc354a45348a2e2da7b8d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe259ccb7abc354a45348a2e2da7b8d5">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[4/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe259ccb7abc354a45348a2e2da7b8d5">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[4/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1191,7 +1243,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a72f07354c540e497970dcf2256917779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72f07354c540e497970dcf2256917779">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[5/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72f07354c540e497970dcf2256917779">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[5/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1226,8 +1278,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7c62c91fdd8fe74059deb6ecc88783b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c62c91fdd8fe74059deb6ecc88783b">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[6/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_reco_particle_ref.html">ConstRecoParticleRef</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aed80734ecf16833eae1c343fd24f7715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed80734ecf16833eae1c343fd24f7715">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[6/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed80734ecf16833eae1c343fd24f7715">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[7/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1255,7 +1335,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aea18a3ed6c6cfee1affa0a283659c811"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea18a3ed6c6cfee1affa0a283659c811">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[7/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea18a3ed6c6cfee1affa0a283659c811">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[8/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1283,7 +1363,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aced1b2d14d5206c1fa12834fc36e270a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aced1b2d14d5206c1fa12834fc36e270a">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[8/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aced1b2d14d5206c1fa12834fc36e270a">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[9/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1311,7 +1391,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3e1c4a8f0ba049ce375674c3892e148c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e1c4a8f0ba049ce375674c3892e148c">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[9/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1c4a8f0ba049ce375674c3892e148c">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[10/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1339,7 +1419,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac045c00fb7a452d33ceaf66ac84c30a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac045c00fb7a452d33ceaf66ac84c30a2">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[10/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac045c00fb7a452d33ceaf66ac84c30a2">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[11/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1367,7 +1447,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af44e6c65ee4eedafb24dd432c6ab5065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af44e6c65ee4eedafb24dd432c6ab5065">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[11/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af44e6c65ee4eedafb24dd432c6ab5065">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[12/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1395,7 +1475,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a11e1c8b17611921bd8d01399e4e6ed4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e1c8b17611921bd8d01399e4e6ed4f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[12/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e1c8b17611921bd8d01399e4e6ed4f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[13/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1423,7 +1503,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a883b46a6a56c14f45b46553214dc814a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a883b46a6a56c14f45b46553214dc814a">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[13/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a883b46a6a56c14f45b46553214dc814a">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[14/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1451,7 +1531,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ab62b734a28002a452e5f72f3c82be33f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab62b734a28002a452e5f72f3c82be33f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[14/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab62b734a28002a452e5f72f3c82be33f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[15/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1479,7 +1559,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a36b3c164ccb47062ea53c528b59c7187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36b3c164ccb47062ea53c528b59c7187">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[15/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b3c164ccb47062ea53c528b59c7187">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[16/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1507,7 +1587,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a18032529a1d063f02ce14a6728234c62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18032529a1d063f02ce14a6728234c62">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[16/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18032529a1d063f02ce14a6728234c62">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[17/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1534,8 +1614,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7547ce231c0fd4bca062305e9a7dd158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7547ce231c0fd4bca062305e9a7dd158">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[18/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_reco_particle_ref_collection.html">RecoParticleRefCollection</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aed4a77f757befc8ce902f67327510d3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4a77f757befc8ce902f67327510d3b">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[17/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4a77f757befc8ce902f67327510d3b">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[19/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1562,64 +1670,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af302e106afd5bc68c381597dedaa5823"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af302e106afd5bc68c381597dedaa5823">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[18/39]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_tracker_hit.html">ConstTrackerHit</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a375e66be2ad103688da3d09437b26eda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a375e66be2ad103688da3d09437b26eda">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[19/39]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_sim_tracker_hit.html">ConstSimTrackerHit</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa157b94c8655c260bb8b784ae62075bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa157b94c8655c260bb8b784ae62075bb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[20/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa157b94c8655c260bb8b784ae62075bb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[20/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1647,7 +1699,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af6e2c91e61803da43aa23519cd96b4fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6e2c91e61803da43aa23519cd96b4fb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[21/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e2c91e61803da43aa23519cd96b4fb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[21/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1675,7 +1727,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4fc3492983e8924e6ace3c714878bc42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fc3492983e8924e6ace3c714878bc42">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[22/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc3492983e8924e6ace3c714878bc42">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[22/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1703,7 +1755,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a184034cb16c27157b503d116f1c50057"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a184034cb16c27157b503d116f1c50057">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[23/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a184034cb16c27157b503d116f1c50057">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[23/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1730,36 +1782,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7ddd566c5ec9542ec1546d305a66cf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7ddd566c5ec9542ec1546d305a66cf8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[24/39]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_event_header_collection.html">EventHeaderCollection</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3720afb3901a8c0cc0bf745bca602a6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3720afb3901a8c0cc0bf745bca602a6f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[25/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3720afb3901a8c0cc0bf745bca602a6f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[24/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1786,8 +1810,92 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7ddd566c5ec9542ec1546d305a66cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ddd566c5ec9542ec1546d305a66cf8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[25/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_event_header_collection.html">EventHeaderCollection</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af302e106afd5bc68c381597dedaa5823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af302e106afd5bc68c381597dedaa5823">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[26/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_tracker_hit.html">ConstTrackerHit</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a375e66be2ad103688da3d09437b26eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375e66be2ad103688da3d09437b26eda">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[27/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_sim_tracker_hit.html">ConstSimTrackerHit</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afc480b687e7861c07c6b8f7325ad850e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc480b687e7861c07c6b8f7325ad850e">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[26/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc480b687e7861c07c6b8f7325ad850e">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[28/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1815,7 +1923,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a99eaa3505227ecbb458f3c4abfdf1676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99eaa3505227ecbb458f3c4abfdf1676">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[27/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99eaa3505227ecbb458f3c4abfdf1676">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[29/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1843,7 +1951,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3ccd194cff94130e0dd48fac4d75b119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ccd194cff94130e0dd48fac4d75b119">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[28/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccd194cff94130e0dd48fac4d75b119">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[30/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1871,7 +1979,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a0435624a13eb7298d6f0c1e1e3b2d1c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0435624a13eb7298d6f0c1e1e3b2d1c7">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[29/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0435624a13eb7298d6f0c1e1e3b2d1c7">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[31/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1898,36 +2006,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0134c0db0fbfa9c34a6a4fd1d6721b09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0134c0db0fbfa9c34a6a4fd1d6721b09">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[30/39]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_vertex_collection.html">VertexCollection</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a947069c9043ba7cf78479025f99f36e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947069c9043ba7cf78479025f99f36e8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[31/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a947069c9043ba7cf78479025f99f36e8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[32/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1954,8 +2034,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acf17a1195b6837fb2eddf10a694fc6e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf17a1195b6837fb2eddf10a694fc6e7">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[32/39]</span></h2>
+<a id="a0134c0db0fbfa9c34a6a4fd1d6721b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0134c0db0fbfa9c34a6a4fd1d6721b09">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[33/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1969,7 +2049,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_track_collection.html">TrackCollection</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_vertex_collection.html">VertexCollection</a> &amp;&#160;</td>
           <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
@@ -1983,7 +2063,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aba3e370644d1834b1add1f03ee52fcf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba3e370644d1834b1add1f03ee52fcf6">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[33/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3e370644d1834b1add1f03ee52fcf6">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[34/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2010,8 +2090,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6a6f4ff60ee751aa8c70413e5de02be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a6f4ff60ee751aa8c70413e5de02be6">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[34/39]</span></h2>
+<a id="acf17a1195b6837fb2eddf10a694fc6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf17a1195b6837fb2eddf10a694fc6e7">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[35/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2025,8 +2105,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_cluster.html">ConstCluster</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_track_collection.html">TrackCollection</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2039,7 +2119,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af889dd1a79b363dfb16d63e00db21fc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af889dd1a79b363dfb16d63e00db21fc0">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[35/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af889dd1a79b363dfb16d63e00db21fc0">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[36/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2066,36 +2146,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e56a966578dc4220c9cabcec7a14bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e56a966578dc4220c9cabcec7a14bc9">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[36/39]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_m_c_particle_collection.html">MCParticleCollection</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a93560ec269af5a55452ff427a3ced544"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93560ec269af5a55452ff427a3ced544">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[37/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93560ec269af5a55452ff427a3ced544">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[37/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2122,8 +2174,64 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4e56a966578dc4220c9cabcec7a14bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e56a966578dc4220c9cabcec7a14bc9">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[38/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_m_c_particle_collection.html">MCParticleCollection</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a6f4ff60ee751aa8c70413e5de02be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6f4ff60ee751aa8c70413e5de02be6">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[39/41]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; edm4hep::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classedm4hep_1_1_const_cluster.html">ConstCluster</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa371b33d043e382d078074e49a95e1eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa371b33d043e382d078074e49a95e1eb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[38/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa371b33d043e382d078074e49a95e1eb">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[40/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2151,7 +2259,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a9111356e87feb5ca40745f84d10c2af5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9111356e87feb5ca40745f84d10c2af5">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[39/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9111356e87feb5ca40745f84d10c2af5">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[41/41]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2222,7 +2330,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:43 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:36 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

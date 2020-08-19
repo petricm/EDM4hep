@@ -1,10 +1,7 @@
 <map id="install/include/edm4hep/MCRecoCaloAssociation.h" name="install/include/edm4hep/MCRecoCaloAssociation.h">
-<area shape="rect" id="node1" title=" " alt="" coords="405,5,598,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="402,5,595,47"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,95,248,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="273,102,335,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="360,102,440,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="464,102,539,129"/>
-<area shape="rect" id="node6" title=" " alt="" coords="563,102,693,129"/>
-<area shape="rect" id="node7" title=" " alt="" coords="717,95,960,136"/>
-<area shape="rect" id="node8" title=" " alt="" coords="984,95,1227,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="272,95,515,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="539,102,669,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="694,102,770,129"/>
 </map>

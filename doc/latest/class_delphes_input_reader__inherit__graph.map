@@ -1,0 +1,7 @@
+<map id="DelphesInputReader" name="DelphesInputReader">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,159,108"/>
+<area shape="rect" id="node2" href="$class_delphes_hep_m_c_input_reader.html" title=" " alt="" coords="210,5,409,32"/>
+<area shape="rect" id="node3" href="$class_delphes_pythia8_reader.html" title=" " alt="" coords="225,56,394,83"/>
+<area shape="rect" id="node4" href="$class_delphes_root_reader.html" title=" " alt="" coords="235,107,384,133"/>
+<area shape="rect" id="node5" href="$class_delphes_s_t_d_h_e_p_input_reader.html" title=" " alt="" coords="207,157,412,184"/>
+</map>

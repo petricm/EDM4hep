@@ -1,9 +1,8 @@
 <map id="edm4hep/edm4hep/TrackerHitObj.h" name="edm4hep/edm4hep/TrackerHitObj.h">
-<area shape="rect" id="node1" title=" " alt="" coords="248,5,467,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,95,176,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="200,95,328,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="353,95,549,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="573,95,728,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="753,95,815,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="379,5,598,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,201,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="226,95,381,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="405,95,573,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="597,95,660,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="685,95,813,121"/>
 </map>

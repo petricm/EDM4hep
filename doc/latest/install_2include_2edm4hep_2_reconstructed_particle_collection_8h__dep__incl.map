@@ -1,8 +1,12 @@
 <map id="install/include/edm4hep/ReconstructedParticleCollection.h" name="install/include/edm4hep/ReconstructedParticleCollection.h">
-<area shape="rect" id="node1" title=" " alt="" coords="446,5,689,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="893,5,1135,47"/>
 <area shape="rect" id="node2" href="$_m_c_reco_particle_association_collection_8cc.html" title=" " alt="" coords="5,95,215,136"/>
 <area shape="rect" id="node3" href="$_reconstructed_particle_8cc.html" title=" " alt="" coords="239,95,442,136"/>
 <area shape="rect" id="node4" href="$_reconstructed_particle_collection_8cc.html" title=" " alt="" coords="466,95,669,136"/>
 <area shape="rect" id="node5" href="$_reconstructed_particle_const_8cc.html" title=" " alt="" coords="693,95,895,136"/>
-<area shape="rect" id="node6" href="$_vertex_collection_8cc.html" title=" " alt="" coords="919,102,1154,129"/>
+<area shape="rect" id="node6" href="$_reco_particle_ref_collection_8cc.html" title=" " alt="" coords="919,95,1109,136"/>
+<area shape="rect" id="node7" href="$_vertex_collection_8cc.html" title=" " alt="" coords="1133,102,1367,129"/>
+<area shape="rect" id="node8" href="$_delphes_e_d_m4_hep_converter_8cc.html" title=" " alt="" coords="1391,95,1610,136"/>
+<area shape="rect" id="node9" href="$read__edm4hep_8_c.html" title=" " alt="" coords="1634,95,1826,136"/>
+<area shape="rect" id="node10" href="$reco__particle__ref_8cc.html" title=" " alt="" coords="1851,95,1985,136"/>
 </map>

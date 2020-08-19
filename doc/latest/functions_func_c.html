@@ -114,6 +114,9 @@ $(function() {
 : <a class="el" href="classedm4hep_1_1_track_collection.html#a12a3ee5509fa5774f67c386b0054e28c">edm4hep::TrackCollection</a>
 , <a class="el" href="classedm4hep_1_1_vertex_collection.html#a287f1d941d4fa387da885414b539f039">edm4hep::VertexCollection</a>
 </li>
+<li>Clear()
+: <a class="el" href="class_delphes.html#a234afd1ec010e14892187f898e49d97f">Delphes</a>
+</li>
 <li>clear()
 : <a class="el" href="classedm4hep_1_1_calo_hit_contribution_collection.html#a8551e8bf95ae124c100502e6e7548017">edm4hep::CaloHitContributionCollection</a>
 , <a class="el" href="classedm4hep_1_1_calorimeter_hit_collection.html#ad311bc377dfcb0fe92f07825fbf622f3">edm4hep::CalorimeterHitCollection</a>
@@ -126,6 +129,7 @@ $(function() {
 , <a class="el" href="classedm4hep_1_1_particle_i_d_collection.html#aeead5a80977ebc26e183ec8a0df16232">edm4hep::ParticleIDCollection</a>
 , <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_collection.html#a2edfe7d642d66e89236c1062d55fc7ed">edm4hep::RawCalorimeterHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html#aaef52cfe6c958a2edffd4c2b82cc3eff">edm4hep::ReconstructedParticleCollection</a>
+, <a class="el" href="classedm4hep_1_1_reco_particle_ref_collection.html#a3306cf341754afe4383a2b4328b31303">edm4hep::RecoParticleRefCollection</a>
 , <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_collection.html#abc6e4bc14f65788c319cfd4ede4dccfc">edm4hep::SimCalorimeterHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_sim_tracker_hit_collection.html#af0bd47f7bfcc862160fac1d53146f139">edm4hep::SimTrackerHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_t_p_c_hit_collection.html#a9e38f4b90c208c35652e06a0264f14d4">edm4hep::TPCHitCollection</a>
@@ -148,6 +152,7 @@ $(function() {
 , <a class="el" href="classedm4hep_1_1_const_particle_i_d.html#ad4cb78eb5519bde323f716ac1f64c93d">edm4hep::ConstParticleID</a>
 , <a class="el" href="classedm4hep_1_1_const_raw_calorimeter_hit.html#a5bc719a386820c6268a097d366c1f822">edm4hep::ConstRawCalorimeterHit</a>
 , <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#af1457bb056b8e79a8e1799ced3d25629">edm4hep::ConstReconstructedParticle</a>
+, <a class="el" href="classedm4hep_1_1_const_reco_particle_ref.html#ad14679ee030339396fc3fd38abbc6001">edm4hep::ConstRecoParticleRef</a>
 , <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#a8638407801a76a8cc7beb1d442db2903">edm4hep::ConstSimCalorimeterHit</a>
 , <a class="el" href="classedm4hep_1_1_const_sim_tracker_hit.html#a7ea8866072cc0667ddf4e29ebf1f941c">edm4hep::ConstSimTrackerHit</a>
 , <a class="el" href="classedm4hep_1_1_const_t_p_c_hit.html#a3cfcd5cc5a3199d426fd1786f819814c">edm4hep::ConstTPCHit</a>
@@ -162,6 +167,7 @@ $(function() {
 , <a class="el" href="classedm4hep_1_1_particle_i_d.html#a09ffc260734508cd7d367f3c200291cc">edm4hep::ParticleID</a>
 , <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit.html#a5dab5b46ba01d7958e54131ad5d3451f">edm4hep::RawCalorimeterHit</a>
 , <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a1356ba81bda826204e5a180ac65ef7ba">edm4hep::ReconstructedParticle</a>
+, <a class="el" href="classedm4hep_1_1_reco_particle_ref.html#ac50038354e805c6bc8dd1e1f252688a4">edm4hep::RecoParticleRef</a>
 , <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#a4599ba19b538c05dec9e2e1e4ce3b8d4">edm4hep::SimCalorimeterHit</a>
 , <a class="el" href="classedm4hep_1_1_sim_tracker_hit.html#aab3cd7a41502e0a921f8d31abc07f80c">edm4hep::SimTrackerHit</a>
 , <a class="el" href="classedm4hep_1_1_t_p_c_hit.html#a30946b73d0c3be15684b6f8a5e663ba1">edm4hep::TPCHit</a>
@@ -182,16 +188,16 @@ $(function() {
 : <a class="el" href="classedm4hep_1_1_cluster_obj.html#aac31998e33d7580f67807d22ce89fcc4">edm4hep::ClusterObj</a>
 </li>
 <li>clusters_begin()
-: <a class="el" href="classedm4hep_1_1_cluster.html#a2ae7162336c99e4918b772f007abd70b">edm4hep::Cluster</a>
-, <a class="el" href="classedm4hep_1_1_const_cluster.html#ab9e87a5885245a8b32fdd696de7b1bc4">edm4hep::ConstCluster</a>
-, <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#a8b336508bd881f8afd6beb305b85ac93">edm4hep::ConstReconstructedParticle</a>
-, <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#ad46b5a100a5a129d9444fbdbdb166a73">edm4hep::ReconstructedParticle</a>
+: <a class="el" href="classedm4hep_1_1_cluster.html#a1df1f2120840dd205911956345ad1a45">edm4hep::Cluster</a>
+, <a class="el" href="classedm4hep_1_1_const_cluster.html#add04981c7678c7e1f0a49b1af3f24a09">edm4hep::ConstCluster</a>
+, <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#abed751a088b1c60ffbb766c16521c0fa">edm4hep::ConstReconstructedParticle</a>
+, <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#abd5371f29ac7678cb6421266b623ed7d">edm4hep::ReconstructedParticle</a>
 </li>
 <li>clusters_end()
-: <a class="el" href="classedm4hep_1_1_cluster.html#ae9c24debd88056b110efbb217d03368b">edm4hep::Cluster</a>
-, <a class="el" href="classedm4hep_1_1_const_cluster.html#a8ba15e722206623ba0badcbc2020475c">edm4hep::ConstCluster</a>
-, <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#a0eea82e83a29c3def584cbcc48b23b38">edm4hep::ConstReconstructedParticle</a>
-, <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a83e4b5a3e6c37eec4dc951acb1f4a27b">edm4hep::ReconstructedParticle</a>
+: <a class="el" href="classedm4hep_1_1_cluster.html#a988897acd96a089042e978e0f596b001">edm4hep::Cluster</a>
+, <a class="el" href="classedm4hep_1_1_const_cluster.html#aa954e10cb4eb58bdea732a1528f04021">edm4hep::ConstCluster</a>
+, <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#ab2d4eeca4da4d590cbfb33fc7c68c1dd">edm4hep::ConstReconstructedParticle</a>
+, <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a721fffe6883ba361c667bc90fb42fd4a">edm4hep::ReconstructedParticle</a>
 </li>
 <li>clusters_size()
 : <a class="el" href="classedm4hep_1_1_cluster.html#a4811cdeb7df8091ec6aa7329679c4b13">edm4hep::Cluster</a>
@@ -201,7 +207,7 @@ $(function() {
 </li>
 <li>colorFlow()
 : <a class="el" href="classedm4hep_1_1_m_c_particle.html#a2c9ab544693cce226483127df5d2471f">edm4hep::MCParticle</a>
-, <a class="el" href="classedm4hep_1_1_m_c_particle_collection.html#a196fe80a8e9460ac1d3a6775072e0f4e">edm4hep::MCParticleCollection</a>
+, <a class="el" href="classedm4hep_1_1_m_c_particle_collection.html#ab9af244bc8f157274b3b58996ef7e537">edm4hep::MCParticleCollection</a>
 </li>
 <li>commit()
 : <a class="el" href="classdd4hep_1_1sim_1_1_geant4_output2_e_d_m4hep.html#ad3700d59fa9189a1ff0d56cc3760ddc1">dd4hep::sim::Geant4Output2EDM4hep</a>
@@ -210,16 +216,16 @@ $(function() {
 : <a class="el" href="classedm4hep_1_1_const_calo_hit_contribution.html#ab3748685d266e6336da7339f7fa7e050">edm4hep::ConstCaloHitContribution</a>
 </li>
 <li>ConstCalorimeterHit()
-: <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html#a66f8dc9b2ef8276ef217dbb677e67167">edm4hep::ConstCalorimeterHit</a>
+: <a class="el" href="classedm4hep_1_1_const_calorimeter_hit.html#a4c16006003bf7fdcbf122cb768119c5b">edm4hep::ConstCalorimeterHit</a>
 </li>
 <li>ConstCluster()
-: <a class="el" href="classedm4hep_1_1_const_cluster.html#a5fc77035af79cd08a1623f048a4da875">edm4hep::ConstCluster</a>
+: <a class="el" href="classedm4hep_1_1_const_cluster.html#a56dbddbfb76acb0749e1626a50debeea">edm4hep::ConstCluster</a>
 </li>
 <li>ConstEventHeader()
-: <a class="el" href="classedm4hep_1_1_const_event_header.html#a0a3180bfffcf1e6074d49b2cc60f1866">edm4hep::ConstEventHeader</a>
+: <a class="el" href="classedm4hep_1_1_const_event_header.html#aff044533f25c9c0739f0ff3a564aebca">edm4hep::ConstEventHeader</a>
 </li>
 <li>ConstMCParticle()
-: <a class="el" href="classedm4hep_1_1_const_m_c_particle.html#a3acaba167ff6e557b5ace18e62c806d5">edm4hep::ConstMCParticle</a>
+: <a class="el" href="classedm4hep_1_1_const_m_c_particle.html#ab2f132f6f7cc829a21f26062bfe44b09">edm4hep::ConstMCParticle</a>
 </li>
 <li>ConstMCRecoCaloAssociation()
 : <a class="el" href="classedm4hep_1_1_const_m_c_reco_calo_association.html#ae774a59b51fe1b95ae721884e3d88ec0">edm4hep::ConstMCRecoCaloAssociation</a>
@@ -231,67 +237,74 @@ $(function() {
 : <a class="el" href="classedm4hep_1_1_const_m_c_reco_tracker_association.html#a9c454263a89de811a7f5e3bb2828712d">edm4hep::ConstMCRecoTrackerAssociation</a>
 </li>
 <li>ConstParticleID()
-: <a class="el" href="classedm4hep_1_1_const_particle_i_d.html#a64413bf16093e20348ff1a01a80ea650">edm4hep::ConstParticleID</a>
+: <a class="el" href="classedm4hep_1_1_const_particle_i_d.html#a3826db1f0255aba45fc6df1fec7869e0">edm4hep::ConstParticleID</a>
 </li>
 <li>ConstRawCalorimeterHit()
 : <a class="el" href="classedm4hep_1_1_const_raw_calorimeter_hit.html#ac1b33eeddf016f9da5630e93eed91560">edm4hep::ConstRawCalorimeterHit</a>
 </li>
 <li>ConstReconstructedParticle()
-: <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#ac8a776f5f0da0d1d856f7c94898ea584">edm4hep::ConstReconstructedParticle</a>
+: <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html#abb221c240329387a127696839c348cfd">edm4hep::ConstReconstructedParticle</a>
+</li>
+<li>ConstRecoParticleRef()
+: <a class="el" href="classedm4hep_1_1_const_reco_particle_ref.html#acc62523932bb218470c9b2db5f2f004b">edm4hep::ConstRecoParticleRef</a>
 </li>
 <li>ConstSimCalorimeterHit()
-: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#aaeb101f54350d89cb2514f2cade29326">edm4hep::ConstSimCalorimeterHit</a>
+: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#af1b55ef77fd10b8e1861e3b4ae35d1d0">edm4hep::ConstSimCalorimeterHit</a>
 </li>
 <li>ConstSimTrackerHit()
-: <a class="el" href="classedm4hep_1_1_const_sim_tracker_hit.html#a84491cf7703cd52b51e1847513c5b80b">edm4hep::ConstSimTrackerHit</a>
+: <a class="el" href="classedm4hep_1_1_const_sim_tracker_hit.html#a3beff9fe6e1521b4ba06298d88ed7dfc">edm4hep::ConstSimTrackerHit</a>
 </li>
 <li>ConstTPCHit()
 : <a class="el" href="classedm4hep_1_1_const_t_p_c_hit.html#a81f755a2156f0c421f4dfb407fe7a5d3">edm4hep::ConstTPCHit</a>
 </li>
 <li>ConstTrack()
-: <a class="el" href="classedm4hep_1_1_const_track.html#aa7ab4d67aa08795b2e65327ad2e2bf2a">edm4hep::ConstTrack</a>
+: <a class="el" href="classedm4hep_1_1_const_track.html#af6fdaa719ccb20ed9c5ef4f73bf57e3b">edm4hep::ConstTrack</a>
 </li>
 <li>ConstTrackerHit()
 : <a class="el" href="classedm4hep_1_1_const_tracker_hit.html#a528a597a5d146d9ff41992c659649819">edm4hep::ConstTrackerHit</a>
 </li>
 <li>ConstVertex()
-: <a class="el" href="classedm4hep_1_1_const_vertex.html#ae170c0acd37852d3f270186ac25bd7de">edm4hep::ConstVertex</a>
+: <a class="el" href="classedm4hep_1_1_const_vertex.html#a28987ce25c94e5ac59097dd1d7736084">edm4hep::ConstVertex</a>
 </li>
 <li>contributions_begin()
-: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#aff3709bc7b6af8cc0454a133c3f01dad">edm4hep::ConstSimCalorimeterHit</a>
-, <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#a656dbaae1069705a5de2d9516b56017c">edm4hep::SimCalorimeterHit</a>
+: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#a6a6f28a93aed781fac154bd77f25e4a1">edm4hep::ConstSimCalorimeterHit</a>
+, <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#af94eb5b6d8a82c46ac85e10865d721c3">edm4hep::SimCalorimeterHit</a>
 </li>
 <li>contributions_end()
-: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#ae9f68d840f56cc793a7349a825be1e7b">edm4hep::ConstSimCalorimeterHit</a>
-, <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#ac6b6b625735d2ed3589d3231bd2423ed">edm4hep::SimCalorimeterHit</a>
+: <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#adf29520edb7b7126b3b0ecfbfcd2290a">edm4hep::ConstSimCalorimeterHit</a>
+, <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#a158a083dce06256755409d84287ef1b9">edm4hep::SimCalorimeterHit</a>
 </li>
 <li>contributions_size()
 : <a class="el" href="classedm4hep_1_1_const_sim_calorimeter_hit.html#a01b120c85a204e39dcbffcd2a20ba408">edm4hep::ConstSimCalorimeterHit</a>
 , <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit.html#a2b1a86b2e70dbc23a0ea7c1733ef5315">edm4hep::SimCalorimeterHit</a>
 </li>
 <li>covMatrix()
-: <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html#a83d3775423d5b97362eca74c30a3bbc7">edm4hep::ReconstructedParticleCollection</a>
-, <a class="el" href="classedm4hep_1_1_tracker_hit_collection.html#a9e8048e06b6c88996915ce1bab1d6967">edm4hep::TrackerHitCollection</a>
-, <a class="el" href="classedm4hep_1_1_vertex_collection.html#a587e738b125c3a473c3e9265146ef44c">edm4hep::VertexCollection</a>
+: <a class="el" href="classedm4hep_1_1_reconstructed_particle.html#a5eed37cee08d30b20bf2744ce3003e50">edm4hep::ReconstructedParticle</a>
+, <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html#a118f961172eca74b3156643e2744c057">edm4hep::ReconstructedParticleCollection</a>
+, <a class="el" href="classedm4hep_1_1_tracker_hit.html#ad769738636de90dd9b5ebee5241511af">edm4hep::TrackerHit</a>
+, <a class="el" href="classedm4hep_1_1_tracker_hit_collection.html#a18e75cf5989a504aa5c4479600df70a9">edm4hep::TrackerHitCollection</a>
+, <a class="el" href="classedm4hep_1_1_vertex.html#a59be149ce4e36386daefcc30fcfc2420">edm4hep::Vertex</a>
+, <a class="el" href="classedm4hep_1_1_vertex_collection.html#aef26af36a3ae3237d5bb19b95f02dbd5">edm4hep::VertexCollection</a>
 </li>
 <li>create()
-: <a class="el" href="classedm4hep_1_1_calo_hit_contribution_collection.html#a1f61b340f07638331d99c8a852924d2b">edm4hep::CaloHitContributionCollection</a>
+: <a class="el" href="classedm4hep_1_1_calo_hit_contribution_collection.html#a972a9fc833e7a16065f7dc950161c678">edm4hep::CaloHitContributionCollection</a>
 , <a class="el" href="classedm4hep_1_1_calorimeter_hit_collection.html#a9ac7ce36bab35e4dc3967fb144af523b">edm4hep::CalorimeterHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_cluster_collection.html#a7095505f6933c97ed02ce28353c939f9">edm4hep::ClusterCollection</a>
 , <a class="el" href="classedm4hep_1_1_event_header_collection.html#ae12d36477692f7813322adb23cbcada7">edm4hep::EventHeaderCollection</a>
 , <a class="el" href="classedm4hep_1_1_m_c_particle_collection.html#a66626315e4063b59aa3ada6fbcebdad7">edm4hep::MCParticleCollection</a>
 , <a class="el" href="classedm4hep_1_1_m_c_reco_calo_association_collection.html#a982bb9bcca5c6f6247b757861d6bb657">edm4hep::MCRecoCaloAssociationCollection</a>
-, <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_collection.html#a149bc83e2d44b60280efd5215e2b4264">edm4hep::MCRecoParticleAssociationCollection</a>
+, <a class="el" href="classedm4hep_1_1_m_c_reco_particle_association_collection.html#ab6f062bf833b4ec9c9514df13bc0a1a5">edm4hep::MCRecoParticleAssociationCollection</a>
 , <a class="el" href="classedm4hep_1_1_m_c_reco_tracker_association_collection.html#a72145747dda35d1c70870e6d7320aeda">edm4hep::MCRecoTrackerAssociationCollection</a>
-, <a class="el" href="classedm4hep_1_1_particle_i_d_collection.html#ac6de9a0c467c66b4969c446bbdf0115f">edm4hep::ParticleIDCollection</a>
-, <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_collection.html#a25ce3f6e869a07f5fbe1a34074e0962d">edm4hep::RawCalorimeterHitCollection</a>
-, <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html#a3d64975bbeca96122bc6fa7ed9c2d78b">edm4hep::ReconstructedParticleCollection</a>
+, <a class="el" href="classedm4hep_1_1_particle_i_d_collection.html#a4025047fe0c4f27a579de5f18c854dec">edm4hep::ParticleIDCollection</a>
+, <a class="el" href="classedm4hep_1_1_raw_calorimeter_hit_collection.html#a903bc3bb6dfc58e4b55b06ccdc33bb7c">edm4hep::RawCalorimeterHitCollection</a>
+, <a class="el" href="classedm4hep_1_1_reconstructed_particle_collection.html#a52f067725b9665f3410fd5c518bf1bdb">edm4hep::ReconstructedParticleCollection</a>
+, <a class="el" href="classedm4hep_1_1_reco_particle_ref_collection.html#a328fa0d08888da232efe682c8136b1fa">edm4hep::RecoParticleRefCollection</a>
 , <a class="el" href="classedm4hep_1_1_sim_calorimeter_hit_collection.html#abdfe3f88b4b6f85ac6c2746905e4ac40">edm4hep::SimCalorimeterHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_sim_tracker_hit_collection.html#a39bbd1cded9cd387733be4743cddc7c2">edm4hep::SimTrackerHitCollection</a>
 , <a class="el" href="classedm4hep_1_1_t_p_c_hit_collection.html#a49011dc7d3ad7320d78085fe2f5fc233">edm4hep::TPCHitCollection</a>
-, <a class="el" href="classedm4hep_1_1_track_collection.html#a7a8439993548c9de9b846e8e8660fe01">edm4hep::TrackCollection</a>
-, <a class="el" href="classedm4hep_1_1_tracker_hit_collection.html#ac767c09f39345040d5a877340cf92789">edm4hep::TrackerHitCollection</a>
-, <a class="el" href="classedm4hep_1_1_vertex_collection.html#a9108fe3366ea55724b2e0549cd04168f">edm4hep::VertexCollection</a>
+, <a class="el" href="classedm4hep_1_1_track_collection.html#a918b57d28e70ffe62dd6683dac0872c6">edm4hep::TrackCollection</a>
+, <a class="el" href="classedm4hep_1_1_tracker_hit_collection.html#a4d5ee02c171fb8a051fc0dd9f1398c2a">edm4hep::TrackerHitCollection</a>
+, <a class="el" href="classedm4hep_1_1_vertex_collection.html#af97efebd2434fe2861042a0597e0b0bb">edm4hep::VertexCollection</a>
 </li>
 <li>createCollections()
 : <a class="el" href="classdd4hep_1_1sim_1_1_geant4_output2_e_d_m4hep.html#af2e4a4857b6859d4e472f12c52f45811">dd4hep::sim::Geant4Output2EDM4hep</a>
@@ -301,7 +314,7 @@ $(function() {
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:44 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:37 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

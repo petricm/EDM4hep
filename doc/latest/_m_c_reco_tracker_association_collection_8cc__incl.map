@@ -1,7 +1,8 @@
 <map id="edm4hep/src/MCRecoTrackerAssociationCollection.cc" name="edm4hep/src/MCRecoTrackerAssociationCollection.cc">
-<area shape="rect" id="node1" title=" " alt="" coords="273,5,481,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,102,92,129"/>
-<area shape="rect" id="node3" title=" " alt="" coords="116,102,371,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="395,102,625,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="649,95,909,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="579,5,787,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,265,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="289,102,544,129"/>
+<area shape="rect" id="node4" title=" " alt="" coords="568,102,799,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="823,102,909,129"/>
+<area shape="rect" id="node6" title=" " alt="" coords="934,102,1009,129"/>
 </map>

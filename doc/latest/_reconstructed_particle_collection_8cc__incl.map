@@ -1,9 +1,10 @@
 <map id="edm4hep/src/ReconstructedParticleCollection.cc" name="edm4hep/src/ReconstructedParticleCollection.cc">
-<area shape="rect" id="node1" title=" " alt="" coords="489,5,691,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,102,92,129"/>
-<area shape="rect" id="node3" title=" " alt="" coords="117,102,327,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="351,102,578,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="602,95,829,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="853,102,1052,129"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1076,102,1283,129"/>
+<area shape="rect" id="node1" title=" " alt="" coords="740,5,943,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,232,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="256,102,467,129"/>
+<area shape="rect" id="node4" title=" " alt="" coords="491,102,717,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="742,102,941,129"/>
+<area shape="rect" id="node6" title=" " alt="" coords="965,102,1171,129"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1195,102,1282,129"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1307,102,1381,129"/>
 </map>

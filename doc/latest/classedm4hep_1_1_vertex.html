@@ -141,7 +141,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a372fd72f3de26ee886f5a8e8624adf24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a372fd72f3de26ee886f5a8e8624adf24">Vertex</a> ()</td></tr>
 <tr class="memdesc:a372fd72f3de26ee886f5a8e8624adf24"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a372fd72f3de26ee886f5a8e8624adf24">More...</a><br /></td></tr>
 <tr class="separator:a372fd72f3de26ee886f5a8e8624adf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ad292856687bcd8f6a1f66e93afc3c0b7">Vertex</a> (int primary, float chi2, float probability, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_vertex.html#aa0f1ad48c51db4eacb9b9aac59b4fac6">position</a>, std::array&lt; float, 6 &gt; covMatrix, int algorithmType)</td></tr>
+<tr class="memitem:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ad292856687bcd8f6a1f66e93afc3c0b7">Vertex</a> (int primary, float chi2, float probability, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_vertex.html#aa0f1ad48c51db4eacb9b9aac59b4fac6">position</a>, std::array&lt; float, 6 &gt; <a class="el" href="classedm4hep_1_1_vertex.html#a18469fe37c0b0d7571bbf6ebc853668a">covMatrix</a>, int algorithmType)</td></tr>
 <tr class="separator:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32544b9b76d6500c79209d87d0a82195"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a32544b9b76d6500c79209d87d0a82195">Vertex</a> (<a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a> *obj)</td></tr>
 <tr class="memdesc:a32544b9b76d6500c79209d87d0a82195"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a>  <a href="#a32544b9b76d6500c79209d87d0a82195">More...</a><br /></td></tr>
@@ -177,14 +177,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a740b7a19a1ca14130d48cb26d73b433a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a740b7a19a1ca14130d48cb26d73b433a">More...</a><br /></td></tr>
 <tr class="separator:a740b7a19a1ca14130d48cb26d73b433a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3aefffdb3035a19f854b464c9861199"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ae3aefffdb3035a19f854b464c9861199">getCovMatrix</a> (size_t i) const</td></tr>
-<tr class="memdesc:ae3aefffdb3035a19f854b464c9861199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#ae3aefffdb3035a19f854b464c9861199">More...</a><br /></td></tr>
+<tr class="memdesc:ae3aefffdb3035a19f854b464c9861199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#ae3aefffdb3035a19f854b464c9861199">More...</a><br /></td></tr>
 <tr class="separator:ae3aefffdb3035a19f854b464c9861199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9663646c526a24985864c28f86cee586"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a9663646c526a24985864c28f86cee586">getAlgorithmType</a> () const</td></tr>
 <tr class="memdesc:a9663646c526a24985864c28f86cee586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the type code for the algorithm that has been used to create the vertex - check/set the collection parameters AlgorithmName and AlgorithmType.  <a href="#a9663646c526a24985864c28f86cee586">More...</a><br /></td></tr>
 <tr class="separator:a9663646c526a24985864c28f86cee586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0449756a47f182372b51d0d08dae7b42"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a0449756a47f182372b51d0d08dae7b42">getAssociatedParticle</a> () const</td></tr>
-<tr class="memdesc:a0449756a47f182372b51d0d08dae7b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the reconstructed particle associated to this vertex.  <a href="#a0449756a47f182372b51d0d08dae7b42">More...</a><br /></td></tr>
-<tr class="separator:a0449756a47f182372b51d0d08dae7b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b80ab5a26cd4136011cd63bc8fa7e70"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a8b80ab5a26cd4136011cd63bc8fa7e70">getAssociatedParticle</a> () const</td></tr>
+<tr class="memdesc:a8b80ab5a26cd4136011cd63bc8fa7e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the reconstructed particle associated to this vertex.  <a href="#a8b80ab5a26cd4136011cd63bc8fa7e70">More...</a><br /></td></tr>
+<tr class="separator:a8b80ab5a26cd4136011cd63bc8fa7e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6de037543367b2bbf6a7a9bca0758a9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a6de037543367b2bbf6a7a9bca0758a9b">setPrimary</a> (int value)</td></tr>
 <tr class="memdesc:a6de037543367b2bbf6a7a9bca0758a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boolean flag, if vertex is the primary vertex of the event.  <a href="#a6de037543367b2bbf6a7a9bca0758a9b">More...</a><br /></td></tr>
 <tr class="separator:a6de037543367b2bbf6a7a9bca0758a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,24 +194,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb1ee2a8616af8db0fa04d2671506e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#adb1ee2a8616af8db0fa04d2671506e52">setProbability</a> (float value)</td></tr>
 <tr class="memdesc:adb1ee2a8616af8db0fa04d2671506e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the probability of the vertex fit.  <a href="#adb1ee2a8616af8db0fa04d2671506e52">More...</a><br /></td></tr>
 <tr class="separator:adb1ee2a8616af8db0fa04d2671506e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ff272ecb813cbe574ad252f543f109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ab6ff272ecb813cbe574ad252f543f109">setPosition</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ab6ff272ecb813cbe574ad252f543f109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] position of the vertex.  <a href="#ab6ff272ecb813cbe574ad252f543f109">More...</a><br /></td></tr>
+<tr class="separator:ab6ff272ecb813cbe574ad252f543f109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f1ad48c51db4eacb9b9aac59b4fac6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#aa0f1ad48c51db4eacb9b9aac59b4fac6">position</a> ()</td></tr>
-<tr class="memdesc:aa0f1ad48c51db4eacb9b9aac59b4fac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [mm] position of the vertex.  <a href="#aa0f1ad48c51db4eacb9b9aac59b4fac6">More...</a><br /></td></tr>
+<tr class="memdesc:aa0f1ad48c51db4eacb9b9aac59b4fac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [mm] position of the vertex.  <a href="#aa0f1ad48c51db4eacb9b9aac59b4fac6">More...</a><br /></td></tr>
 <tr class="separator:aa0f1ad48c51db4eacb9b9aac59b4fac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcced29ffff76024d59eb9f2aa51881a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#abcced29ffff76024d59eb9f2aa51881a">setPosition</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:abcced29ffff76024d59eb9f2aa51881a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] position of the vertex.  <a href="#abcced29ffff76024d59eb9f2aa51881a">More...</a><br /></td></tr>
-<tr class="separator:abcced29ffff76024d59eb9f2aa51881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a9471ddbfbe2f5bf40800e1efb98c3adb">setCovMatrix</a> (std::array&lt; float, 6 &gt; value)</td></tr>
 <tr class="memdesc:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a9471ddbfbe2f5bf40800e1efb98c3adb">More...</a><br /></td></tr>
 <tr class="separator:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29fa42db63d6ddddea5804f1730cda6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#aa29fa42db63d6ddddea5804f1730cda6">setCovMatrix</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:aa29fa42db63d6ddddea5804f1730cda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#aa29fa42db63d6ddddea5804f1730cda6">More...</a><br /></td></tr>
 <tr class="separator:aa29fa42db63d6ddddea5804f1730cda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18469fe37c0b0d7571bbf6ebc853668a"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 6 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a18469fe37c0b0d7571bbf6ebc853668a">covMatrix</a> ()</td></tr>
+<tr class="memdesc:a18469fe37c0b0d7571bbf6ebc853668a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a18469fe37c0b0d7571bbf6ebc853668a">More...</a><br /></td></tr>
+<tr class="separator:a18469fe37c0b0d7571bbf6ebc853668a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a45c1d5b365e5fc23f3dcc2bf78b0117d">setAlgorithmType</a> (int value)</td></tr>
 <tr class="memdesc:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type code for the algorithm that has been used to create the vertex - check/set the collection parameters AlgorithmName and AlgorithmType.  <a href="#a45c1d5b365e5fc23f3dcc2bf78b0117d">More...</a><br /></td></tr>
 <tr class="separator:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572430fe02caf902d4ab848e9a4aedff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a572430fe02caf902d4ab848e9a4aedff">setAssociatedParticle</a> (<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> value)</td></tr>
-<tr class="memdesc:a572430fe02caf902d4ab848e9a4aedff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reconstructed particle associated to this vertex.  <a href="#a572430fe02caf902d4ab848e9a4aedff">More...</a><br /></td></tr>
-<tr class="separator:a572430fe02caf902d4ab848e9a4aedff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfc245912d9d07df5f807f18773e361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#aecfc245912d9d07df5f807f18773e361">setAssociatedParticle</a> (::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> value)</td></tr>
+<tr class="memdesc:aecfc245912d9d07df5f807f18773e361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reconstructed particle associated to this vertex.  <a href="#aecfc245912d9d07df5f807f18773e361">More...</a><br /></td></tr>
+<tr class="separator:aecfc245912d9d07df5f807f18773e361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848ffadbc8fc2e22136887dc9d559024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a848ffadbc8fc2e22136887dc9d559024">addToParameters</a> (float)</td></tr>
 <tr class="separator:a848ffadbc8fc2e22136887dc9d559024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a935f2adda3e6e5df150a4abd2a69b2d2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a935f2adda3e6e5df150a4abd2a69b2d2">parameters_size</a> () const</td></tr>
@@ -222,6 +224,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb51fe4b7a559e454f652eef17f8ecd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eeed541167016110809a424dee1837d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a8eeed541167016110809a424dee1837d">parameters_end</a> () const</td></tr>
 <tr class="separator:a8eeed541167016110809a424dee1837d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7251e434c35ce529e88c773b5ace6218"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a7251e434c35ce529e88c773b5ace6218">getParameters</a> () const</td></tr>
+<tr class="separator:a7251e434c35ce529e88c773b5ace6218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f79b2e6c085d002dd6604d35c587cce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a0f79b2e6c085d002dd6604d35c587cce">isAvailable</a> () const</td></tr>
 <tr class="memdesc:a0f79b2e6c085d002dd6604d35c587cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the object is actually available  <a href="#a0f79b2e6c085d002dd6604d35c587cce">More...</a><br /></td></tr>
 <tr class="separator:a0f79b2e6c085d002dd6604d35c587cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,7 +245,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a372fd72f3de26ee886f5a8e8624adf24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a372fd72f3de26ee886f5a8e8624adf24">Vertex</a> ()</td></tr>
 <tr class="memdesc:a372fd72f3de26ee886f5a8e8624adf24"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a372fd72f3de26ee886f5a8e8624adf24">More...</a><br /></td></tr>
 <tr class="separator:a372fd72f3de26ee886f5a8e8624adf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ad292856687bcd8f6a1f66e93afc3c0b7">Vertex</a> (int primary, float chi2, float probability, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_vertex.html#aa0f1ad48c51db4eacb9b9aac59b4fac6">position</a>, std::array&lt; float, 6 &gt; covMatrix, int algorithmType)</td></tr>
+<tr class="memitem:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ad292856687bcd8f6a1f66e93afc3c0b7">Vertex</a> (int primary, float chi2, float probability, <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> <a class="el" href="classedm4hep_1_1_vertex.html#aa0f1ad48c51db4eacb9b9aac59b4fac6">position</a>, std::array&lt; float, 6 &gt; <a class="el" href="classedm4hep_1_1_vertex.html#a18469fe37c0b0d7571bbf6ebc853668a">covMatrix</a>, int algorithmType)</td></tr>
 <tr class="separator:ad292856687bcd8f6a1f66e93afc3c0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32544b9b76d6500c79209d87d0a82195"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a32544b9b76d6500c79209d87d0a82195">Vertex</a> (<a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a> *obj)</td></tr>
 <tr class="memdesc:a32544b9b76d6500c79209d87d0a82195"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor from existing <a class="el" href="classedm4hep_1_1_vertex_obj.html">VertexObj</a>  <a href="#a32544b9b76d6500c79209d87d0a82195">More...</a><br /></td></tr>
@@ -277,14 +281,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a537744241acc20d0bf5d340a7f8296c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a537744241acc20d0bf5d340a7f8296c5">More...</a><br /></td></tr>
 <tr class="separator:a537744241acc20d0bf5d340a7f8296c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7845bc1ee01631ae66daa850e62103e"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#af7845bc1ee01631ae66daa850e62103e">getCovMatrix</a> (size_t i) const</td></tr>
-<tr class="memdesc:af7845bc1ee01631ae66daa850e62103e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i in the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#af7845bc1ee01631ae66daa850e62103e">More...</a><br /></td></tr>
+<tr class="memdesc:af7845bc1ee01631ae66daa850e62103e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access item i of the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#af7845bc1ee01631ae66daa850e62103e">More...</a><br /></td></tr>
 <tr class="separator:af7845bc1ee01631ae66daa850e62103e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac287b228a43f919ce7e80b9604bda049"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ac287b228a43f919ce7e80b9604bda049">getAlgorithmType</a> () const</td></tr>
 <tr class="memdesc:ac287b228a43f919ce7e80b9604bda049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the type code for the algorithm that has been used to create the vertex - check/set the collection parameters AlgorithmName and AlgorithmType.  <a href="#ac287b228a43f919ce7e80b9604bda049">More...</a><br /></td></tr>
 <tr class="separator:ac287b228a43f919ce7e80b9604bda049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0449756a47f182372b51d0d08dae7b42"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a0449756a47f182372b51d0d08dae7b42">getAssociatedParticle</a> () const</td></tr>
-<tr class="memdesc:a0449756a47f182372b51d0d08dae7b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the reconstructed particle associated to this vertex.  <a href="#a0449756a47f182372b51d0d08dae7b42">More...</a><br /></td></tr>
-<tr class="separator:a0449756a47f182372b51d0d08dae7b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac2bb09b0ad79b569a048c9815405d6"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#afac2bb09b0ad79b569a048c9815405d6">getAssociatedParticle</a> () const</td></tr>
+<tr class="memdesc:afac2bb09b0ad79b569a048c9815405d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the reconstructed particle associated to this vertex.  <a href="#afac2bb09b0ad79b569a048c9815405d6">More...</a><br /></td></tr>
+<tr class="separator:afac2bb09b0ad79b569a048c9815405d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6de037543367b2bbf6a7a9bca0758a9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a6de037543367b2bbf6a7a9bca0758a9b">setPrimary</a> (int value)</td></tr>
 <tr class="memdesc:a6de037543367b2bbf6a7a9bca0758a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boolean flag, if vertex is the primary vertex of the event.  <a href="#a6de037543367b2bbf6a7a9bca0758a9b">More...</a><br /></td></tr>
 <tr class="separator:a6de037543367b2bbf6a7a9bca0758a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,24 +298,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb1ee2a8616af8db0fa04d2671506e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#adb1ee2a8616af8db0fa04d2671506e52">setProbability</a> (float value)</td></tr>
 <tr class="memdesc:adb1ee2a8616af8db0fa04d2671506e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the probability of the vertex fit.  <a href="#adb1ee2a8616af8db0fa04d2671506e52">More...</a><br /></td></tr>
 <tr class="separator:adb1ee2a8616af8db0fa04d2671506e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ff272ecb813cbe574ad252f543f109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#ab6ff272ecb813cbe574ad252f543f109">setPosition</a> (<a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
+<tr class="memdesc:ab6ff272ecb813cbe574ad252f543f109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] position of the vertex.  <a href="#ab6ff272ecb813cbe574ad252f543f109">More...</a><br /></td></tr>
+<tr class="separator:ab6ff272ecb813cbe574ad252f543f109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c1301684153c4db7e1e7c296dd32f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a23c1301684153c4db7e1e7c296dd32f9">position</a> ()</td></tr>
-<tr class="memdesc:a23c1301684153c4db7e1e7c296dd32f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to the [mm] position of the vertex.  <a href="#a23c1301684153c4db7e1e7c296dd32f9">More...</a><br /></td></tr>
+<tr class="memdesc:a23c1301684153c4db7e1e7c296dd32f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to [mm] position of the vertex.  <a href="#a23c1301684153c4db7e1e7c296dd32f9">More...</a><br /></td></tr>
 <tr class="separator:a23c1301684153c4db7e1e7c296dd32f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcced29ffff76024d59eb9f2aa51881a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#abcced29ffff76024d59eb9f2aa51881a">setPosition</a> (class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a> value)</td></tr>
-<tr class="memdesc:abcced29ffff76024d59eb9f2aa51881a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the [mm] position of the vertex.  <a href="#abcced29ffff76024d59eb9f2aa51881a">More...</a><br /></td></tr>
-<tr class="separator:abcced29ffff76024d59eb9f2aa51881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a9471ddbfbe2f5bf40800e1efb98c3adb">setCovMatrix</a> (std::array&lt; float, 6 &gt; value)</td></tr>
 <tr class="memdesc:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a9471ddbfbe2f5bf40800e1efb98c3adb">More...</a><br /></td></tr>
 <tr class="separator:a9471ddbfbe2f5bf40800e1efb98c3adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29fa42db63d6ddddea5804f1730cda6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#aa29fa42db63d6ddddea5804f1730cda6">setCovMatrix</a> (size_t i, float value)</td></tr>
-<tr class="memdesc:aa29fa42db63d6ddddea5804f1730cda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set item i in covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#aa29fa42db63d6ddddea5804f1730cda6">More...</a><br /></td></tr>
 <tr class="separator:aa29fa42db63d6ddddea5804f1730cda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59be149ce4e36386daefcc30fcfc2420"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 6 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a59be149ce4e36386daefcc30fcfc2420">covMatrix</a> ()</td></tr>
+<tr class="memdesc:a59be149ce4e36386daefcc30fcfc2420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... )  <a href="#a59be149ce4e36386daefcc30fcfc2420">More...</a><br /></td></tr>
+<tr class="separator:a59be149ce4e36386daefcc30fcfc2420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a45c1d5b365e5fc23f3dcc2bf78b0117d">setAlgorithmType</a> (int value)</td></tr>
 <tr class="memdesc:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type code for the algorithm that has been used to create the vertex - check/set the collection parameters AlgorithmName and AlgorithmType.  <a href="#a45c1d5b365e5fc23f3dcc2bf78b0117d">More...</a><br /></td></tr>
 <tr class="separator:a45c1d5b365e5fc23f3dcc2bf78b0117d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572430fe02caf902d4ab848e9a4aedff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a572430fe02caf902d4ab848e9a4aedff">setAssociatedParticle</a> (<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> value)</td></tr>
-<tr class="memdesc:a572430fe02caf902d4ab848e9a4aedff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reconstructed particle associated to this vertex.  <a href="#a572430fe02caf902d4ab848e9a4aedff">More...</a><br /></td></tr>
-<tr class="separator:a572430fe02caf902d4ab848e9a4aedff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfc245912d9d07df5f807f18773e361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#aecfc245912d9d07df5f807f18773e361">setAssociatedParticle</a> (::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> value)</td></tr>
+<tr class="memdesc:aecfc245912d9d07df5f807f18773e361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reconstructed particle associated to this vertex.  <a href="#aecfc245912d9d07df5f807f18773e361">More...</a><br /></td></tr>
+<tr class="separator:aecfc245912d9d07df5f807f18773e361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848ffadbc8fc2e22136887dc9d559024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a848ffadbc8fc2e22136887dc9d559024">addToParameters</a> (float)</td></tr>
 <tr class="separator:a848ffadbc8fc2e22136887dc9d559024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a935f2adda3e6e5df150a4abd2a69b2d2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a935f2adda3e6e5df150a4abd2a69b2d2">parameters_size</a> () const</td></tr>
@@ -322,6 +328,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a05acd12f570d7e12de7ee4be407620ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a31e011ad2fb34e6b55a0a340e5c494"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a8a31e011ad2fb34e6b55a0a340e5c494">parameters_end</a> () const</td></tr>
 <tr class="separator:a8a31e011ad2fb34e6b55a0a340e5c494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a68104e570e4b6619d1e92c854c58a"><td class="memItemLeft" align="right" valign="top">podio::RelationRange&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a57a68104e570e4b6619d1e92c854c58a">getParameters</a> () const</td></tr>
+<tr class="separator:a57a68104e570e4b6619d1e92c854c58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f79b2e6c085d002dd6604d35c587cce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedm4hep_1_1_vertex.html#a0f79b2e6c085d002dd6604d35c587cce">isAvailable</a> () const</td></tr>
 <tr class="memdesc:a0f79b2e6c085d002dd6604d35c587cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the object is actually available  <a href="#a0f79b2e6c085d002dd6604d35c587cce">More...</a><br /></td></tr>
 <tr class="separator:a0f79b2e6c085d002dd6604d35c587cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -689,6 +697,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a18469fe37c0b0d7571bbf6ebc853668a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18469fe37c0b0d7571bbf6ebc853668a">&#9670;&nbsp;</a></span>covMatrix() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; float, 6 &gt; &amp; edm4hep::Vertex::covMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
+
+</div>
+</div>
+<a id="a59be149ce4e36386daefcc30fcfc2420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59be149ce4e36386daefcc30fcfc2420">&#9670;&nbsp;</a></span>covMatrix() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, 6&gt;&amp; edm4hep::Vertex::covMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
+
+</div>
+</div>
 <a id="a9663646c526a24985864c28f86cee586"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9663646c526a24985864c28f86cee586">&#9670;&nbsp;</a></span>getAlgorithmType() <span class="overload">[1/2]</span></h2>
 
@@ -727,14 +773,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0449756a47f182372b51d0d08dae7b42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0449756a47f182372b51d0d08dae7b42">&#9670;&nbsp;</a></span>getAssociatedParticle() <span class="overload">[1/2]</span></h2>
+<a id="a8b80ab5a26cd4136011cd63bc8fa7e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b80ab5a26cd4136011cd63bc8fa7e70">&#9670;&nbsp;</a></span>getAssociatedParticle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> edm4hep::Vertex::getAssociatedParticle </td>
+          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">ConstReconstructedParticle</a> edm4hep::Vertex::getAssociatedParticle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -746,14 +792,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0449756a47f182372b51d0d08dae7b42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0449756a47f182372b51d0d08dae7b42">&#9670;&nbsp;</a></span>getAssociatedParticle() <span class="overload">[2/2]</span></h2>
+<a id="afac2bb09b0ad79b569a048c9815405d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac2bb09b0ad79b569a048c9815405d6">&#9670;&nbsp;</a></span>getAssociatedParticle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> edm4hep::Vertex::getAssociatedParticle </td>
+          <td class="memname">const ::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a> edm4hep::Vertex::getAssociatedParticle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -857,7 +903,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access item i in the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
+<p>Access item i of the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
 
 </div>
 </div>
@@ -877,7 +923,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Access item i in the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
+<p>Access item i of the covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
 
 </div>
 </div>
@@ -916,7 +962,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a44ecca45129fe8bf5efee437d514dad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44ecca45129fe8bf5efee437d514dad3">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ecca45129fe8bf5efee437d514dad3">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,7 +980,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a44ecca45129fe8bf5efee437d514dad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44ecca45129fe8bf5efee437d514dad3">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ecca45129fe8bf5efee437d514dad3">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -943,6 +989,40 @@ Private Attributes</h2></td></tr>
           <td class="memname">float edm4hep::Vertex::getParameters </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7251e434c35ce529e88c773b5ace6218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7251e434c35ce529e88c773b5ace6218">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt; float &gt; edm4hep::Vertex::getParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57a68104e570e4b6619d1e92c854c58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a68104e570e4b6619d1e92c854c58a">&#9670;&nbsp;</a></span>getParameters() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">podio::RelationRange&lt;float&gt; edm4hep::Vertex::getParameters </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1243,14 +1323,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af52c41a3b9b0462cb92af75a93d066f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af52c41a3b9b0462cb92af75a93d066f8">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a04c7beafac59c4ac9beb2e533db44d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c7beafac59c4ac9beb2e533db44d75">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a> &amp; edm4hep::Vertex::operator= </td>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a>&amp; edm4hep::Vertex::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1263,14 +1343,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a04c7beafac59c4ac9beb2e533db44d75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c7beafac59c4ac9beb2e533db44d75">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="af52c41a3b9b0462cb92af75a93d066f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af52c41a3b9b0462cb92af75a93d066f8">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a>&amp; edm4hep::Vertex::operator= </td>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a> &amp; edm4hep::Vertex::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classedm4hep_1_1_vertex.html">Vertex</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1473,27 +1553,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a23c1301684153c4db7e1e7c296dd32f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23c1301684153c4db7e1e7c296dd32f9">&#9670;&nbsp;</a></span>position() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&amp; edm4hep::Vertex::position </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get reference to the [mm] position of the vertex. </p>
-
-</div>
-</div>
 <a id="aa0f1ad48c51db4eacb9b9aac59b4fac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0f1ad48c51db4eacb9b9aac59b4fac6">&#9670;&nbsp;</a></span>position() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f1ad48c51db4eacb9b9aac59b4fac6">&#9670;&nbsp;</a></span>position() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1507,7 +1568,26 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get reference to the [mm] position of the vertex. </p>
+<p>Get reference to [mm] position of the vertex. </p>
+
+</div>
+</div>
+<a id="a23c1301684153c4db7e1e7c296dd32f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c1301684153c4db7e1e7c296dd32f9">&#9670;&nbsp;</a></span>position() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&amp; edm4hep::Vertex::position </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get reference to [mm] position of the vertex. </p>
 
 </div>
 </div>
@@ -1551,8 +1631,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a572430fe02caf902d4ab848e9a4aedff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a572430fe02caf902d4ab848e9a4aedff">&#9670;&nbsp;</a></span>setAssociatedParticle() <span class="overload">[1/2]</span></h2>
+<a id="aecfc245912d9d07df5f807f18773e361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfc245912d9d07df5f807f18773e361">&#9670;&nbsp;</a></span>setAssociatedParticle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1560,7 +1640,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Vertex::setAssociatedParticle </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1571,8 +1651,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a572430fe02caf902d4ab848e9a4aedff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a572430fe02caf902d4ab848e9a4aedff">&#9670;&nbsp;</a></span>setAssociatedParticle() <span class="overload">[2/2]</span></h2>
+<a id="aecfc245912d9d07df5f807f18773e361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfc245912d9d07df5f807f18773e361">&#9670;&nbsp;</a></span>setAssociatedParticle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1580,7 +1660,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Vertex::setAssociatedParticle </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="classedm4hep_1_1_const_reconstructed_particle.html">edm4hep::ConstReconstructedParticle</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1697,8 +1777,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set item i in covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
-
 </div>
 </div>
 <a id="aa29fa42db63d6ddddea5804f1730cda6"></a>
@@ -1727,12 +1805,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set item i in covariance matrix of the position (stored as lower triangle matrix, i.e. cov(xx),cov(y,x),cov(z,x),cov(y,y),... ) </p>
-
 </div>
 </div>
-<a id="abcced29ffff76024d59eb9f2aa51881a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcced29ffff76024d59eb9f2aa51881a">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[1/2]</span></h2>
+<a id="ab6ff272ecb813cbe574ad252f543f109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ff272ecb813cbe574ad252f543f109">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1740,7 +1816,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Vertex::setPosition </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1751,8 +1827,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abcced29ffff76024d59eb9f2aa51881a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcced29ffff76024d59eb9f2aa51881a">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[2/2]</span></h2>
+<a id="ab6ff272ecb813cbe574ad252f543f109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ff272ecb813cbe574ad252f543f109">&#9670;&nbsp;</a></span>setPosition() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1760,7 +1836,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void edm4hep::Vertex::setPosition </td>
           <td>(</td>
-          <td class="paramtype">class <a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classedm4hep_1_1_vector3f.html">edm4hep::Vector3f</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2002,7 +2078,7 @@ Private Attributes</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:44 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:36 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

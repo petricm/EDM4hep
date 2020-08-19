@@ -83,38 +83,36 @@ $(function() {
 <div class="title">CaloHitContributionCollection.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;edm4hep/CaloHitContributionData.h&quot;</code><br />
+<code>#include &quot;edm4hep/CaloHitContribution.h&quot;</code><br />
+<code>#include &quot;edm4hep/CaloHitContributionObj.h&quot;</code><br />
+<code>#include &quot;podio/ICollectionProvider.h&quot;</code><br />
+<code>#include &quot;podio/CollectionBase.h&quot;</code><br />
+<code>#include &quot;podio/CollectionIDTable.h&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;deque&gt;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;iomanip&gt;</code><br />
-<code>#include &quot;podio/ICollectionProvider.h&quot;</code><br />
-<code>#include &quot;podio/CollectionBase.h&quot;</code><br />
-<code>#include &quot;podio/CollectionIDTable.h&quot;</code><br />
-<code>#include &quot;edm4hep/CaloHitContributionData.h&quot;</code><br />
-<code>#include &quot;edm4hep/CaloHitContribution.h&quot;</code><br />
-<code>#include &quot;edm4hep/CaloHitContributionObj.h&quot;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for CaloHitContributionCollection.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="edm4hep_2edm4hep_2_calo_hit_contribution_collection_8h__incl.png" border="0" usemap="#edm4hep_2edm4hep_2_calo_hit_contribution_collection_8h" alt=""/></div>
 <map name="edm4hep_2edm4hep_2_calo_hit_contribution_collection_8h" id="edm4hep_2edm4hep_2_calo_hit_contribution_collection_8h">
-<area shape="rect"  title=" " alt="" coords="453,5,733,47"/>
-<area shape="rect"  title=" " alt="" coords="5,102,64,129"/>
-<area shape="rect"  title=" " alt="" coords="89,102,151,129"/>
-<area shape="rect"  title=" " alt="" coords="175,102,238,129"/>
-<area shape="rect"  title=" " alt="" coords="263,102,319,129"/>
-<area shape="rect"  title=" " alt="" coords="343,102,428,129"/>
-<area shape="rect"  title=" " alt="" coords="452,102,532,129"/>
-<area shape="rect"  title=" " alt="" coords="556,102,631,129"/>
-<area shape="rect"  title=" " alt="" coords="655,102,851,129"/>
-<area shape="rect"  title=" " alt="" coords="876,102,1047,129"/>
-<area shape="rect"  title=" " alt="" coords="1071,102,1257,129"/>
-<area shape="rect"  title=" " alt="" coords="1282,95,1497,136"/>
-<area shape="rect"  title=" " alt="" coords="1521,102,1748,129"/>
-<area shape="rect"  title=" " alt="" coords="1773,95,1987,136"/>
+<area shape="rect"  title=" " alt="" coords="1177,5,1457,47"/>
+<area shape="rect"  title=" " alt="" coords="5,95,220,136"/>
+<area shape="rect"  title=" " alt="" coords="245,102,471,129"/>
+<area shape="rect"  title=" " alt="" coords="496,95,711,136"/>
+<area shape="rect"  title=" " alt="" coords="735,102,931,129"/>
+<area shape="rect"  title=" " alt="" coords="955,102,1126,129"/>
+<area shape="rect"  title=" " alt="" coords="1150,102,1337,129"/>
+<area shape="rect"  title=" " alt="" coords="1361,102,1419,129"/>
+<area shape="rect"  title=" " alt="" coords="1444,102,1507,129"/>
+<area shape="rect"  title=" " alt="" coords="1531,102,1593,129"/>
+<area shape="rect"  title=" " alt="" coords="1618,102,1674,129"/>
+<area shape="rect"  title=" " alt="" coords="1698,102,1783,129"/>
+<area shape="rect"  title=" " alt="" coords="1808,102,1884,129"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -144,9 +142,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af1370d1143dd30ec2e577a309427e7a4"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; CaloHitContributionData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af1370d1143dd30ec2e577a309427e7a4">edm4hep::CaloHitContributionDataContainer</a></td></tr>
+<tr class="memitem:af1370d1143dd30ec2e577a309427e7a4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#af1370d1143dd30ec2e577a309427e7a4">edm4hep::CaloHitContributionDataContainer</a> = std::vector&lt; CaloHitContributionData &gt;</td></tr>
 <tr class="separator:af1370d1143dd30ec2e577a309427e7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6501a8b50b71827bb04645ef8e5029"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; CaloHitContributionObj * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aff6501a8b50b71827bb04645ef8e5029">edm4hep::CaloHitContributionObjPointerContainer</a></td></tr>
+<tr class="memitem:aff6501a8b50b71827bb04645ef8e5029"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#aff6501a8b50b71827bb04645ef8e5029">edm4hep::CaloHitContributionObjPointerContainer</a> = std::deque&lt; CaloHitContributionObj * &gt;</td></tr>
 <tr class="separator:aff6501a8b50b71827bb04645ef8e5029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -158,7 +156,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:43 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:35 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

@@ -1,13 +1,11 @@
 <map id="install/include/edm4hep/TrackerHit.h" name="install/include/edm4hep/TrackerHit.h">
-<area shape="rect" id="node1" title=" " alt="" coords="656,5,835,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,160,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="185,95,381,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="405,95,561,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="585,95,641,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="666,95,729,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="753,95,833,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="857,95,932,121"/>
-<area shape="rect" id="node9" title=" " alt="" coords="956,95,1087,121"/>
-<area shape="rect" id="node10" title=" " alt="" coords="1111,95,1313,121"/>
-<area shape="rect" id="node11" title=" " alt="" coords="1337,95,1524,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="676,5,855,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,208,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="232,95,419,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="443,95,597,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="622,95,778,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="803,95,859,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="883,95,946,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="971,95,1101,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1126,95,1202,121"/>
 </map>

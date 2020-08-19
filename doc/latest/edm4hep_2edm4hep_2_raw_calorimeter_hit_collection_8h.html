@@ -83,38 +83,36 @@ $(function() {
 <div class="title">RawCalorimeterHitCollection.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;edm4hep/RawCalorimeterHitData.h&quot;</code><br />
+<code>#include &quot;edm4hep/RawCalorimeterHit.h&quot;</code><br />
+<code>#include &quot;edm4hep/RawCalorimeterHitObj.h&quot;</code><br />
+<code>#include &quot;podio/ICollectionProvider.h&quot;</code><br />
+<code>#include &quot;podio/CollectionBase.h&quot;</code><br />
+<code>#include &quot;podio/CollectionIDTable.h&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;deque&gt;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;iomanip&gt;</code><br />
-<code>#include &quot;podio/ICollectionProvider.h&quot;</code><br />
-<code>#include &quot;podio/CollectionBase.h&quot;</code><br />
-<code>#include &quot;podio/CollectionIDTable.h&quot;</code><br />
-<code>#include &quot;edm4hep/RawCalorimeterHitData.h&quot;</code><br />
-<code>#include &quot;edm4hep/RawCalorimeterHit.h&quot;</code><br />
-<code>#include &quot;edm4hep/RawCalorimeterHitObj.h&quot;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for RawCalorimeterHitCollection.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="edm4hep_2edm4hep_2_raw_calorimeter_hit_collection_8h__incl.png" border="0" usemap="#edm4hep_2edm4hep_2_raw_calorimeter_hit_collection_8h" alt=""/></div>
 <map name="edm4hep_2edm4hep_2_raw_calorimeter_hit_collection_8h" id="edm4hep_2edm4hep_2_raw_calorimeter_hit_collection_8h">
-<area shape="rect"  title=" " alt="" coords="465,5,722,47"/>
-<area shape="rect"  title=" " alt="" coords="5,102,64,129"/>
-<area shape="rect"  title=" " alt="" coords="89,102,151,129"/>
-<area shape="rect"  title=" " alt="" coords="175,102,238,129"/>
-<area shape="rect"  title=" " alt="" coords="263,102,319,129"/>
-<area shape="rect"  title=" " alt="" coords="343,102,428,129"/>
-<area shape="rect"  title=" " alt="" coords="452,102,532,129"/>
-<area shape="rect"  title=" " alt="" coords="556,102,631,129"/>
-<area shape="rect"  title=" " alt="" coords="655,102,851,129"/>
-<area shape="rect"  title=" " alt="" coords="876,102,1047,129"/>
-<area shape="rect"  title=" " alt="" coords="1071,102,1257,129"/>
-<area shape="rect"  title=" " alt="" coords="1281,95,1492,136"/>
-<area shape="rect"  title=" " alt="" coords="1515,102,1738,129"/>
-<area shape="rect"  title=" " alt="" coords="1761,95,1972,136"/>
+<area shape="rect"  title=" " alt="" coords="1174,5,1431,47"/>
+<area shape="rect"  title=" " alt="" coords="5,95,216,136"/>
+<area shape="rect"  title=" " alt="" coords="239,102,462,129"/>
+<area shape="rect"  title=" " alt="" coords="485,95,696,136"/>
+<area shape="rect"  title=" " alt="" coords="721,102,917,129"/>
+<area shape="rect"  title=" " alt="" coords="941,102,1112,129"/>
+<area shape="rect"  title=" " alt="" coords="1136,102,1323,129"/>
+<area shape="rect"  title=" " alt="" coords="1347,102,1405,129"/>
+<area shape="rect"  title=" " alt="" coords="1430,102,1493,129"/>
+<area shape="rect"  title=" " alt="" coords="1517,102,1579,129"/>
+<area shape="rect"  title=" " alt="" coords="1604,102,1660,129"/>
+<area shape="rect"  title=" " alt="" coords="1684,102,1769,129"/>
+<area shape="rect"  title=" " alt="" coords="1794,102,1870,129"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -144,9 +142,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; RawCalorimeterHitData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3b42a63f4be18bfceb9a945c5eabdb2b">edm4hep::RawCalorimeterHitDataContainer</a></td></tr>
+<tr class="memitem:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a3b42a63f4be18bfceb9a945c5eabdb2b">edm4hep::RawCalorimeterHitDataContainer</a> = std::vector&lt; RawCalorimeterHitData &gt;</td></tr>
 <tr class="separator:a3b42a63f4be18bfceb9a945c5eabdb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memItemLeft" align="right" valign="top">typedef std::deque&lt; RawCalorimeterHitObj * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7fe4f88949bbd83a4d05450f8cb9aab9">edm4hep::RawCalorimeterHitObjPointerContainer</a></td></tr>
+<tr class="memitem:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceedm4hep.html#a7fe4f88949bbd83a4d05450f8cb9aab9">edm4hep::RawCalorimeterHitObjPointerContainer</a> = std::deque&lt; RawCalorimeterHitObj * &gt;</td></tr>
 <tr class="separator:a7fe4f88949bbd83a4d05450f8cb9aab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -158,7 +156,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 4 2020 09:32:43 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2020 10:29:35 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

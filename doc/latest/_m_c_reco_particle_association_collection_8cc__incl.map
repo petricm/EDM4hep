@@ -1,7 +1,8 @@
 <map id="edm4hep/src/MCRecoParticleAssociationCollection.cc" name="edm4hep/src/MCRecoParticleAssociationCollection.cc">
-<area shape="rect" id="node1" title=" " alt="" coords="255,5,464,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,102,92,129"/>
-<area shape="rect" id="node3" title=" " alt="" coords="117,102,349,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="373,95,599,136"/>
-<area shape="rect" id="node5" title=" " alt="" coords="623,95,885,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="555,5,765,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,267,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="291,102,523,129"/>
+<area shape="rect" id="node4" title=" " alt="" coords="547,95,773,136"/>
+<area shape="rect" id="node5" title=" " alt="" coords="798,102,885,129"/>
+<area shape="rect" id="node6" title=" " alt="" coords="909,102,984,129"/>
 </map>

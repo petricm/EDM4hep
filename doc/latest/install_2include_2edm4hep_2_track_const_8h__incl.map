@@ -1,10 +1,9 @@
 <map id="install/include/edm4hep/TrackConst.h" name="install/include/edm4hep/TrackConst.h">
-<area shape="rect" id="node1" title=" " alt="" coords="536,5,715,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,139,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="163,95,327,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="351,95,518,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="543,95,708,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="733,95,795,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="820,95,951,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="975,95,1129,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="431,5,609,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,160,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="184,95,317,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="342,95,509,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="533,95,699,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="723,95,786,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="811,95,941,121"/>
 </map>

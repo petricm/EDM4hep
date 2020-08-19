@@ -1,9 +1,8 @@
 <map id="edm4hep/edm4hep/SimCalorimeterHitObj.h" name="edm4hep/edm4hep/SimCalorimeterHitObj.h">
-<area shape="rect" id="node1" title=" " alt="" coords="233,5,487,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,102,72,129"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,102,176,129"/>
-<area shape="rect" id="node4" title=" " alt="" coords="200,102,328,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="352,95,560,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="584,102,811,129"/>
-<area shape="rect" id="node7" title=" " alt="" coords="835,102,898,129"/>
+<area shape="rect" id="node1" title=" " alt="" coords="445,5,699,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,213,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="237,102,464,129"/>
+<area shape="rect" id="node4" title=" " alt="" coords="488,102,656,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="681,102,743,129"/>
+<area shape="rect" id="node6" title=" " alt="" coords="768,102,896,129"/>
 </map>
