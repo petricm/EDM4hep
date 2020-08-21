@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EDM4Hep: v00-01</title>
+<title>EDM4Hep: v00-02</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">EDM4Hep
-   &#160;<span id="projectnumber">0.1.0</span>
+   &#160;<span id="projectnumber">0.2.0</span>
    </div>
   </td>
  </tr>
@@ -71,10 +71,85 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">v00-01 </div>  </div>
+<div class="title">v00-02 </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><ul>
+<li>2020-08-20 Valentin Volkl (<a href="https://github.com/key4hep/edm4hep/pull/78">PR#78</a>)<ul>
+<li>Add a cmake option for cpack</li>
+</ul>
+</li>
+<li>2020-08-19 Valentin Volkl (<a href="https://github.com/key4hep/edm4hep/pull/77">PR#77</a>)<ul>
+<li>CI Update: Add option to build PODIO on the fly, dev3</li>
+</ul>
+</li>
+<li>2020-08-19 Valentin Volkl (<a href="https://github.com/key4hep/edm4hep/pull/76">PR#76</a>)<ul>
+<li>Fix capitalization in edm4hep.yaml: pDG -&gt; PDG</li>
+</ul>
+</li>
+<li>2020-08-19 tmadlener (<a href="https://github.com/key4hep/edm4hep/pull/69">PR#69</a>)<ul>
+<li>Add additional comment to <code>mass</code>, <code>energy</code> and <code>momentum</code> members of <code>ReconstructedParticle</code> description to clearly state that the 4-momentum state is not automatically kept consistent internally. Since there are too many different use-cases, a general solution that always works was deemed hard to achieve and it is, thus, the users responsibility to keep this state consistent if it is necessary.</li>
+</ul>
+</li>
+<li>2020-08-11 tmadlener (<a href="https://github.com/key4hep/edm4hep/pull/75">PR#75</a>)<ul>
+<li>Updated datamodel definition yaml file to work with new podio version</li>
+</ul>
+</li>
+<li>2020-08-11 tmadlener (<a href="https://github.com/key4hep/edm4hep/pull/56">PR#56</a>)<ul>
+<li>Add a converter module for delphes that can output <a class="el" href="namespaceedm4hep.html">edm4hep</a> files. The module is used in several standalone delphes executables that take different input formats (e.g. stdhep, pythia8, etc.) and <b>standard delphes cards</b> and produce <a class="el" href="namespaceedm4hep.html">edm4hep</a> output root files. It can also be used in conjunction with gaudi. <b>This is an early release to gather feedback and to iterate on that feedback. Currently not all of the input readers that come with standard delphes are implemented and also the information content of the <a class="el" href="namespaceedm4hep.html">edm4hep</a> files is restricted to the most important information. More information can be added on demand.</b> A brief introduction and some examples are included.</li>
+</ul>
+</li>
+<li>2020-08-04 vvolkl (<a href="https://github.com/key4hep/edm4hep/pull/73">PR#73</a>)<ul>
+<li>Change DD4hep environment variable in tests</li>
+</ul>
+</li>
+<li>2020-06-23 Andre Sailer (<a href="https://github.com/key4hep/edm4hep/pull/68">PR#68</a>)<ul>
+<li>The rootmap file should point to the dictionary library, and not the base library</li>
+<li>Tests: Fill the LD_LIBRARY_PATH environment variable with the location of the rootmap file</li>
+</ul>
+</li>
+<li>2020-06-23 Frank Gaede (<a href="https://github.com/key4hep/edm4hep/pull/65">PR#65</a>)<ul>
+<li>finalize the EDM4hep output module for DDG4/ddsim<ul>
+<li>add treatment of event parameter meta data</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2020-06-18 tmadlener (<a href="https://github.com/key4hep/edm4hep/pull/67">PR#67</a>)<ul>
+<li>mark MCParticle::getEnergy const to make it accessible in const context</li>
+</ul>
+</li>
+<li>2020-05-26 Frank Gaede (<a href="https://github.com/key4hep/edm4hep/pull/63">PR#63</a>)<ul>
+<li>fix linking on Ubuntu<ul>
+<li>use -Wl,&ndash;no-as-needed for linking edm4hepDict (if available)</li>
+<li>follows <a href="https://github.com/AIDASoft/podio/pull/91">https://github.com/AIDASoft/podio/pull/91</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2020-05-26 Thomas Madlener (<a href="https://github.com/key4hep/edm4hep/pull/62">PR#62</a>)<ul>
+<li>Adapt to new naming of functions in podio</li>
+</ul>
+</li>
+<li>2020-05-26 Valentin Volkl (<a href="https://github.com/key4hep/edm4hep/pull/58">PR#58</a>)<ul>
+<li>Rename cluster vectormembers with a plural form</li>
+</ul>
+</li>
+<li>2020-05-25 Frank Gaede (<a href="https://github.com/key4hep/edm4hep/pull/61">PR#61</a>)<ul>
+<li>adapt for Macos:<ul>
+<li>add missing libs and includes for dictionary building</li>
+</ul>
+</li>
+<li>adapt to method name changes in <a href="https://github.com/AIDASoft/podio/pull/88">https://github.com/AIDASoft/podio/pull/88</a></li>
+</ul>
+</li>
+<li>2020-05-19 Valentin Volkl (<a href="https://github.com/key4hep/edm4hep/pull/57">PR#57</a>)<ul>
+<li>add weights to associations</li>
+</ul>
+</li>
+</ul>
+<h1>v00-01</h1>
+<ul>
 <li>2020-04-14 Frank Gaede (<a href="https://github.com/key4hep/edm4hep/pull/53">PR#53</a>)<ul>
 <li>allow automatic change of version in CMakeLists.txt<ul>
 <li>introduced version variables</li>
@@ -242,7 +317,7 @@ $(function() {
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 20 2020 14:07:21 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 21 2020 12:04:39 for EDM4Hep by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
