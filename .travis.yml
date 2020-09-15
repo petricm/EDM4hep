@@ -65,9 +65,9 @@ install:
 script:
   - docker run -ti --name CI_CONTAINER -v $PKGDIR:/workspace  -e SETUPSCRIPT=${SETUPSCRIPT}  -e BUILD_DDG4EDM4HEP=${BUILD_DDG4EDM4HEP} -e BUILD_DELPHESEDM4HEP=${BUILD_DELPHESEDM4HEP} -e STANDARD=${STANDARD} -v /cvmfs:/cvmfs:shared -d clicdp/cc7-lcg bash 
   - if [[ "$PODIO_FROM" == "STACK" ]]; 
-    then docker exec -ti CI_CONTAINER  /bin/bash -c "cd /workspace; pwd; ls; source ${SETUPSCRIPT}; source ./.edm4hep-ci.d/compile_and_test.sh";
+    then docker exec -ti CI_CONTAINER  /bin/bash -c "yum -y install environment-modules; source /etc/profile.d/modules.sh; cd /workspace; pwd; ls; source ${SETUPSCRIPT}; source ./.edm4hep-ci.d/compile_and_test.sh";
     elif [[ "$PODIO_FROM" == "BUILD_HEAD_ONTHEFLY" ]];
-    then docker exec -ti CI_CONTAINER  /bin/bash -c "cd /workspace; pwd; ls; source ${SETUPSCRIPT}; source ./.edm4hep-ci.d/compile_and_test_with_podio.sh; source ./.edm4hep-ci.d/compile_and_test.sh;";
+    then docker exec -ti CI_CONTAINER  /bin/bash -c "yum -y install environment-modules; source /etc/profile.d/modules.sh; cd /workspace; pwd; ls; source ${SETUPSCRIPT}; source ./.edm4hep-ci.d/compile_and_test_with_podio.sh; source ./.edm4hep-ci.d/compile_and_test.sh;";
     fi
 
 
