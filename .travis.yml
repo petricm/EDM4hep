@@ -77,7 +77,7 @@ after_success:
   - >-
     if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]] ; then
 
-       cd ${PKGDIR}; docker exec -ti CI_CONTAINER  /bin/bash -c "cd /workspace; source init.sh; cd build; ninja  doc" && ./.edm4hep-ci.d/generateDocumentation.sh || travis_terminate 1
+       cd ${PKGDIR}; docker exec -ti CI_CONTAINER  /bin/bash -c "yum -y install environment-modules; source /etc/profile.d/modules.sh; cd /workspace; source init.sh; cd build; ninja  doc" && ./.edm4hep-ci.d/generateDocumentation.sh || travis_terminate 1
     fi
 
 # Don't send e-mail notifications
