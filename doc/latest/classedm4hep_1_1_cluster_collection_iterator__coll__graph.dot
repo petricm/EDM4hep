@@ -1,0 +1,50 @@
+digraph "edm4hep::ClusterCollectionIterator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="edm4hep::ClusterCollection\lIterator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_collection" ,fontname="Helvetica"];
+  Node2 [label="std::deque\< ClusterObj * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node3 [label="edm4hep::ClusterObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_cluster_obj.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ObjBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_clusters" ,fontname="Helvetica"];
+  Node5 [label="std::vector\< edm4hep\l::ConstCluster \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="edm4hep::ConstCluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_cluster.html",tooltip="Calorimeter Hit Cluster."];
+  Node3 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_particleIDs" ,fontname="Helvetica"];
+  Node7 [label="std::vector\< edm4hep\l::ConstParticleID \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node8 [label="edm4hep::ConstParticleID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_particle_i_d.html",tooltip="ParticleID."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node9 [label="edm4hep::ParticleIDObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_obj.html",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node10 [label="edm4hep::ParticleIDData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_data.html",tooltip="ParticleID."];
+  Node11 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parameters" ,fontname="Helvetica"];
+  Node11 [label="std::vector\< float \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_hits" ,fontname="Helvetica"];
+  Node12 [label="std::vector\< edm4hep\l::ConstCalorimeterHit \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node13 [label="edm4hep::ConstCalorimeterHit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_calorimeter_hit.html",tooltip="Calorimeter hit."];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node14 [label="edm4hep::CalorimeterHitObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calorimeter_hit_obj.html",tooltip=" "];
+  Node4 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node15 [label="edm4hep::CalorimeterHitData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calorimeter_hit_data.html",tooltip="Calorimeter hit."];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" position" ,fontname="Helvetica"];
+  Node16 [label="edm4hep::Vector3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3f.html",tooltip=" "];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_hitContributions\nm_shapeParameters\nm_subdetectorEnergies" ,fontname="Helvetica"];
+  Node17 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node17 [label="edm4hep::ClusterData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_cluster_data.html",tooltip="Calorimeter Hit Cluster."];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" positionError" ,fontname="Helvetica"];
+  Node18 [label="std::array\< float, 6 \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" directionError\nposition" ,fontname="Helvetica"];
+  Node19 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_object" ,fontname="Helvetica"];
+  Node19 [label="edm4hep::Cluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_cluster.html",tooltip="Calorimeter Hit Cluster."];
+  Node3 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+}

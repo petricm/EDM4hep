@@ -1,0 +1,44 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="SIOBlock",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="edm4hep::CaloHitContribution\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calo_hit_contribution_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="edm4hep::CalorimeterHitSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calorimeter_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="edm4hep::ClusterSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_cluster_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="edm4hep::EventHeaderSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_event_header_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="edm4hep::MCParticleSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="edm4hep::MCRecoCaloAssociation\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_calo_association_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="edm4hep::MCRecoParticleAssociation\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_particle_association_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="edm4hep::MCRecoTrackerAssociation\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_tracker_association_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="edm4hep::ParticleIDSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="edm4hep::RawCalorimeterHit\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_raw_calorimeter_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="edm4hep::ReconstructedParticle\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_reconstructed_particle_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="edm4hep::RecoParticleRef\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_reco_particle_ref_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="edm4hep::SimCalorimeterHit\lSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_calorimeter_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="edm4hep::SimTrackerHitSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_tracker_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="edm4hep::TPCHitSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_t_p_c_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="edm4hep::TrackerHitSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_tracker_hit_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="edm4hep::TrackSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_track_s_i_o_block.html",tooltip=" "];
+  Node18 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="edm4hep::VertexSIOBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vertex_s_i_o_block.html",tooltip=" "];
+}

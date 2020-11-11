@@ -1,24 +1,9 @@
 var searchData=
 [
-  ['mcparticle_1107',['MCParticle',['../classedm4hep_1_1_m_c_particle.html',1,'edm4hep']]],
-  ['mcparticlecollection_1108',['MCParticleCollection',['../classedm4hep_1_1_m_c_particle_collection.html',1,'edm4hep']]],
-  ['mcparticlecollectioniterator_1109',['MCParticleCollectionIterator',['../classedm4hep_1_1_m_c_particle_collection_iterator.html',1,'edm4hep']]],
-  ['mcparticledata_1110',['MCParticleData',['../classedm4hep_1_1_m_c_particle_data.html',1,'edm4hep']]],
-  ['mcparticleobj_1111',['MCParticleObj',['../classedm4hep_1_1_m_c_particle_obj.html',1,'edm4hep']]],
-  ['mcrecocaloassociation_1112',['MCRecoCaloAssociation',['../classedm4hep_1_1_m_c_reco_calo_association.html',1,'edm4hep']]],
-  ['mcrecocaloassociationcollection_1113',['MCRecoCaloAssociationCollection',['../classedm4hep_1_1_m_c_reco_calo_association_collection.html',1,'edm4hep']]],
-  ['mcrecocaloassociationcollectioniterator_1114',['MCRecoCaloAssociationCollectionIterator',['../classedm4hep_1_1_m_c_reco_calo_association_collection_iterator.html',1,'edm4hep']]],
-  ['mcrecocaloassociationdata_1115',['MCRecoCaloAssociationData',['../classedm4hep_1_1_m_c_reco_calo_association_data.html',1,'edm4hep']]],
-  ['mcrecocaloassociationobj_1116',['MCRecoCaloAssociationObj',['../classedm4hep_1_1_m_c_reco_calo_association_obj.html',1,'edm4hep']]],
-  ['mcrecoparticleassociation_1117',['MCRecoParticleAssociation',['../classedm4hep_1_1_m_c_reco_particle_association.html',1,'edm4hep']]],
-  ['mcrecoparticleassociationcollection_1118',['MCRecoParticleAssociationCollection',['../classedm4hep_1_1_m_c_reco_particle_association_collection.html',1,'edm4hep']]],
-  ['mcrecoparticleassociationcollectioniterator_1119',['MCRecoParticleAssociationCollectionIterator',['../classedm4hep_1_1_m_c_reco_particle_association_collection_iterator.html',1,'edm4hep']]],
-  ['mcrecoparticleassociationdata_1120',['MCRecoParticleAssociationData',['../classedm4hep_1_1_m_c_reco_particle_association_data.html',1,'edm4hep']]],
-  ['mcrecoparticleassociationnavigator_1121',['MCRecoParticleAssociationNavigator',['../class_m_c_reco_particle_association_navigator.html',1,'']]],
-  ['mcrecoparticleassociationobj_1122',['MCRecoParticleAssociationObj',['../classedm4hep_1_1_m_c_reco_particle_association_obj.html',1,'edm4hep']]],
-  ['mcrecotrackerassociation_1123',['MCRecoTrackerAssociation',['../classedm4hep_1_1_m_c_reco_tracker_association.html',1,'edm4hep']]],
-  ['mcrecotrackerassociationcollection_1124',['MCRecoTrackerAssociationCollection',['../classedm4hep_1_1_m_c_reco_tracker_association_collection.html',1,'edm4hep']]],
-  ['mcrecotrackerassociationcollectioniterator_1125',['MCRecoTrackerAssociationCollectionIterator',['../classedm4hep_1_1_m_c_reco_tracker_association_collection_iterator.html',1,'edm4hep']]],
-  ['mcrecotrackerassociationdata_1126',['MCRecoTrackerAssociationData',['../classedm4hep_1_1_m_c_reco_tracker_association_data.html',1,'edm4hep']]],
-  ['mcrecotrackerassociationobj_1127',['MCRecoTrackerAssociationObj',['../classedm4hep_1_1_m_c_reco_tracker_association_obj.html',1,'edm4hep']]]
+  ['particleid_1011',['ParticleID',['../classedm4hep_1_1_particle_i_d.html',1,'edm4hep']]],
+  ['particleidcollection_1012',['ParticleIDCollection',['../classedm4hep_1_1_particle_i_d_collection.html',1,'edm4hep']]],
+  ['particleidcollectioniterator_1013',['ParticleIDCollectionIterator',['../classedm4hep_1_1_particle_i_d_collection_iterator.html',1,'edm4hep']]],
+  ['particleiddata_1014',['ParticleIDData',['../classedm4hep_1_1_particle_i_d_data.html',1,'edm4hep']]],
+  ['particleidobj_1015',['ParticleIDObj',['../classedm4hep_1_1_particle_i_d_obj.html',1,'edm4hep']]],
+  ['particleidsioblock_1016',['ParticleIDSIOBlock',['../classedm4hep_1_1_particle_i_d_s_i_o_block.html',1,'edm4hep']]]
 ];

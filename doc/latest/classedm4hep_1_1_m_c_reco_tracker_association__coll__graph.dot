@@ -1,0 +1,53 @@
+digraph "edm4hep::MCRecoTrackerAssociation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="edm4hep::MCRecoTrackerAssociation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Association between a TrackerHit and the corresponding simulated TrackerHit."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node2 [label="edm4hep::MCRecoTrackerAssociationObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_tracker_association_obj.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ObjBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rec" ,fontname="Helvetica"];
+  Node4 [label="edm4hep::ConstTrackerHit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_tracker_hit.html",tooltip="Tracker hit."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node5 [label="edm4hep::TrackerHitObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_tracker_hit_obj.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rawHits" ,fontname="Helvetica"];
+  Node6 [label="std::vector\< edm4hep\l::ObjectID \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node7 [label="edm4hep::ObjectID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_object_i_d.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node8 [label="edm4hep::TrackerHitData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_tracker_hit_data.html",tooltip="Tracker hit."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" covMatrix" ,fontname="Helvetica"];
+  Node9 [label="std::array\< float, 6 \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" position" ,fontname="Helvetica"];
+  Node10 [label="edm4hep::Vector3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3d.html",tooltip=" "];
+  Node11 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_sim" ,fontname="Helvetica"];
+  Node11 [label="edm4hep::ConstSimTrackerHit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_sim_tracker_hit.html",tooltip="Simulated tracker hit."];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node12 [label="edm4hep::SimTrackerHitObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_tracker_hit_obj.html",tooltip=" "];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node13 [label="edm4hep::SimTrackerHitData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_tracker_hit_data.html",tooltip="Simulated tracker hit."];
+  Node10 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" position" ,fontname="Helvetica"];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentum" ,fontname="Helvetica"];
+  Node14 [label="edm4hep::Vector3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3f.html",tooltip=" "];
+  Node15 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_MCParticle" ,fontname="Helvetica"];
+  Node15 [label="edm4hep::ConstMCParticle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_m_c_particle.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node16 [label="edm4hep::MCParticleObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_obj.html",tooltip=" "];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node17 [label="edm4hep::MCParticleData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_data.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node10 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" endpoint\nvertex" ,fontname="Helvetica"];
+  Node14 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentum\nmomentumAtEndpoint\nspin" ,fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colorFlow" ,fontname="Helvetica"];
+  Node18 [label="edm4hep::Vector2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector2i.html",tooltip=" "];
+  Node19 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_daughters\nm_parents" ,fontname="Helvetica"];
+  Node19 [label="std::vector\< edm4hep\l::ConstMCParticle \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node20 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node20 [label="edm4hep::MCRecoTrackerAssociationData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_tracker_association_data.html",tooltip="Association between a TrackerHit and the corresponding simulated TrackerHit."];
+}

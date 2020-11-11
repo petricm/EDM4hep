@@ -1,26 +1,6 @@
 var searchData=
 [
-  ['scalarhtcollections_2263',['ScalarHTCollections',['../struct_output_settings.html#a0809594f4d7870f7e0317952ab947ef6',1,'OutputSettings']]],
-  ['shapeparameters_5fbegin_2264',['shapeParameters_begin',['../classedm4hep_1_1_cluster_data.html#a9eb8a0454265508032db715966e0679d',1,'edm4hep::ClusterData']]],
-  ['shapeparameters_5fend_2265',['shapeParameters_end',['../classedm4hep_1_1_cluster_data.html#a42ec11555e63ca27f8f29c484d6a8654',1,'edm4hep::ClusterData']]],
-  ['simcalorimeterhit_2266',['SimCalorimeterHit',['../classedm4hep_1_1_const_sim_calorimeter_hit.html#a153967ada3ab12e0d8628a779bddf7ce',1,'edm4hep::ConstSimCalorimeterHit']]],
-  ['simcalorimeterhitcollection_2267',['SimCalorimeterHitCollection',['../classedm4hep_1_1_sim_calorimeter_hit.html#af4a5141b1303401d38cba5c1b95aba1e',1,'edm4hep::SimCalorimeterHit::SimCalorimeterHitCollection()'],['../classedm4hep_1_1_const_sim_calorimeter_hit.html#af4a5141b1303401d38cba5c1b95aba1e',1,'edm4hep::ConstSimCalorimeterHit::SimCalorimeterHitCollection()']]],
-  ['simcalorimeterhitcollectioniterator_2268',['SimCalorimeterHitCollectionIterator',['../classedm4hep_1_1_sim_calorimeter_hit.html#ab771ce788ee5528151ccc1c70021d964',1,'edm4hep::SimCalorimeterHit::SimCalorimeterHitCollectionIterator()'],['../classedm4hep_1_1_const_sim_calorimeter_hit.html#ab771ce788ee5528151ccc1c70021d964',1,'edm4hep::ConstSimCalorimeterHit::SimCalorimeterHitCollectionIterator()']]],
-  ['simtrackerhit_2269',['SimTrackerHit',['../classedm4hep_1_1_const_sim_tracker_hit.html#accaad00fb1e5e97462a613115ada2df8',1,'edm4hep::ConstSimTrackerHit']]],
-  ['simtrackerhitcollection_2270',['SimTrackerHitCollection',['../classedm4hep_1_1_sim_tracker_hit.html#aeeab5a67a92d9e464ead0b0992f24c64',1,'edm4hep::SimTrackerHit::SimTrackerHitCollection()'],['../classedm4hep_1_1_const_sim_tracker_hit.html#aeeab5a67a92d9e464ead0b0992f24c64',1,'edm4hep::ConstSimTrackerHit::SimTrackerHitCollection()']]],
-  ['simtrackerhitcollectioniterator_2271',['SimTrackerHitCollectionIterator',['../classedm4hep_1_1_sim_tracker_hit.html#af08213c6553f140743926695fc350eae',1,'edm4hep::SimTrackerHit::SimTrackerHitCollectionIterator()'],['../classedm4hep_1_1_const_sim_tracker_hit.html#af08213c6553f140743926695fc350eae',1,'edm4hep::ConstSimTrackerHit::SimTrackerHitCollectionIterator()']]],
-  ['simulatorstatus_2272',['simulatorStatus',['../classedm4hep_1_1_m_c_particle_data.html#aadfc8d6a48a944953c0c234008bb2b56',1,'edm4hep::MCParticleData']]],
-  ['skipevents_2273',['skipEvents',['../class_delphes_hep_m_c_input_reader.html#a327efb8f289dcee754400218327f91f7',1,'DelphesHepMCInputReader::skipEvents()'],['../class_delphes_s_t_d_h_e_p_input_reader.html#aef4f71970b939f307ddf560874b28e73',1,'DelphesSTDHEPInputReader::skipEvents()']]],
-  ['spareflag1_2274',['spareFlag1',['../class_delphes_pythia8_reader.html#aa195df306b064e237eddfec8138e8393',1,'DelphesPythia8Reader']]],
-  ['sparemode1_2275',['spareMode1',['../class_delphes_pythia8_reader.html#a38c3e640671403f0c241eeaf87f3fac8',1,'DelphesPythia8Reader']]],
-  ['spareparm1_2276',['spareParm1',['../class_delphes_pythia8_reader.html#a9f6ddc80e4ae87dde33902fe5eef8a3f',1,'DelphesPythia8Reader']]],
-  ['spareparm2_2277',['spareParm2',['../class_delphes_pythia8_reader.html#a76fa15a5683e14bd25349af796550f20',1,'DelphesPythia8Reader']]],
-  ['spin_2278',['spin',['../classedm4hep_1_1_m_c_particle_data.html#a9c7acdc4baf3b096944ff7497ee7e999',1,'edm4hep::MCParticleData']]],
-  ['stableparticleoutputarray_2279',['stableParticleOutputArray',['../class_delphes_hep_m_c_input_reader.html#a728f957a0c63e65a44e91dd9179590a5',1,'DelphesHepMCInputReader::stableParticleOutputArray()'],['../class_delphes_s_t_d_h_e_p_input_reader.html#a0e8e037f4984001455da932229ef7718',1,'DelphesSTDHEPInputReader::stableParticleOutputArray()']]],
-  ['stableparticleoutputarraylhef_2280',['stableParticleOutputArrayLHEF',['../class_delphes_pythia8_reader.html#a984a14107a3c1813db5dd959ea018cb4',1,'DelphesPythia8Reader']]],
-  ['stepposition_2281',['stepPosition',['../classedm4hep_1_1_calo_hit_contribution_data.html#ad33dc993c7135e93e944f341403af715',1,'edm4hep::CaloHitContributionData']]],
-  ['subdetectorenergies_5fbegin_2282',['subdetectorEnergies_begin',['../classedm4hep_1_1_cluster_data.html#aee5b9e7fd2de2ece0e37d9d2cf1dbf0e',1,'edm4hep::ClusterData']]],
-  ['subdetectorenergies_5fend_2283',['subdetectorEnergies_end',['../classedm4hep_1_1_cluster_data.html#a6859a418f146d9cfc9b6c3c52215b763',1,'edm4hep::ClusterData']]],
-  ['subdetectorhitnumbers_5fbegin_2284',['subDetectorHitNumbers_begin',['../classedm4hep_1_1_track_data.html#ab5096a723b9f4387572b3668c34d9378',1,'edm4hep::TrackData']]],
-  ['subdetectorhitnumbers_5fend_2285',['subDetectorHitNumbers_end',['../classedm4hep_1_1_track_data.html#afe076d17dcc58f9d5d376909d295780f',1,'edm4hep::TrackData']]]
+  ['vertex_2088',['vertex',['../classedm4hep_1_1_m_c_particle_data.html#add3a0e0daa3e501f22019c0e09a621a9',1,'edm4hep::MCParticleData::vertex()'],['../classedm4hep_1_1_const_vertex.html#a415c3cd989100b6103f20f995624cba1',1,'edm4hep::ConstVertex::Vertex()']]],
+  ['vertexcollection_2089',['VertexCollection',['../classedm4hep_1_1_vertex.html#af674c319b73a615d5f6540121b1afd69',1,'edm4hep::Vertex::VertexCollection()'],['../classedm4hep_1_1_const_vertex.html#af674c319b73a615d5f6540121b1afd69',1,'edm4hep::ConstVertex::VertexCollection()']]],
+  ['vertexcollectioniterator_2090',['VertexCollectionIterator',['../classedm4hep_1_1_vertex.html#a4068077e02451b3807c96e3dd9bdfd6e',1,'edm4hep::Vertex::VertexCollectionIterator()'],['../classedm4hep_1_1_const_vertex.html#a4068077e02451b3807c96e3dd9bdfd6e',1,'edm4hep::ConstVertex::VertexCollectionIterator()']]]
 ];

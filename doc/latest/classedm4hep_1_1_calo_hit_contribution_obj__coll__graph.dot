@@ -1,0 +1,28 @@
+digraph "edm4hep::CaloHitContributionObj"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="edm4hep::CaloHitContributionObj",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ObjBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_particle" ,fontname="Helvetica"];
+  Node3 [label="edm4hep::ConstMCParticle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_m_c_particle.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node4 [label="edm4hep::MCParticleObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_obj.html",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node5 [label="edm4hep::MCParticleData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_data.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" endpoint\nvertex" ,fontname="Helvetica"];
+  Node6 [label="edm4hep::Vector3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3d.html",tooltip=" "];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentum\nmomentumAtEndpoint\nspin" ,fontname="Helvetica"];
+  Node7 [label="edm4hep::Vector3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3f.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colorFlow" ,fontname="Helvetica"];
+  Node8 [label="edm4hep::Vector2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector2i.html",tooltip=" "];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_daughters\nm_parents" ,fontname="Helvetica"];
+  Node9 [label="std::vector\< edm4hep\l::ConstMCParticle \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node10 [label="edm4hep::CaloHitContributionData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calo_hit_contribution_data.html",tooltip="Monte Carlo contribution to SimCalorimeterHit."];
+  Node7 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stepPosition" ,fontname="Helvetica"];
+}

@@ -1,0 +1,37 @@
+digraph "edm4hep::MCParticleCollection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="edm4hep::MCParticleCollection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A Collection is identified by an ID."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CollectionBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_entries" ,fontname="Helvetica"];
+  Node3 [label="std::deque\< MCParticleObj * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node4 [label="edm4hep::MCParticleObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_obj.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ObjBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node6 [label="edm4hep::MCParticleData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_data.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" endpoint\nvertex" ,fontname="Helvetica"];
+  Node7 [label="edm4hep::Vector3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3d.html",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentum\nmomentumAtEndpoint\nspin" ,fontname="Helvetica"];
+  Node8 [label="edm4hep::Vector3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3f.html",tooltip=" "];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colorFlow" ,fontname="Helvetica"];
+  Node9 [label="edm4hep::Vector2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector2i.html",tooltip=" "];
+  Node10 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_daughters\nm_parents" ,fontname="Helvetica"];
+  Node10 [label="std::vector\< edm4hep\l::ConstMCParticle \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node11 [label="edm4hep::ConstMCParticle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_m_c_particle.html",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node4 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_obj" ,fontname="Helvetica"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rel_daughters\nm_rel_parents" ,fontname="Helvetica"];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_rel_daughters_tmp\nm_rel_parents_tmp" ,fontname="Helvetica"];
+  Node12 [label="std::vector\< std::vector\l\< edm4hep::ConstMCParticle \> * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node13 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class."];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node14 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

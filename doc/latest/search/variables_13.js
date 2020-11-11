@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['vertex_2307',['vertex',['../classedm4hep_1_1_m_c_particle_data.html#add3a0e0daa3e501f22019c0e09a621a9',1,'edm4hep::MCParticleData::vertex()'],['../classedm4hep_1_1_const_vertex.html#a415c3cd989100b6103f20f995624cba1',1,'edm4hep::ConstVertex::Vertex()']]],
-  ['vertexcollection_2308',['VertexCollection',['../classedm4hep_1_1_vertex.html#af674c319b73a615d5f6540121b1afd69',1,'edm4hep::Vertex::VertexCollection()'],['../classedm4hep_1_1_const_vertex.html#af674c319b73a615d5f6540121b1afd69',1,'edm4hep::ConstVertex::VertexCollection()']]],
-  ['vertexcollectioniterator_2309',['VertexCollectionIterator',['../classedm4hep_1_1_vertex.html#a4068077e02451b3807c96e3dd9bdfd6e',1,'edm4hep::Vertex::VertexCollectionIterator()'],['../classedm4hep_1_1_const_vertex.html#a4068077e02451b3807c96e3dd9bdfd6e',1,'edm4hep::ConstVertex::VertexCollectionIterator()']]]
+  ['x_2092',['x',['../classedm4hep_1_1_vector3d.html#ab7a03bb2236705a02177ec144c253344',1,'edm4hep::Vector3d::x()'],['../classedm4hep_1_1_vector3f.html#ac5567989ca0add1fd956e36adf3931f3',1,'edm4hep::Vector3f::x()']]]
 ];

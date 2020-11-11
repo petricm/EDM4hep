@@ -1,0 +1,44 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110 [label="CollectionBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node110 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="edm4hep::CaloHitContribution\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calo_hit_contribution_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="edm4hep::CalorimeterHitCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_calorimeter_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 [label="edm4hep::ClusterCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_cluster_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="edm4hep::EventHeaderCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_event_header_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="edm4hep::MCParticleCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_particle_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="edm4hep::MCRecoCaloAssociation\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_calo_association_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="edm4hep::MCRecoParticleAssociation\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_particle_association_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="edm4hep::MCRecoTrackerAssociation\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_m_c_reco_tracker_association_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="edm4hep::ParticleIDCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node120 [label="edm4hep::RawCalorimeterHit\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_raw_calorimeter_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node121 [label="edm4hep::ReconstructedParticle\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_reconstructed_particle_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node122 [label="edm4hep::RecoParticleRef\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_reco_particle_ref_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node123 [label="edm4hep::SimCalorimeterHit\lCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_calorimeter_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node124 [label="edm4hep::SimTrackerHitCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_sim_tracker_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="edm4hep::TPCHitCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_t_p_c_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="edm4hep::TrackCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_track_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="edm4hep::TrackerHitCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_tracker_hit_collection.html",tooltip="A Collection is identified by an ID."];
+  Node110 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="edm4hep::VertexCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vertex_collection.html",tooltip="A Collection is identified by an ID."];
+}

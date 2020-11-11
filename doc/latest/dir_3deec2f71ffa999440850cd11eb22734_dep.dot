@@ -1,0 +1,8 @@
+digraph "edm4hep" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_3deec2f71ffa999440850cd11eb22734 [shape=box, label="edm4hep", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3deec2f71ffa999440850cd11eb22734.html"];
+  dir_7c2dadd765163befbbc4727e730bbb11 [shape=box label="edm4hep" fillcolor="white" style="filled" color="red" URL="dir_7c2dadd765163befbbc4727e730bbb11.html"];
+  dir_3deec2f71ffa999440850cd11eb22734->dir_7c2dadd765163befbbc4727e730bbb11 [headlabel="95", labeldistance=1.5 headhref="dir_000001_000007.html"];
+}

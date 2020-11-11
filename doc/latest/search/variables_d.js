@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['omega_2208',['omega',['../classedm4hep_1_1_track_state.html#abfa8fd58370518210ecce48fa9603425',1,'edm4hep::TrackState']]],
-  ['outputfile_2209',['outputFile',['../class_delphes_hep_m_c_input_reader.html#aef9ef95971e537090410fe581b801c21',1,'DelphesHepMCInputReader::outputFile()'],['../class_delphes_pythia8_reader.html#a02435477eb073a2fd76a19c327a25ce5',1,'DelphesPythia8Reader::outputFile()'],['../class_delphes_s_t_d_h_e_p_input_reader.html#a8f956b9884ac66ad9c78dbff457da6ea',1,'DelphesSTDHEPInputReader::outputFile()']]]
+  ['quality_2036',['quality',['../classedm4hep_1_1_sim_tracker_hit_data.html#a188836b4b48593936185a770f974276a',1,'edm4hep::SimTrackerHitData::quality()'],['../classedm4hep_1_1_t_p_c_hit_data.html#a72f588ee2024f182dadaee09163d0d59',1,'edm4hep::TPCHitData::quality()'],['../classedm4hep_1_1_tracker_hit_data.html#a2a4b1b18f04f532e1e041d2277aa562e',1,'edm4hep::TrackerHitData::quality()']]]
 ];

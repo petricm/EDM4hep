@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node87 [label="Geant4OutputAction",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node87 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="dd4hep::sim::Geant4Output2\lEDM4hep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdd4hep_1_1sim_1_1_geant4_output2_e_d_m4hep.html",tooltip="Base class to output Geant4 event data to EDM4hep."];
+}

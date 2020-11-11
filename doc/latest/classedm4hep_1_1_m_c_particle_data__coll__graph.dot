@@ -1,0 +1,13 @@
+digraph "edm4hep::MCParticleData"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="edm4hep::MCParticleData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The Monte Carlo particle - based on the lcio::MCParticle."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" endpoint\nvertex" ,fontname="Helvetica"];
+  Node2 [label="edm4hep::Vector3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3d.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentum\nmomentumAtEndpoint\nspin" ,fontname="Helvetica"];
+  Node3 [label="edm4hep::Vector3f",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector3f.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colorFlow" ,fontname="Helvetica"];
+  Node4 [label="edm4hep::Vector2i",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_vector2i.html",tooltip=" "];
+}

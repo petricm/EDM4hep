@@ -1,0 +1,12 @@
+digraph "edm4hep" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7c2dadd765163befbbc4727e730bbb11 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7c2dadd765163befbbc4727e730bbb11.html"];
+    dir_7c2dadd765163befbbc4727e730bbb11 [shape=plaintext label="edm4hep"];
+    dir_66485340c4f1b38636181abec4fec826 [shape=box label="edm4hep" color="black" fillcolor="white" style="filled" URL="dir_66485340c4f1b38636181abec4fec826.html"];
+    dir_d894b7eb299f065c921f35cdff21845e [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_d894b7eb299f065c921f35cdff21845e.html"];
+  }
+  dir_d894b7eb299f065c921f35cdff21845e->dir_66485340c4f1b38636181abec4fec826 [headlabel="18", labeldistance=1.5 headhref="dir_000009_000008.html"];
+}

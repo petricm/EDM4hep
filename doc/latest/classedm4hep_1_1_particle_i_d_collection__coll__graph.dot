@@ -1,0 +1,28 @@
+digraph "edm4hep::ParticleIDCollection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="edm4hep::ParticleIDCollection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A Collection is identified by an ID."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CollectionBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_vecs_parameters" ,fontname="Helvetica"];
+  Node3 [label="std::vector\< std::vector\l\< float \> * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node4 [label="std::vector\< float \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_entries" ,fontname="Helvetica"];
+  Node5 [label="std::deque\< ParticleIDObj * \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node6 [label="edm4hep::ParticleIDObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_obj.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ObjBase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="Helvetica"];
+  Node8 [label="edm4hep::ParticleIDData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_particle_i_d_data.html",tooltip="ParticleID."];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_parameters" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_vec_parameters" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_data" ,fontname="Helvetica"];
+  Node9 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class."];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="Helvetica"];
+  Node10 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

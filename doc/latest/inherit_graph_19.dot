@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="edm4hep::ConstMCRecoParticle\lAssociation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classedm4hep_1_1_const_m_c_reco_particle_association.html",tooltip="Used to keep track of the correspondence between MC and reconstructed particles."];
+}
